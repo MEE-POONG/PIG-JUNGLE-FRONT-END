@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-// import style from './IndexNavbar.module.css';
 
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
@@ -10,23 +9,29 @@ export default function IndexNavbar() {
   // const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <Navbar className="header-area header-sticky wow slideInDown" expand="lg" bg="light">
-        <Container >
+    <div className="topNavbar">
+    </div>
+      <Navbar className="header-area header-sticky wow slideInDown" expand="lg">
+        <Container>
           <Navbar.Brand href="/" className="d-xl-none d-lg-none">
             <Image src={'images/logo.png'} alt="logo-nav" width={'100px'}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav>
-              <Nav.Link href="/" className="font-bold">Home</Nav.Link>
-              <Nav.Link href="/about" className="font-bold">about</Nav.Link>
-              <Nav.Link href="/service" className="font-bold">service</Nav.Link>
-              <Navbar.Brand href="/" className="d-none d-xl-block d-lg-block">
-                <Image src={'images/logo.png'} alt="logo-nav" width={'100px'}/>
-              </Navbar.Brand>
-              <Nav.Link href="/gallery" className="font-bold">gallery</Nav.Link>
-              <Nav.Link href="/shop" className="font-bold">shop</Nav.Link>
-              <Nav.Link href="/contacts" className="font-bold">Contact</Nav.Link>
+            <Nav className="mx-auto">
+              <div className="d-lg-flex left-menu">
+                <Nav.Link href="/" className="font-menu font-bold mx-2 my-auto">Home</Nav.Link>
+                <Nav.Link href="/shop" className="font-menu font-bold mx-2 my-auto">shop</Nav.Link>
+                <Nav.Link href="/about" className="font-menu font-bold mx-2 my-auto">about</Nav.Link>
+              </div>
+                <Navbar.Brand href="/" className="logo-main d-none d-xl-block d-lg-block">
+                  <Image src={'images/logo.png'} alt="logo-nav" width={'100px'}/>
+                </Navbar.Brand>
+                <div className="d-lg-flex right-menu">
+                  <Nav.Link href="/contact" className="font-menu font-bold mx-2 my-auto">contact</Nav.Link>
+                  <Nav.Link href="/login" className="font-menu font-bold mx-2 my-auto">login</Nav.Link>
+                  <Nav.Link href="/signin" className="font-menu font-bold mx-2 my-auto">sign in</Nav.Link>
+                </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
