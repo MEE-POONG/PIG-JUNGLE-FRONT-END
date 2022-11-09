@@ -4,7 +4,7 @@ import Footer from "../Footers/Footer";
 export default function IndexLayout({ children }) {
   return (
     <>
-      {/* <IndexNavbar /> */}
+      <IndexNavbar />
         {children}
         {/* <Footer/> */}
     </>

@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import IndexLayout from "components/layouts/IndexLayout";
 import { useRouter } from 'next/router';
+// import IndexNavbar from '@/components/Navbars/IndexNavbar';
 
 export default function HomePage() {
   const router = useRouter();
@@ -14,8 +15,8 @@ export default function HomePage() {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* <IndexNavbar/> */}
       <div>
-aa
       </div>
     </>
   );
