@@ -1,5 +1,5 @@
 import React from 'react'
-import '../components/Product/StylePage.css'
+// import '../components/Product/StylePage.css'
 
 function product() {
     return(
