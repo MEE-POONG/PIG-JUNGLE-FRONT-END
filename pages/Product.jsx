@@ -5,7 +5,12 @@ import React from 'react'
 export default function Productpage() {
     return(
         
-        <div  className='container'> 
+        <div  className='container'>
+             <head className="bgbaner">
+                <h1 >Product</h1>
+                <p>HOME / ABOUT</p>
+        </head> 
+
         <h1> รายการสินค้า </h1>
         <br />
             <div className='row'>
