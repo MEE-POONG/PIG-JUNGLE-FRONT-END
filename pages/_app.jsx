@@ -7,6 +7,7 @@ import PageChange from "../components/PageChange/PageChange.js";
 import SSRProvider from "react-bootstrap/SSRProvider";
 import "assets/scss/style.scss";
 import "assets/scss/style.css";
+import "assets/scss/aboutstyle.css";
 
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "../styles/tailwind.scss";
