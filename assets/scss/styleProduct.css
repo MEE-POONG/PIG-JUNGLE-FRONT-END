@@ -14,9 +14,14 @@
    
 }
 .card{
-    width: 18rem;
+    margin: 1rem;
+    text-align: left;
+    border: 1px solid #eaeaea;
+    max-width: 300px;
+    
 }
-.card.img {
-    width: 100%;
+.cardimg {
+    width: auto;
+    height: auto;
     margin-top: 0em;
 }

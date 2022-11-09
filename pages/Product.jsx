@@ -1,6 +1,9 @@
-import IndexNavbar from '@/components/Navbars/IndexNavbar'
-import React from 'react'
-// import '../components/Product/StyleProduct.module.css'
+import IndexNavbar from "@/components/Navbars/IndexNavbar";
+import React from "react";
+import Link from "next/link";
+
+// components
+import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 
 export default function Productpage() {
     return(
@@ -19,7 +22,7 @@ export default function Productpage() {
                 <div className="col-sm">
                 1
                     <div className="card">
-                        <image className="card.img" src={'images/product.png'}  alt="product1" />
+                        <Image className="card-img-top" src={'images/product.jpg'} alt="product1" width={'100px'}/>
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -31,7 +34,7 @@ export default function Productpage() {
                 <div className="col-sm">
                 2
                     <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
+                    <Image className="card-img-top" src={'images/product2.jpg'} alt="product2" width={'100px'}/>
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -43,7 +46,7 @@ export default function Productpage() {
                 <div className="col-sm">
                 3
                     <div className="card">
-                        <image className="card-img-top" src={'images/logo.png'} alt="product1" width={'100px'}/>
+                    <Image className="cardimg" src={'images/product3.jpg'} alt="product3" width={'100px'}/>
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
