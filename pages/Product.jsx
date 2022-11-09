@@ -42,7 +42,7 @@ export default function Productpage() {
                 <div className="col-sm">
                 3
                     <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
+                        <image className="card-img-top" src={'images/logo.png'} alt="product1" width={'100px'}/>
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
