@@ -12,7 +12,7 @@ export default function IndexNavbar() {
     <>
       <Navbar className="header-area header-sticky wow slideInDown" expand="lg" bg="light">
         <Container >
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/" className="d-xl-none d-lg-none">
             <Image src={'images/logo.png'} alt="logo-nav" width={'100px'}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -21,7 +21,7 @@ export default function IndexNavbar() {
               <Nav.Link href="/" className="font-bold">Home</Nav.Link>
               <Nav.Link href="/about" className="font-bold">about</Nav.Link>
               <Nav.Link href="/service" className="font-bold">service</Nav.Link>
-              <Navbar.Brand href="/">
+              <Navbar.Brand href="/" className="d-none d-xl-block d-lg-block">
                 <Image src={'images/logo.png'} alt="logo-nav" width={'100px'}/>
               </Navbar.Brand>
               <Nav.Link href="/gallery" className="font-bold">gallery</Nav.Link>
