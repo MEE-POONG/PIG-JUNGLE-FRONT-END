@@ -6,6 +6,7 @@ export default function Productpage() {
     return(
           
         <div>
+             <IndexNavbar />
             <div className="bgbaner">
                 <h1 >Product</h1>
                 <p>HOME / ABOUT</p>
@@ -18,7 +19,7 @@ export default function Productpage() {
                 <div className="col-sm">
                 1
                     <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
+                        <image className="card.img" src={'images/product.png'}  alt="product1" />
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -50,9 +51,10 @@ export default function Productpage() {
                         </div>
                         </div>
                 </div>
+                
             </div>
 
-            <div className='row'>
+            {/* <div className='row'>
                 <div className="col-sm">
                 4
                     <div className="card">
@@ -89,7 +91,7 @@ export default function Productpage() {
                         </div>
                 </div>
             </div>
-            
+             */}
 
             </div>
         </div>
