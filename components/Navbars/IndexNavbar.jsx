@@ -9,9 +9,9 @@ export default function IndexNavbar() {
   // const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-    <div className="topNavbar">
+    <section className="topNavbar">
 
-    </div>
+    </section>
       <Navbar className="header-area header-sticky wow slideInDown" sticky="top" expand="lg">
         <Container>
           <Navbar.Brand href="/" className="d-xl-none d-lg-none">
