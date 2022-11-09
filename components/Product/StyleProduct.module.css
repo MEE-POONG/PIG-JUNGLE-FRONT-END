@@ -2,13 +2,15 @@
     padding: 0 2rem;
 }
 .bgbaner {
-    background-color: rgb(85 155 15);
+    min-height: 100vh;
+    background-color: rgb(148, 3, 112);
     color: aliceblue;
     text-align: center;
     font-family: monospace;
-    padding: 7%;
+    padding: 4rem 0;
     font-size: 20px;
     margin-top: 215px;
+   
 }
 .card{
     width: 18rem;
