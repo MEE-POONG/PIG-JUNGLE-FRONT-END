@@ -1,0 +1,10 @@
+.mainNav{
+    display: flex;
+    background-color: aqua;
+}
+
+.logoNav{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
