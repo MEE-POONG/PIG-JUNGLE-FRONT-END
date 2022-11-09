@@ -6,7 +6,7 @@ export default function About() {
         <>
             <div className="sc_layouts_title_caption">
                 <h1 >About 1</h1>
-                <p>HOME > ABOUT</p>
+                <p>HOME / ABOUT</p>
             </div>
             <div className="provide">
                 <h3>
