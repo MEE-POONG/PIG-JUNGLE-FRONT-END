@@ -5,26 +5,41 @@ import React from 'react'
 
 export default function Contactpage() {
     return (
-
-
-        <div className="container"> 
-            <h1 >Contacts</h1> 
+        <div>
             <div className='contact'>
-            <p>HOME - CONTACTS</p>
+                <p>HOME - CONTACTS</p>
             </div>
             <div className="provide">
                 <h3>
                     Feel free to contact us
                 </h3>
                 <p>—Contact Form—</p>
-
             </div>
-            <div className="Form">
+            <div className="container">
+
+                <div className="Form"> </div>
+                <div className="row">
+                    <div className="col" s>.col-md-3 .offset-md-3</div>
+                    <h1>fas fa-archive</h1>
+                    {/* <i className='fas fa-archive' tyle={{font-size:'48px' , color:'red'}}></i> */}
+                    <br/>
+
+
+
+
+
+
+
+
+
+                        <div className="col">col2</div>
 
 
                 </div>
             </div>
- 
+        </div>
+
+
 
 
 
