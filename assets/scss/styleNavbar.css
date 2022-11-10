@@ -10,16 +10,10 @@
 }
 
 .font-menu{
-    /* color: #31b934; */
-    font-size: large;
-    font-weight: 500;
-    /* text-shadow: 0 0 3px #ffffff, 0 0 5px #00fff7; */
-}
-
-.font-menu:hover{
-    color: #fed307;
-    font-size: large;
-    font-weight: 500;
+    /* color: #000000; */
+    font-size: x-large;
+    font-weight: 100;
+    text-shadow: 2px 4px 1px rgb(0, 255, 162);
 }
 
 .topNavbar{
