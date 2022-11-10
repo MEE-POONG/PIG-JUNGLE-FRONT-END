@@ -1,18 +1,21 @@
 .contact {
     justify-content: center;
-    background-color: rgb(182, 209, 155);
-    color: #9d6a32;
+    background-color: rgba(49, 142, 62, 0.847);
+    color: #ffffff;
     text-align: center;
     font-family: "FrankRuhlLibre", serif; 
     font-family: none;
     font-style: normal;
     font-size: 40px;
     font-weight: 400;
-    padding: 6%;
+    padding: 5.5%;
     margin-top: 0px;
+    
 
 }
-
+.body {
+    background-color:#ffffff;
+}
 .provide {
     margin-left: 5em;
     margin-right: 65rem;
@@ -29,18 +32,16 @@
     letter-spacing: 0px;
     margin-bottom: 0.20em;
     font-family: none;
-    color: #9d6a32;
+    color: #6b0575;
     line-height: 2.59rem;
     margin-top: 5rem;
-
 }
-
 .provide p {
     text-align: center;
     font-family: cursive;
-    color: #eab317;
+    color: #121312;
+    background-color:#ffffff;
 }
-
 .icon p{
     text-align: left;
     font-family: "FrankRuhlLibre", serif;
@@ -48,27 +49,64 @@
     font-weight: 500;
     font-style: normal;
     font-family: none;
-    color: #9d6a32;
+    color: #151615;
+    background-color: #ffffff;
     line-height: 2.59rem;
     margin-top: 10px;
-    margin-left: 0.1em;
-    margin-right: 24rem;
-    margin-bottom: 0.10em;
+    margin-left: 7em;
+    margin-right: 5rem;
 
 }
+.a {
+    text-decoration: none;
+    color: rgba(49, 142, 62, 0.847);
+    margin-top: 7px;
+    
+}
+.letter {
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left: 5em;
+    margin-right: 65rem;
+    padding: 7%;
 
+}
+.letter h3{
+    text-align: center;
+    font-family:"FrankRuhlLibre", serif;
+    font-size: 22px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: none;
+    color: #151615;
+    background-color: #ffffff;
+   
+}
+.letter p{
+    text-align: center;
+    font-family:"FrankRuhlLibre", serif;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: none;
+    color: #151615;
+    background-color: #ffffff;
+    
+}
 .footer {
-    background-color: rgb(182, 209, 155);
-    margin-top: 350px;
+    background-color: rgba(49, 142, 62, 0.847);
+    margin-top: 50px;
+    
 }
 .footer p{
-    justify-content: center;
-    background-color: rgb(182, 209, 155);
-    color: #9d6a32;
+    color: #ffffff;
     text-align: center;
     font-family: "FrankRuhlLibre", serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: none;
     font-style: normal;
-    padding: 7%;
     font-size: 25px;
+    padding: 7%;
 
 }
