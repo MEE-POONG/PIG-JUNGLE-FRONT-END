@@ -6,14 +6,14 @@ import Productpage from "../Product/Product";
 import Registerpage from "../Register/Register";
 
 
-import Footer from "../Footers/Footer";
+
 
 
 export default function IndexLayout({ children }) {
   return (
     <>
-      <IndexNavbar />
-      <About/>
+      <Registerpage/>
+     <Loginpage/>
 
 
       
@@ -21,6 +21,6 @@ export default function IndexLayout({ children }) {
 
         {children}
         {/* <Footer/> */}
-    </>
+   </>
   );
 }
