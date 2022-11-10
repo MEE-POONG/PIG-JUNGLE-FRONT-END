@@ -14,17 +14,9 @@ import Registerpage from "../Register/Register";
 export default function IndexLayout({ children }) {
   return (
     <>
-<<<<<<< HEAD
       <IndexNavbar/>
       <Productpage/>
       <Contactpage/>
-=======
-
-      <Registerpage/>
-     <Loginpage/>
-
-      <IndexNavbar />
->>>>>>> a30e9792d553c43c7024b4580426129df7dbdd65
       <About/>
 
 
