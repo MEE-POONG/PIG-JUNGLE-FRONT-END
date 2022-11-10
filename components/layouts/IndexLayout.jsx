@@ -24,7 +24,7 @@ export default function IndexLayout({ children }) {
       {/* <Product/> */}
 =======
 
-      
+
 >>>>>>> 8e480bc0a56053162226693d821c244562d296b5
 >>>>>>> b646819691ca56ae59788d1522cacd2f7b28ea8c
         {children}
