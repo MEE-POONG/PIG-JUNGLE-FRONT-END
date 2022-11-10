@@ -40,12 +40,19 @@ export default function About() {
                 MORE ABOUT US
             </Button>
             </header>
-            <div className="best">
+            {/* <div className="best">
                 <h1 >
                 The best of professionals
                 </h1>
                 <p>—Our Team—</p>
-            </div>
+            </div> */}
+            <header className="products">
+                
+                <div className="enjoy">
+                <p>Organic Fresh Products</p>
+                <h1>Enjoy Our Products</h1>
+                </div>
+            </header>
 
 
         </>
