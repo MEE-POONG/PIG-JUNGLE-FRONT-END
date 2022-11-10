@@ -1,6 +1,6 @@
 import IndexNavbar from "@/components/Navbars/IndexNavbar";
 import React from "react";
-import Link from "next/link";
+// import Link from "next/link";
 
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
@@ -9,7 +9,7 @@ export default function Productpage() {
     return(
           
         <div>
-             <IndexNavbar />
+             
             <div className="bgbaner">
                 <h1 >Product</h1>
                 <p>HOME / ABOUT</p>
@@ -57,11 +57,11 @@ export default function Productpage() {
                 
             </div>
 
-            {/* <div className='row'>
+            <div className='row'>
                 <div className="col-sm">
                 4
                     <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
+                    <Image className="card-img-top" src={'images/product4.jpg'} alt="product4" width={'100px'}/>
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -73,7 +73,7 @@ export default function Productpage() {
                 <div className="col-sm">
                 5
                     <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
+                    <Image className="card-img-top" src={'images/product5.jpg'} alt="product5" width={'100px'}/>
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -85,7 +85,7 @@ export default function Productpage() {
                 <div className="col-sm">
                 6
                     <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
+                    <Image className="card-img-top" src={'images/product6.jpg'} alt="product6" width={'100px'}/>
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -94,7 +94,7 @@ export default function Productpage() {
                         </div>
                 </div>
             </div>
-             */}
+            
 
             </div>
         </div>

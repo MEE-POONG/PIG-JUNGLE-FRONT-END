@@ -21,7 +21,5 @@
     
 }
 .cardimg {
-    width: auto;
-    height: auto;
-    margin-top: 0em;
+  width: 100%;
 }
