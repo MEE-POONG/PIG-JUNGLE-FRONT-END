@@ -12,7 +12,7 @@ export default function Contactpage() {
             <div className='body'>
 
                 <div>
-                    {/* header caontact */}
+                    {/* title caontact */}
                     <div className='contact'>
                         <p>HOME - CONTACTS</p>
                     </div>
@@ -26,12 +26,11 @@ export default function Contactpage() {
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col">
-                                    <a className='a' > <p> <FcHome style={{ width: "30px", height: "30px" }} /> Address : มิตรภาพ, Pak Chong, Thailand, Nakhon Ratchasima</p> </a>
+                                    <a className='a' > <p> <FcHome style={{ width: "30px", height: "30px" }} /> Address : Mittraphap, Pak Chong, Thailand, Nakhon Ratchasima</p> </a>
                                     <a className='a' href="https://www.facebook.com/profile.php?id=100084921099285" > <p> <FaFacebook style={{ width: "30px", height: "30px" }} /> Facebook : Pig Jungle </p> </a>
                                     <a className='a' href="#" > <p> <RiLineFill style={{ width: "30px", height: "30px" }} /> Line : Pig Jungle </p> </a>
                                     <a className='a' href="#"> <p> <FcGoogle style={{ width: "30px", height: "30px" }} /> Email : Pig Jungle@gmail.com </p> </a>
                                     <a className='a' > <p> <FcPhone style={{ width: "30px", height: "30px" }} /> tel : 065-065-8538 </p> </a>
-
                                 </div>
                                 <br />
                                 <br />
@@ -52,22 +51,31 @@ export default function Contactpage() {
                         </div>
                     </div>
                     {/* letter */}
-                    <div className='letter'>
-                        <div className="container-fluid">
+                    {/* <div className='letter'>
+                        <div className="container">
                             <div className="row">
-                                <div className="col-12">
-                                    <h3> Sign up for our fresh news </h3>
-                                    <p>Sign up for newsletter</p> 
-
+                                <div className="col-lg-2">
+                                    <form>
+                                        <p>dfff</p>
+                                        <input className='input-letter' style={{ width: "60px", height: "30px" }} type="text" id="Email" name="Email" placeholder="Email" />
+                                        <div className="col col-lg-2">
+                                        <div className="btn-letter">
+                                            <button className='input-letter' type='sign-up'>SIGN UP</button>
+                                        </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
-            <footer className='footer p'>
-                <p> footer </p>
-            </footer>
+            {/* footer */}
+            <div>
+                <footer className='footer p'>
+                    <p> footer </p>
+                </footer>
+            </div>
         </div>
 
 

@@ -1,3 +1,4 @@
+  /* ------------ title title------------------- */
 .contact {
     justify-content: center;
     background-color: rgba(49, 142, 62, 0.847);
@@ -13,6 +14,7 @@
     
 
 }
+  /* ------------ text title------------------- */
 .body {
     background-color:#ffffff;
 }
@@ -42,6 +44,7 @@
     color: #121312;
     background-color:#ffffff;
 }
+  /* ------------ icon brand------------------- */
 .icon p{
     text-align: left;
     font-family: "FrankRuhlLibre", serif;
@@ -54,7 +57,7 @@
     line-height: 2.59rem;
     margin-top: 10px;
     margin-left: 7em;
-    margin-right: 5rem;
+    margin-right: 3rem;
 
 }
 .a {
@@ -63,36 +66,46 @@
     margin-top: 7px;
     
 }
+  /* ------------ letter ------------------- */
 .letter {
-    text-decoration: none;
-    margin-top: 60px;
-    margin-left: 5em;
-    margin-right: 65rem;
-    padding: 7%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5%;
 
 }
 .letter h3{
-    text-align: center;
-    font-family:"FrankRuhlLibre", serif;
-    font-size: 22px;
-    font-weight: 500;
-    font-style: normal;
-    font-family: none;
-    color: #151615;
-    background-color: #ffffff;
-   
+    font-size: 60px;
+    color: #333;
+    justify-content: center;
+    align-items: center;
 }
 .letter p{
-    text-align: center;
-    font-family:"FrankRuhlLibre", serif;
-    font-size: 30px;
-    font-weight: 500;
-    font-style: normal;
-    font-family: none;
-    color: #151615;
-    background-color: #ffffff;
-    
+    font-size: 20px;
+    color: #333;
+    justify-content: center;
 }
+.input-letter{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.2;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-width: 400px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.btn-letter{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+  /* ------------ footer------------------- */
 .footer {
     background-color: rgba(49, 142, 62, 0.847);
     margin-top: 50px;
