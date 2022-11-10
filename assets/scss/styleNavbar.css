@@ -1,17 +1,16 @@
-.logo-main img{
+/* .logo-main img{
     margin-left: 10rem;
     margin-right: 10rem;
-}
+} */
 
 .header-area{
     /* background-image: url('../../public/images/topbar.jpg'); */
-    background-color: transparent;
-    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .font-menu{
-    color: #24ff26;
+    /* color: #31b934; */
     font-size: large;
     font-weight: 500;
     /* text-shadow: 0 0 3px #ffffff, 0 0 5px #00fff7; */
@@ -24,11 +23,12 @@
 }
 
 .topNavbar{
-    background-image: url('/public/images/topbar.jpg');
+    background-image: url('../../public/images/topbar.jpg');
     padding: 1rem;
+    background-size: cover;
 }
 
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .left-menu{
         margin-right: 10rem;
     }
@@ -36,4 +36,4 @@
     .right-menu{
         margin-left: 10rem;
     }
-}
+} */
