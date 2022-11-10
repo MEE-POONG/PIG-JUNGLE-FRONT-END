@@ -14,7 +14,7 @@ export default function IndexNavbar() {
 
   const listenScrollEvent =() =>{
     window.scrollY > 10 ? setNavColor("#ace1af") : setNavColor("transparent")
-    window.scrollY > 10 ? setNavSize("4rem") : setNavSize("6rem")
+    window.scrollY > 10 ? setNavSize("5rem") : setNavSize("6rem")
     window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#31b934')
     window.scrollY > 10 ? setNavLogo('100px') : setNavLogo('150px')
   };
