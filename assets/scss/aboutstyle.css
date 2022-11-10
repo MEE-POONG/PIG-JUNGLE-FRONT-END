@@ -1,5 +1,5 @@
 .sc_layouts_title_caption {
-    background-color:rgb(15 129 16);
+    background-color: rgb(15 129 16);
     color: aliceblue;
     text-align: center;
     font-family: monospace;
@@ -44,7 +44,7 @@
 .products p {
     text-align: center;
     font-family: cursive;
-    color:  #c5b931;
+    color: #c5b931;
     margin-right: -50rem;
 }
 
@@ -89,11 +89,12 @@
     border-radius: 10px;
     font-family: inherit;
     transition: ease .40s;
-    
+    text-decoration: none;
+
 
 }
 
-.mm:hover{
+.mm:hover {
     transform: scale(1.1);
 }
 
@@ -127,20 +128,21 @@
     margin-top: 20rem;
 }
 
-.back h1{
+.back h1 {
     margin-top: -25rem;
     margin-left: 50rem;
     font-family: cursive;
     color: rgb(0, 0, 0);
 }
-.back p{
+
+.back p {
     margin-top: 0rem;
     margin-left: 55rem;
     font-family: cursive;
     color: rgb(2, 2, 1);
 }
 
-.shop-now{
+.shop-now {
     display: inline-block;
     color: #ffffff;
     background: rgb(0, 0, 0);
@@ -148,10 +150,57 @@
     border-radius: 10px;
     font-family: inherit;
     transition: ease .40s;
-    margin-left: 58rem;
-    padding: 15px;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.shop-now:hover{
+.shop-now:hover {
     transform: scale(1.1);
+}
+
+.lgo {
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.view {
+    position: relative;
+    text-align: center;
+}
+
+.fresh {
+    font-size: xxx-large;
+    position: absolute;
+    font-family: cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fresh-our {
+    position: absolute;
+    font-family: cursive;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grown{
+    display: inline-block;
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    line-height: 24px;
+    border-radius: 10px;
+    font-family: inherit;
+    transition: ease .40s;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    padding: 1rem;
+}
+
+.grown:hover{
+    transform: scale(1.1);
+
 }

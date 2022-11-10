@@ -2,6 +2,7 @@ import IndexNavbar from "components/Navbars/IndexNavbar";
 import About from "../About/About";
 import Contactpage from "../Contact/Contact";
 
+import Footer from "../Footers/Footer";
 
 import Footer from "../Footers/Footer";
 import Loginpage from "../Login/Login";
@@ -13,12 +14,30 @@ import Registerpage from "../Register/Register";
 export default function IndexLayout({ children }) {
   return (
     <>
+<<<<<<< HEAD
       <IndexNavbar/>
       <Productpage/>
       <Contactpage/>
+=======
+
+      <Registerpage/>
+     <Loginpage/>
+
+      <IndexNavbar />
+>>>>>>> a30e9792d553c43c7024b4580426129df7dbdd65
       <About/>
+
+
+     
+      {/* <Product/> */}
+
+
+
         {children}
+
         {/* <Footer/> */}
-    </>
+   </>
+  
+
   );
 }

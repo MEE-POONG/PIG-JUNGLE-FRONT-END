@@ -6,13 +6,14 @@ export default function Registerpage (){
     <>
 <div className="box-Container-Rg">
 <div className='Container-Rg'>
-    <Image className='title-img-Lg-Rg' src={'images/logo02.png'} alt="logo-nav" width={'100px'}/>
     <h2 className='title-Lg-Rg'>Register</h2>
     <form>
     
     <input className='input-Lg-Rg' type="text" id="UserName" name="UserName" placeholder="UserName"/>
     
     <input className='input-Lg-Rg' type="text" id="Email" name="Email" placeholder="Email" />
+
+    <input className='input-Lg-Rg' type="text" id="Phone" name="Phone" placeholder="Phone" />
     
     <input className='input-Lg-Rg' type="text" id="Password" name="Password" placeholder="Password"  />
     
@@ -20,6 +21,9 @@ export default function Registerpage (){
     </form>
     <div className="box-btu-Lg-Rg">
     <button className="btu-Lg-Rg" type='sign-up'>SIGN UP</button>
+    </div>
+    <div className='box-text'>
+        <a className='text-Lg-Rg' href=""> Login </a>
     </div>
 </div>
 </div>

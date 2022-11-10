@@ -24,8 +24,8 @@ export default function Productpage() {
         <h1 className="top"> Product </h1>
         <hr />
         <br />
-            <div className='row'>
-                <div className="col">
+            <div className='row '>
+                <div className="col ">
                 {/* 1 */}
                     <div className="card">
                         <Image className="img" src={'images/product.jpg'} alt="product1" width={'100px'}/>
