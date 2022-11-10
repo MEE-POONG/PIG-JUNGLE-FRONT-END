@@ -7,6 +7,9 @@ import PageChange from "../components/PageChange/PageChange.js";
 import SSRProvider from "react-bootstrap/SSRProvider";
 import "assets/scss/style.scss";
 import "assets/scss/style.css";
+
+import "assets/scss/aboutstyle.css";
+
 import "assets/scss/styleNavbar.css";
 import "assets/scss/styleProduct.css";
 import "assets/scss/stylecontact.css";

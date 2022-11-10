@@ -7,8 +7,6 @@ export default function IndexLayout({ children }) {
     <>
       <IndexNavbar />
       <About/>
-
-      
         {children}
         {/* <Footer/> */}
     </>
