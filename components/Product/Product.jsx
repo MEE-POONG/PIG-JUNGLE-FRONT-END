@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import IndexNavbar from '@/components/Navbars/IndexNavbar'
 import React from 'react'
 
@@ -98,3 +99,8 @@ export default function Productpage() {
     
 }
  
+=======
+<>
+aa
+</>
+>>>>>>> 8e480bc0a56053162226693d821c244562d296b5
