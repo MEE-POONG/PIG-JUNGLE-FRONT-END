@@ -1,0 +1,122 @@
+.sc_layouts_title_caption {
+    background-color: rgb(85 155 15);
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+    padding: 7%;
+    font-size: 20px;
+
+
+}
+
+.sc_layouts_title_caption h1 {
+    background-color: rgb(85 155 15);
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+
+    font-size: 50px;
+}
+
+
+
+.provide {
+    margin-left: -50rem;
+}
+
+.provide h3 {
+    text-align: center;
+    font-family: "FrankRuhlLibre", serif;
+    font-size: 2.235rem;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 0.14em;
+    font-family: none;
+    color: #9d6a32;
+    line-height: 2.59rem;
+    margin-top: 10rem;
+}
+
+.provide p {
+    text-align: center;
+    font-family: cursive;
+    color: #eab317;
+}
+
+.work {
+    text-align: center;
+    color: #9d6a32;
+    margin-left: 50px;
+    margin-left: -42rem;
+}
+
+.will image.logo {
+    width: 50rem;
+}
+
+.logo {
+    text-align: center;
+    width: 40rem;
+    margin-top: -26rem;
+    margin-left: 60rem;
+}
+
+.mm {
+    background: #1086f5;
+    text-align: center;
+    margin-left: 32rem;
+    color: antiquewhite;
+    border-radius: 10px;
+    width: 187px;
+    height: 50px;
+    padding: 15px;
+    font-family: none;
+
+}
+
+.best h1{
+    padding-bottom: 2px;
+    margin-left: 40rem;
+    font-size: 3.5rem;
+    padding: 0rem;
+    font-family: none;
+    color: #9d6a32;
+    margin-top: 15rem;
+}
+
+.best p{
+    padding-bottom: 2px;
+    margin-left: 54rem;
+   
+    padding: 0rem;
+    font-family: none;
+    color: #eab317;
+    margin-top: 0rem;
+    font-family: cursive;
+}
+
+/* image-bg */
+/* .enjoy p{
+    font-family: cursive;
+    text-align: center;
+    color: #eab317;
+
+
+} */
+.enjoy {
+    background-color: darkgreen;
+    
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 50px;
+    margin-left: 20rem;
+    margin-right: 30rem;
+}
+.products{
+    background-image: url(/public/images/product5.jpg) ;
+    
+}
