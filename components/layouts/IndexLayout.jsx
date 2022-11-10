@@ -1,24 +1,19 @@
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import About from "../About/About";
-<<<<<<< HEAD
-// import Product from "../Product";
-=======
->>>>>>> 8e480bc0a56053162226693d821c244562d296b5
 import Footer from "../Footers/Footer";
+import Loginpage from "../Login/Login";
 import Productpage from "../Product/Product";
+import Registerpage from "../Register/Register";
+
 
 export default function IndexLayout({ children }) {
   return (
     <>
       <IndexNavbar />
       <About/>
-<<<<<<< HEAD
-     
-      {/* <Product/> */}
-=======
-
+    <Registerpage/>
+    <Loginpage/>
       
->>>>>>> 8e480bc0a56053162226693d821c244562d296b5
         {children}
         {/* <Footer/> */}
     </>
