@@ -10,13 +10,13 @@ export default function IndexNavbar() {
   const [navSize, setNavSize] = useState("6rem")
   const [navColor, setNavColor] = useState("transparent")
   const [navTextColor, setNaveTextColor] = useState("#31b934")
-  const [navLogo, setNavLogo] = useState("150px")
+  const [navLogo, setNavLogo] = useState("160px")
 
   const listenScrollEvent =() =>{
     window.scrollY > 10 ? setNavColor("#ace1af") : setNavColor("transparent")
     window.scrollY > 10 ? setNavSize("5rem") : setNavSize("6rem")
     window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#31b934')
-    window.scrollY > 10 ? setNavLogo('100px') : setNavLogo('150px')
+    window.scrollY > 10 ? setNavLogo('90px') : setNavLogo('160px')
   };
   useEffect(() =>{
       window.addEventListener("scroll", listenScrollEvent)
