@@ -1,25 +1,17 @@
 .container{
     padding: 0 2rem;
-    margin-top: 50px;
-   
 }
 .bgbaner {
-    justify-content: center;
-    background-color: rgb(115, 179, 96);
+    min-height: 100vh;
+    background-color: rgb(148, 3, 112);
     color: aliceblue;
     text-align: center;
     font-family: monospace;
     padding: 7%;
     font-size: 20px;
+    margin-top: 215px;
    
 }
 .card{
-    margin: 1rem;
-    text-align: left;
-    border: 1px solid #eaeaea;
-    max-width: 300px;
-    
-}
-.cardimg {
-  width: 100%;
+    width: 18rem;
 }

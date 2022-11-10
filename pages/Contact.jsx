@@ -1,47 +1,45 @@
 import React from 'react'
+// import Form from 'react-bootstrap/Form';
+// import InputGroup from 'react-bootstrap/InputGroup';
+
 
 export default function Contactpage() {
     return (
-
-        <div className='Container'>
-            <br />  <br />  <br />
-            <div class="col order-1">
-                One of three columns
+        <div>
+            <div className='contact'>
+                <p>HOME - CONTACTS</p>
             </div>
-            <br />  <br />  <br />
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        One of three columns
+            <div className="provide">
+                <h3>
+                    Feel free to contact us
+                </h3>
+                <p>—Contact Form—</p>
+            </div>
+            <div className="container">
 
-                        <div class="mb-3">
-                          <div className='Form'>
-                            <input className='Form' id="name" type="text" placeholder="Yourname" />
-                        </div>
-                        <div class="mb-3 ">
-                         
-                            <input className='Form' id="emailAddress" type="email" placeholder="Email Address" />
-                        </div>
+                <div className="Form"> </div>
+                <div className="row">
+                    <div className="col" s>.col-md-3 .offset-md-3</div>
+                    <h1>fas fa-archive</h1>
+                    {/* <i className='fas fa-archive' tyle={{font-size:'48px' , color:'red'}}></i> */}
+                    <br/>
 
-                        <div class="mb-3 ">
-                          
-                            <textarea className='Form' id="message" type="text" placeholder="Your Message" style={{ width: '200px', height: '240px' }}></textarea>
-                        </div>
 
-                        <div class="mb-3 ">
-                            <button className='btn' type="submit">SUBMIT FROM</button>
-                        </div>
 
-                        </div>
-                        </div>
-                   
-                    <div class="col order-1">
-                        One of three columns
-                    </div>
+
+
+
+
+
+
+                        <div className="col">col2</div>
+
 
                 </div>
             </div>
         </div>
+
+
 
 
 

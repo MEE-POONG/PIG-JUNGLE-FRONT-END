@@ -57,43 +57,6 @@ export default function Productpage() {
                 
             </div>
 
-            <div className='row'>
-                <div className="col-sm">
-                4
-                    <div className="card">
-                    <Image className="card-img-top" src={'images/product4.jpg'} alt="product4" width={'100px'}/>
-                        <div className="card-body">
-                            <h5 className="card-title">สินค้า1</h5>
-                            <p className="card-text">อธิบายสินค้า.</p>
-                            <a href="#" className="btn btn-primary">เพิ่มใส่ตะกร้า</a>
-                        </div>
-                        </div>
-                </div>
-
-                <div className="col-sm">
-                5
-                    <div className="card">
-                    <Image className="card-img-top" src={'images/product5.jpg'} alt="product5" width={'100px'}/>
-                        <div className="card-body">
-                            <h5 className="card-title">สินค้า1</h5>
-                            <p className="card-text">อธิบายสินค้า.</p>
-                            <a href="#" className="btn btn-primary">เพิ่มใส่ตะกร้า</a>
-                        </div>
-                        </div>
-                </div>
-
-                <div className="col-sm">
-                6
-                    <div className="card">
-                    <Image className="card-img-top" src={'images/product6.jpg'} alt="product6" width={'100px'}/>
-                        <div className="card-body">
-                            <h5 className="card-title">สินค้า1</h5>
-                            <p className="card-text">อธิบายสินค้า.</p>
-                            <a href="#" className="btn btn-primary">เพิ่มใส่ตะกร้า</a>
-                        </div>
-                        </div>
-                </div>
-            </div>
             
 
             </div>
