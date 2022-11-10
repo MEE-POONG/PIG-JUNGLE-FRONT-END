@@ -11,7 +11,6 @@ export default function Productpage() {
         <div className="divbg"> 
             <IndexNavbar/>
 
-
             <div className="bgbaner">
                 <h1 className="title">Product</h1>
                 <a className="bgbaner.a"  href="#">HOME</a>
@@ -21,7 +20,7 @@ export default function Productpage() {
             </div>
         
         {/* start content */}
-        <div className='container'>
+        <div className='content'>
         <h1 className="top"> Product </h1>
         <hr />
         <br />
