@@ -63,7 +63,6 @@ export default function Contactpage() {
                             </div>
                         </div>
                     </div>
-                    {/* footer */}
                 </div>
             </div>
             <footer className='footer p'>
