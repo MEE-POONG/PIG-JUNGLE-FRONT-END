@@ -1,3 +1,7 @@
+/* .divbg {
+    background: rgba(130, 160, 123, 0.815);
+} */
+
 .container{
     padding: 0 5rem;
     margin-top: 3rem;
@@ -5,9 +9,8 @@
 
 .bgbaner {
     min-height: 45vh; 
-    background-color: rgb(3, 102, 64); 
+    background-color: rgba(221, 10, 10, 0.767); 
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-   
 }
 
 .row {
@@ -58,7 +61,8 @@
 
   .foot {
     width: 100%;
-    background-color: rgb(3, 102, 64);
+    height: 25px;
+    background-color: rgb(40, 41, 39);
     color: aliceblue;
     text-align: center;
     padding: 4%;

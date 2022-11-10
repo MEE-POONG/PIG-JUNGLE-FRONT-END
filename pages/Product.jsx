@@ -8,13 +8,15 @@ import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Butt
 export default function Productpage() {
     return(
          
-        <div> 
-            <IndexNavbar/> 
+        <div className="divbg"> 
+            {/* <IndexNavbar/>  */}
 
 
             <div className="bgbaner">
                 <h1 className="title">Product</h1>
-                <p className="font">HOME / PRODUCT</p>
+               <a href="#"></a> <p className="font">HOME / PRODUCT</p>
+
+
             </div>
         
         {/* start content */}
@@ -175,7 +177,7 @@ export default function Productpage() {
             </div>
       {/* end  */}
                     <footer className="foot">
-                    <a>Powered</a>
+                    <a>Pic Jungle</a>
                     </footer>  
         </div>
 
