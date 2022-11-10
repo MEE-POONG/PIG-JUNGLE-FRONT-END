@@ -35,7 +35,8 @@ export default function About() {
                             <br />The total number of our livestock is also increasing.
 
                         </p>
-                        <p  className="mm">MORE ABOUT US</p>
+                        <a href="#"
+                            className="mm">MORE ABOUT US</a>
                     </Col>
                     <Col md={12} lg={6}>
                         <header className="will">
@@ -47,9 +48,16 @@ export default function About() {
                     </Col>
                 </Row>
             </Container>
- 
-           
-                <Image className="back-logo" src={"images/product5.jpg"} />
+
+            <div className="view">
+                <Image className="lgo" src={"images/product12.jpg"} />
+                <div className="fresh">Enjoy Our Products</div>
+                <div className="fresh-our">—Our company—</div>
+                <div className="grown">MORE ABOUT US</div>
+
+
+            </div>
+            {/* <Image className="back-logo" src={"images/product5.jpg"} />
                 <div className="back">
                 
                 <h1>Enjoy Our Products</h1>
@@ -57,8 +65,8 @@ export default function About() {
                 
             </div>
             
-                <p className="shop-now">SHOP NOW</p>
-            
+                <p className="shop-now">SHOP NOW</p> */}
+
 
 
 
