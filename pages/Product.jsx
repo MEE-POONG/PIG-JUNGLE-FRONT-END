@@ -1,11 +1,15 @@
 import IndexNavbar from "@/components/Navbars/IndexNavbar";
 import React from "react";
+// import Link from "next/link";
+
+// components
+import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 
 export default function Productpage() {
     return(
           
         <div>
-             <IndexNavbar />
+             
             <div className="bgbaner">
                 <h1 >Product</h1>
                 <p>HOME / ABOUT</p>
@@ -19,7 +23,6 @@ export default function Productpage() {
                 1
                     <div className="card">
                         <Image className="card-img-top" src={'images/product.jpg'} alt="product1" width={'100px'}/>
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -32,7 +35,6 @@ export default function Productpage() {
                 2
                     <div className="card">
                     <Image className="card-img-top" src={'images/product2.jpg'} alt="product2" width={'100px'}/>
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -45,7 +47,6 @@ export default function Productpage() {
                 3
                     <div className="card">
                     <Image className="cardimg" src={'images/product3.jpg'} alt="product3" width={'100px'}/>
-                        <image className="card-img-top" src={'images/logo.png'} alt="product1" width={'100px'}/>
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -56,47 +57,6 @@ export default function Productpage() {
                 
             </div>
 
-            {/* <div className='row'>
-            </div>
-
-            <div className='row'>
-                <div className="col-sm">
-                4
-                    <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
-                        <div className="card-body">
-                            <h5 className="card-title">สินค้า1</h5>
-                            <p className="card-text">อธิบายสินค้า.</p>
-                            <a href="#" className="btn btn-primary">เพิ่มใส่ตะกร้า</a>
-                        </div>
-                        </div>
-                </div>
-
-                <div className="col-sm">
-                5
-                    <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
-                        <div className="card-body">
-                            <h5 className="card-title">สินค้า1</h5>
-                            <p className="card-text">อธิบายสินค้า.</p>
-                            <a href="#" className="btn btn-primary">เพิ่มใส่ตะกร้า</a>
-                        </div>
-                        </div>
-                </div>
-
-                <div className="col-sm">
-                6
-                    <div className="card">
-                        <image className="card.img" src={'images/logo.png'}  alt="image 1" />
-                        <div className="card-body">
-                            <h5 className="card-title">สินค้า1</h5>
-                            <p className="card-text">อธิบายสินค้า.</p>
-                            <a href="#" className="btn btn-primary">เพิ่มใส่ตะกร้า</a>
-                        </div>
-                        </div>
-                </div>
-            </div>
-             */}
             
 
             </div>
