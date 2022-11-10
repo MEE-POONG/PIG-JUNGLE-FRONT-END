@@ -1,6 +1,6 @@
 import IndexNavbar from '@/components/Navbars/IndexNavbar'
 import React from 'react'
-// import '../components/Product/StyleProduct.module.css'
+
 
 export default function Productpage() {
     return(

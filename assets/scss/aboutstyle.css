@@ -97,3 +97,26 @@
     margin-top: 0rem;
     font-family: cursive;
 }
+
+/* image-bg */
+/* .enjoy p{
+    font-family: cursive;
+    text-align: center;
+    color: #eab317;
+
+
+} */
+.enjoy {
+    background-color: darkgreen;
+    
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding: 50px;
+    margin-left: 20rem;
+    margin-right: 30rem;
+}
+.products{
+    background-image: url(/public/images/product5.jpg) ;
+    
+}

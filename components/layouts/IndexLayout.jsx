@@ -9,7 +9,7 @@ export default function IndexLayout({ children }) {
     <>
       <IndexNavbar />
       <About/>
-      <Productpage/>
+     
       {/* <Product/> */}
         {children}
         {/* <Footer/> */}
