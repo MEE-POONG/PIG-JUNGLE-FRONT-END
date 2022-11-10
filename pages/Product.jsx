@@ -9,7 +9,7 @@ export default function Productpage() {
     return(
          
         <div className="divbg"> 
-            {/* <IndexNavbar/>  */}
+            <IndexNavbar/>
 
 
             <div className="bgbaner">
