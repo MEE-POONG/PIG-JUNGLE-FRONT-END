@@ -11,8 +11,8 @@ import "assets/scss/style.css";
 import "assets/scss/aboutstyle.css";
 
 import "assets/scss/styleNavbar.css";
-
-
+import "assets/scss/styleProduct.css";
+import "assets/scss/stylecontact.css";
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "../styles/tailwind.scss";
 
