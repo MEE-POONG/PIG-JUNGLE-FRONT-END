@@ -12,6 +12,52 @@
     margin-top: 0px;
 
 }
+<<<<<<< HEAD
+/* .container h1{
+    background-color: rgb(85 155 15);
+    color: aliceblue;
+    text-align: center;
+    font-family: cursive;
+    
+    font-size: 50px;
+} */
+
+
+
+.Form{
+    margin-left: 40rem;
+}
+.Form p{
+    text-align: center;
+    font-family: "FrankRuhlLibre",serif;
+    font-size: 2.235rem;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 0.14em;
+    font-family: none;
+    color: #9d6a32;
+    line-height: 2.59rem;
+    margin-top: 10rem;
+    
+}
+/* .btn{
+    text-align: center;
+    font-family: "FrankRuhlLibre",serif;
+    font-size: 2.235rem;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 0.14em;
+    font-family: none;
+    color: #9d6a32;
+    line-height: 2.59rem;
+    margin-top: 10rem;
+=======
 
 .provide {
     margin-left: 5em;
@@ -40,6 +86,7 @@
     font-family: cursive;
     color: #eab317;
 }
+>>>>>>> 8ce88254ea0f9072816ab0d77f68959072c92852
 
 .icon p{
     text-align: left;
