@@ -1,5 +1,5 @@
 .sc_layouts_title_caption {
-    background-color: rgb(85 155 15);
+    background-color: rgb(15 129 16);
     color: aliceblue;
     text-align: center;
     font-family: monospace;
@@ -10,7 +10,7 @@
 }
 
 .sc_layouts_title_caption h1 {
-    background-color: rgb(85 155 15);
+    background-color: rgb(15 129 16);
     color: aliceblue;
     text-align: center;
     font-family: cursive;
@@ -20,11 +20,11 @@
 
 
 
-.provide {
+.products {
     margin-left: -50rem;
 }
 
-.provide h3 {
+.products h3 {
     text-align: center;
     font-family: "FrankRuhlLibre", serif;
     font-size: 2.235rem;
@@ -35,22 +35,24 @@
     letter-spacing: 0px;
     margin-bottom: 0.14em;
     font-family: none;
-    color: #9d6a32;
+    color: rgb(15 129 16);
     line-height: 2.59rem;
     margin-top: 10rem;
+    margin-right: -50rem;
 }
 
-.provide p {
+.products p {
     text-align: center;
     font-family: cursive;
-    color: #eab317;
+    color: #c5b931;
+    margin-right: -50rem;
 }
 
 .work {
     text-align: center;
     color: #9d6a32;
-    margin-left: 50px;
-    margin-left: -42rem;
+    margin-right: 1rem;
+
 }
 
 .will image.logo {
@@ -60,14 +62,14 @@
 .logo {
     text-align: center;
     width: 40rem;
-    margin-top: -26rem;
-    margin-left: 60rem;
+    margin-top: 10rem;
+    margin-left: 5rem;
 }
 
-.mm {
+/* .mm {
     background: #1086f5;
     text-align: center;
-    margin-left: 32rem;
+    margin-left: 14rem;
     color: antiquewhite;
     border-radius: 10px;
     width: 187px;
@@ -75,9 +77,28 @@
     padding: 15px;
     font-family: none;
 
+} */
+.mm {
+    display: inline-block;
+    color: #ffffff;
+    background: rgb(15 129 16);
+    padding: 15px;
+    margin-left: 14rem;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 10px;
+    font-family: inherit;
+    transition: ease .40s;
+    text-decoration: none;
+
+
 }
 
-.best h1{
+.mm:hover {
+    transform: scale(1.1);
+}
+
+.best h1 {
     padding-bottom: 2px;
     margin-left: 40rem;
     font-size: 3.5rem;
@@ -85,12 +106,15 @@
     font-family: none;
     color: #9d6a32;
     margin-top: 15rem;
+
+
+
 }
 
-.best p{
+.best p {
     padding-bottom: 2px;
     margin-left: 54rem;
-   
+
     padding: 0rem;
     font-family: none;
     color: #eab317;
@@ -98,25 +122,85 @@
     font-family: cursive;
 }
 
-/* image-bg */
-/* .enjoy p{
-    font-family: cursive;
-    text-align: center;
-    color: #eab317;
-
-
-} */
-.enjoy {
-    background-color: darkgreen;
-    
-    text-align: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding: 50px;
-    margin-left: 20rem;
-    margin-right: 30rem;
+.back-logo {
+    width: 100%;
+    height: 40rem;
+    margin-top: 20rem;
 }
-.products{
-    background-image: url(/public/images/product5.jpg) ;
-    
+
+.back h1 {
+    margin-top: -25rem;
+    margin-left: 50rem;
+    font-family: cursive;
+    color: rgb(0, 0, 0);
+}
+
+.back p {
+    margin-top: 0rem;
+    margin-left: 55rem;
+    font-family: cursive;
+    color: rgb(2, 2, 1);
+}
+
+.shop-now {
+    display: inline-block;
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    line-height: 24px;
+    border-radius: 10px;
+    font-family: inherit;
+    transition: ease .40s;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shop-now:hover {
+    transform: scale(1.1);
+}
+
+.lgo {
+    width: 100%;
+    margin-top: 15rem;
+}
+
+.view {
+    position: relative;
+    text-align: center;
+}
+
+.fresh {
+    font-size: xxx-large;
+    position: absolute;
+    font-family: cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fresh-our {
+    position: absolute;
+    font-family: cursive;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grown{
+    display: inline-block;
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    line-height: 24px;
+    border-radius: 10px;
+    font-family: inherit;
+    transition: ease .40s;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+    padding: 1rem;
+}
+
+.grown:hover{
+    transform: scale(1.1);
+
 }
