@@ -14,7 +14,7 @@ export default function About() {
             <Container>
                 <Row>
                     <Col md={12} lg={6}>
-                        <div className="provide">
+                        <div className="products">
                             <h3>
                                 We provide
                                 <br />high-quality

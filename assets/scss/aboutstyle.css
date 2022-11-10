@@ -20,11 +20,11 @@
 
 
 
-.provide {
+.products {
     margin-left: -50rem;
 }
 
-.provide h3 {
+.products h3 {
     text-align: center;
     font-family: "FrankRuhlLibre", serif;
     font-size: 2.235rem;
@@ -41,7 +41,7 @@
     margin-right: -50rem;
 }
 
-.provide p {
+.products p {
     text-align: center;
     font-family: cursive;
     color:  #c5b931;

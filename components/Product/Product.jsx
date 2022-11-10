@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> d011ca9a7381aeebcf1705f1efd5a79bf78b04b1
 
 import IndexNavbar from '@/components/Navbars/IndexNavbar'
 import React from 'react'
@@ -102,3 +106,7 @@ export default function Productpage() {
 
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> d011ca9a7381aeebcf1705f1efd5a79bf78b04b1
