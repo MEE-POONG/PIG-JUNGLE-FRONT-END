@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> dd47047dde0b51b2922d1731c187a474b71efca0
 import IndexNavbar from '@/components/Navbars/IndexNavbar'
 import React from 'react'
 
