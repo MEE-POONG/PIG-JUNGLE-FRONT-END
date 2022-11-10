@@ -1,6 +1,7 @@
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import About from "../About/About";
 
+import Footer from "../Footers/Footer";
 
 import Footer from "../Footers/Footer";
 import Loginpage from "../Login/Login";
@@ -14,9 +15,8 @@ export default function IndexLayout({ children }) {
     <>
       <IndexNavbar />
       <About/>
-
         {children}
-        {/* <Footer/> */}
+    
     </>
   );
 }

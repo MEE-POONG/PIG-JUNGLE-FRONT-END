@@ -1,18 +1,23 @@
+  /* ------------ title title------------------- */
 .contact {
     justify-content: center;
-    background-color: rgb(182, 209, 155);
-    color: #9d6a32;
+    background-color: rgba(49, 142, 62, 0.847);
+    color: #ffffff;
     text-align: center;
     font-family: "FrankRuhlLibre", serif; 
     font-family: none;
     font-style: normal;
     font-size: 40px;
     font-weight: 400;
-    padding: 6%;
+    padding: 5.5%;
     margin-top: 0px;
+    
 
 }
-
+  /* ------------ text title------------------- */
+.body {
+    background-color:#ffffff;
+}
 .provide {
     margin-left: 5em;
     margin-right: 65rem;
@@ -29,18 +34,17 @@
     letter-spacing: 0px;
     margin-bottom: 0.20em;
     font-family: none;
-    color: #9d6a32;
+    color: #6b0575;
     line-height: 2.59rem;
     margin-top: 5rem;
-
 }
-
 .provide p {
     text-align: center;
     font-family: cursive;
-    color: #eab317;
+    color: #121312;
+    background-color:#ffffff;
 }
-
+  /* ------------ icon brand------------------- */
 .icon p{
     text-align: left;
     font-family: "FrankRuhlLibre", serif;
@@ -48,27 +52,74 @@
     font-weight: 500;
     font-style: normal;
     font-family: none;
-    color: #9d6a32;
+    color: #151615;
+    background-color: #ffffff;
     line-height: 2.59rem;
     margin-top: 10px;
-    margin-left: 0.1em;
-    margin-right: 24rem;
-    margin-bottom: 0.10em;
+    margin-left: 7em;
+    margin-right: 3rem;
 
 }
+.a {
+    text-decoration: none;
+    color: rgba(49, 142, 62, 0.847);
+    margin-top: 7px;
+    
+}
+  /* ------------ letter ------------------- */
+.letter {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5%;
 
+}
+.letter h3{
+    font-size: 60px;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+}
+.letter p{
+    font-size: 20px;
+    color: #333;
+    justify-content: center;
+}
+.input-letter{
+    font-size: 16px;
+    color: #555;
+    line-height: 1.2;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-width: 400px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.btn-letter{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+  /* ------------ footer------------------- */
 .footer {
-    background-color: rgb(182, 209, 155);
-    margin-top: 350px;
+    background-color: rgba(49, 142, 62, 0.847);
+    margin-top: 50px;
+    
 }
 .footer p{
-    justify-content: center;
-    background-color: rgb(182, 209, 155);
-    color: #9d6a32;
+    color: #ffffff;
     text-align: center;
     font-family: "FrankRuhlLibre", serif;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: none;
     font-style: normal;
-    padding: 7%;
     font-size: 25px;
+    padding: 7%;
 
 }
