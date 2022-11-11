@@ -18,10 +18,10 @@ export default function Registerpage (){
     <input className='input-Lg-Rg' type="text" id="ConfirmPassword" name="ConfirmPassword" placeholder="ConfirmPassword" />
     </form>
     <div className="box-btu-Lg-Rg">
-    <button className="btu-Lg-Rg" type='sign-up'>SIGN UP</button>
+    <a className="btu-Lg-Rg" type='sign-up'  href="/address">SIGN UP</a>
     </div>
     <div className='box-text'>
-        <a className='text-Lg-Rg' href=""> Login </a>
+        <a className='text-Lg-Rg' href="/login"> Login </a>
     </div>
 </div>
 </div>
