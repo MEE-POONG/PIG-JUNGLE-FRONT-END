@@ -45,16 +45,16 @@ export default function IndexNavbar() {
             <Nav className="d-flex align-items-center w-100">
                 <div className="d-lg-flex left-menu">
                   <Nav.Link href="/" className="font-menu font-bold mx-2">หน้าแรก</Nav.Link>
-                  <Nav.Link href="/Product" className="font-menu font-bold mx-2">ร้านค้า</Nav.Link>
-                  <Nav.Link href="/About" className="font-menu font-bold mx-2">เกี่ยวกับเรา</Nav.Link>
+                  <Nav.Link href="/product" className="font-menu font-bold mx-2">ร้านค้า</Nav.Link>
+                  <Nav.Link href="/about" className="font-menu font-bold mx-2">เกี่ยวกับเรา</Nav.Link>
                 </div>
                 <Navbar.Brand href="/" className="logo-main d-none d-xl-block d-lg-block d-flex mx-auto">
                   <Image src={'images/logo.png'} alt="logo-nav" width={navLogo} style={{transition:"all 0.5s"}}/>
                 </Navbar.Brand>
                 <div className="d-lg-flex right-menu">
-                  <Nav.Link href="/Contact" className="font-menu font-bold mx-2">ติดต่อ</Nav.Link>
-                  <Nav.Link href="/Login" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
-                  <Nav.Link href="/Register" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
+                  <Nav.Link href="/contact" className="font-menu font-bold mx-2">ติดต่อ</Nav.Link>
+                  <Nav.Link href="/login" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
+                  <Nav.Link href="/register" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
                 </div>
             </Nav>
           </Navbar.Collapse>
