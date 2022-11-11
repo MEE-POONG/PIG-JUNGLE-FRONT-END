@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 5e37d3a2b73e0a9414c5627559a8b05ae28ad365
 import IndexNavbar from '@/components/Navbars/IndexNavbar'
 import React from 'react'
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
