@@ -76,20 +76,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
-    padding: 5%;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: auto;
+    padding: 1%;
 
 }
 .letter h3{
-    font-size: 60px;
+    font-size: 40px;
     color: #333;
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
+
 }
 .letter p{
     font-size: 20px;
     color: #333;
     justify-content: center;
+    margin-left: 100px;
 }
 .input-letter{
     font-size: 16px;
@@ -97,17 +103,18 @@
     line-height: 1.2;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 5%;
     min-width: 400px;
     border-radius: 25px;
-    margin-top: 20px;
+    margin-top: 45px;
+    margin-left: 50px;
+   
 }
 .btn-letter{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 5px;
+  
 }
   /* ------------ footer------------------- */
 .footer {
