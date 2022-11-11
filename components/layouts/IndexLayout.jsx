@@ -5,36 +5,41 @@ import Contactpage from "../Contact/Contact";
 
 // import Footer from "../Footers/Footer";
 import Loginpage from "../Login/Login";
-import Productpage from "../Product/Product";
+// import Productpage from "../Product/Product";
 import Registerpage from "../Register/Register";
-import Cart from "../Cart/Cart";
+
+import Cart1 from "../Cart/Cart1";
+import CheckListpage from "@/pages/CheckList";
 
 
 export default function IndexLayout({ children }) {
   return (
     <>
-<<<<<<< HEAD
+      
       <IndexNavbar />
-      {/* <About/> */}
-      <Cart/>
-=======
-      <IndexNavbar/>
-      <Productpage/>
-      <Contactpage/>
-      <About/>
-
-
      
+      {/* <About/> */}
+
+
+      {/* <IndexNavbar /> */}
+      {/* <Productpage /> */}
+      {/* <Cart1 /> */}
+      {/* <Contactpage />
+      <About /> */}
+      <CheckListpage/>
+
+
+
       {/* <Product/> */}
 
 
 
->>>>>>> 37397f04a995f5604a58bf027462fdd24a4ddabd
-        {children}
 
-        {/* <Footer/> */}
-   </>
-  
+      {children}
+
+      {/* <Footer/> */}
+    </>
+
 
   );
 }

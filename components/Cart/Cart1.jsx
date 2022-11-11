@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 
 
-export default function Cart() {
+export default function Cart1() {
     return (
         // style={{backgroundColor: "#fdccbc"}}
         <section className="vh-100"  >
