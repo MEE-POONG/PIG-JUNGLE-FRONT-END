@@ -1,23 +1,21 @@
-import IndexNavbar  from '@/components/Navbars/IndexNavbar'
+import IndexNavbar from '@/components/Navbars/IndexNavbar'
 import React from 'react'
-import { FcPhone, FcGoogle, FcHome, FcInvite } from "react-icons/fc";
-import { FaFacebook } from 'react-icons/fa';
+import { GrHomeRounded , GrFacebook , GrGoogle ,GrPhone} from "react-icons/gr";
 import { RiLineFill } from "react-icons/ri";
 
-
+// components
+import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 
 export default function Contactpage() {
     return (
         <div>
-            <div>
-                <IndexNavbar/>
-            </div>
+              <IndexNavbar />
             <div className='body'>
 
                 <div>
                     {/* -------title caontact----------- */}
                     <div className='contact'>
-                        <p>HOME - CONTACTS</p>
+                        <p>CONTACTS</p>
                     </div>
                     {/* ------------text title---------- */}
                     <div className="provide">
@@ -29,15 +27,15 @@ export default function Contactpage() {
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col">
-                                    <a className='a' > <p> <FcHome style={{ width: "30px", height: "30px" }} />
+                                    <a className='a' > <p> <GrHomeRounded style={{ width: "30px", height: "30px" }} />
                                         Address : Mittraphap, Pak Chong, Thailand, Nakhon Ratchasima</p> </a>
-                                    <a className='a' href="https://www.facebook.com/profile.php?id=100084921099285" > <p> <FaFacebook style={{ width: "30px", height: "30px" }} />
+                                    <a className='a' href="https://www.facebook.com/profile.php?id=100084921099285" > <p> <GrFacebook style={{ width: "30px", height: "30px" }} />
                                         Facebook : Pig Jungle </p> </a>
                                     <a className='a' href="#" > <p> <RiLineFill style={{ width: "30px", height: "30px" }} />
                                         Line : Pig Jungle </p> </a>
-                                    <a className='a' href="#"> <p> <FcGoogle style={{ width: "30px", height: "30px" }} />
-                                        Email : Pig Jungle@gmail.com </p> </a>
-                                    <a className='a' > <p> <FcPhone style={{ width: "30px", height: "30px" }} />
+                                    <a className='a' href="#"> <p> <GrGoogle style={{ width: "30px", height: "30px" }} />
+                                        E-mail : Pig Jungle@gmail.com </p> </a>
+                                    <a className='a' > <p> <GrPhone style={{ width: "30px", height: "30px" }} />
                                         tel : 065-065-8538 </p> </a>
                                 </div>
                                 <br />
@@ -62,22 +60,24 @@ export default function Contactpage() {
                     <div className='letter'>
                         <div className="container-fluid">
                             <div className="row">
-                                <div className="col">
-                                 <p> Sign up for our fresh news</p>
-                                 <h3> Sign up for newsletter </h3>
+                                <div className="col-sm">
+                                    <p> Sign up for our fresh news</p>
+                                    <h3> Sign up for newsletter </h3>
                                 </div>
                                 <br />
                                 <br />
                                 {/*--------------- map -----------------*/}
                                 <div className="col-sm">
+                                    <br />
                                     <p>
-                                        <input type="email" name="" id="" />
+                                   <br />
+                                    <input className="input-email" type="email" name="E-mail" placeholder="Enter Your Email" id="#" /> 
+                                    <input type="submit" value="Sing up" className="input-submit" />
                                     </p>
-
-
+                                    <br />
+                                </div>
                             </div>
                         </div>
-                    </div>
                     </div>
                 </div>
             </div>
