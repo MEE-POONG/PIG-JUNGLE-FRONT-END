@@ -4,6 +4,7 @@ import Contactpage from "../Contact/Contact";
 
 
 import Footer from "../Footers/Footer";
+import ImageSider from "../ImageSlider/ImageSider";
 import Loginpage from "../Login/Login";
 import Productpage from "../Product/Product";
 import Registerpage from "../Register/Register";
@@ -14,9 +15,10 @@ export default function IndexLayout({ children }) {
   return (
     <>
       <IndexNavbar/>
+      <ImageSider/>
       <Productpage/>
       <Contactpage/>
-      <About/>
+      {/* <About/> */}
 
 
      

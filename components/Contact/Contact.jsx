@@ -9,7 +9,6 @@ import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Butt
 export default function Contactpage() {
     return (
         <div>
-              <IndexNavbar />
             <div className='body'>
 
                 <div>
