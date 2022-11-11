@@ -9,42 +9,40 @@ export default function ImageSider({ show, image, handleClose }) {
     };
   
     return (
-      <Carousel activeIndex={index} onSelect={handleSelect} className="h-25">
-        <Carousel.Item>
+      <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel.Item style={{ height: 600}}>
           <img
-            className="d-block img-fluid"
+            className="d-block w-100"
             src="https://media.cnn.com/api/v1/images/stellar/prod/220827155916-marijuana-polling-tobacco-cigarettes-trump-search.jpg?c=original"
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>รูป 1</h3>
+            <p>รายละเอียดรูป 1</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item style={{ height: 600}}>
           <img
-            className="d-block img-fluid"
+            className="d-block w-100"
             src="https://gray-kptv-prod.cdn.arcpublishing.com/resizer/lM2_r1s4lA9iTnoMQ5iH9mpwo2g=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/GHYFGWKYW5CMRHTINQDDFCN7CI.jpg"
             alt="Second slide"
           />
   
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h3>รูป 2</h3>
+            <p>รายละเอียดรูป 2</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item style={{ height: 600}}>
           <img
-            className="d-block img-fluid"
+            className="d-block w-100"
             src="https://hips.hearstapps.com/amv-prod-gp.s3.amazonaws.com/gearpatrol/wp-content/uploads/2020/04/Weed-Terms-Gear-Patrol-Lead-Full.jpg"
             alt="Third slide"
           />
   
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
+            <h3>รูป 3</h3>
+            <p>รายละเอียดรูป 3</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
