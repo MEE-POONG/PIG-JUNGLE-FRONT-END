@@ -1,8 +1,8 @@
-  /* ------------ title title------------------- */
+/* ------------ title title------------------- */
 .contact {
     justify-content: center;
-    background-color: rgba(49, 142, 62, 0.847);
-    color: #ffffff;
+    /* background: linear-gradient(#008a0d, #00b800); */
+    text-shadow: -2px -2px 2px rgb(157, 0, 255), 2px 2px 1px #2eef24;
     text-align: center;
     font-style: normal;
     font-size: 40px;
@@ -11,14 +11,17 @@
     margin-top: 0px;
 
 }
-  /* ------------ text title------------------- */
+
+/* ------------ text title------------------- */
 .body {
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
+
 .provide {
     margin-left: 5em;
     margin-right: 65rem;
 }
+
 .provide h3 {
     text-align: center;
     font-size: 46px;
@@ -28,80 +31,97 @@
     text-transform: none;
     letter-spacing: 0px;
     margin-bottom: 0.20em;
-    color: #6b0575;
+    text-shadow: -2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef;
     line-height: 2.59rem;
     margin-top: 5rem;
 }
+
 .provide p {
     text-align: center;
-    color: #121312;
-    background-color:#ffffff;
+    color: #040404;
 }
 
-  /* ------------ icon brand------------------- */
-.icon p{
+/* ------------ icon brand------------------- */
+.icon p {
     text-align: left;
-    font-size: 20px;
     font-weight: 500;
-    color: #151615;
-    background-color: #ffffff;
-    margin-top: 10px;
+    color: #000000;
     margin-left: 7em;
- 
+    margin-top: 2%;
 }
+
 .a {
     text-decoration: none;
-    color: rgba(49, 142, 62, 0.847);
-    margin-top: 7px;
-    margin-right: 3rem;
-    
+    color: #000000;
+    box-shadow: -1px -2px 2px rgb(9, 255, 0), 3px 2px 1px #b224ef;
+    margin-right: 1rem;
+    margin-left: 1.5em;
+    font-size: 20px;
+
 }
-  /* ------------ letter ------------------- */
+
+/* ------------ Map ------------------- */
+.map {
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+/* ------------ letter ------------------- */
 .letter {
-    background-color: rgb(231, 194, 145);
+    border: 15px solid #000000;
+    box-shadow: -10px -6px 2px rgb(9, 255, 0), 6px 6px 1px #b224ef;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
     margin-left: 100px;
     margin-right: 100px;
-    border-radius: auto;
+    border-radius: 50px;
     padding: 1%;
 }
-.letter h3{
+
+.letter h3 {
     font-size: 40px;
-    color: #333;
+    color: #0f0f0f;
     justify-content: center;
     align-items: center;
     margin-left: 100px;
 }
-.letter p{
+
+.letter p {
     font-size: 20px;
-    color: #333;
+    border-radius: 0%;
+    color: #000000;
     justify-content: center;
     margin-left: 100px;
 }
-.input-email{
+
+.input-email {
     width: 70%;
     padding: 10px 30px 10px;
     border: 1px solid #ccc;
+    border: 5px solid #000000;
     border-radius: 15px;
     box-sizing: border-box;
     resize: vertical;
 }
-.input-submit{
-   background-color: rgb(146, 106, 28);
-   border: 1px solid rgb(146, 106, 28);
-   padding-left: 1em;
-   padding-right: 2em;
-   border-radius: 15px;
+
+.input-submit {
+    border: 10px solid #000000;
+    box-shadow: -3px 3px 2px rgb(9, 255, 0), 6px 6px 1px #b224ef;
+    padding-left: 1em;
+    padding-right: 2em;
+    border-radius: 15px;
+    margin-left: 3px;
 }
-  /* ------------ footer------------------- */
+
+/* ------------ footer------------------- */
 .footer {
-    background-color: rgba(49, 142, 62, 0.847);
-    margin-top: 150px;  
+    background-color: rgb(255, 255, 255);
+    margin-top: 150px;
 }
-.footer p{
-    color: #ffffff;
+
+.footer p {
+    color: #050505;
     text-align: center;
     font-size: 60px;
     font-weight: 500;
