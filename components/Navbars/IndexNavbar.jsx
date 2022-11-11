@@ -9,13 +9,13 @@ export default function IndexNavbar() {
   // const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [navSize, setNavSize] = useState("6rem")
   const [navColor, setNavColor] = useState("#000000")
-  const [navTextColor, setNaveTextColor] = useState("#ffff")
+  // const [navTextColor, setNaveTextColor] = useState("linear-gradient(red, yellow)")
   const [navLogo, setNavLogo] = useState("160px")
 
   const listenScrollEvent =() =>{
     window.scrollY > 10 ? setNavColor("#ace1af") : setNavColor("#000000")
     window.scrollY > 10 ? setNavSize("5rem") : setNavSize("6rem")
-    window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#ffff')
+    // window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#ffff')
     window.scrollY > 10 ? setNavLogo('90px') : setNavLogo('160px')
   };
   useEffect(() =>{
@@ -44,17 +44,17 @@ export default function IndexNavbar() {
           <Navbar.Collapse id="navbarScroll">
             <Nav className="d-flex align-items-center mx-auto w-100">
                 <div className="d-lg-flex left-menu">
-                  <Nav.Link href="/" className="font-menu font-bold mx-2" style={{color: navTextColor }}>หน้าแรก</Nav.Link>
-                  <Nav.Link href="/Product" className="font-menu font-bold mx-2" style={{color: navTextColor }}>ร้านค้า</Nav.Link>
-                  <Nav.Link href="/About" className="font-menu font-bold mx-2" style={{color: navTextColor }}>เกี่ยวกับเรา</Nav.Link>
+                  <Nav.Link href="/" className="font-menu font-bold mx-2">หน้าแรก</Nav.Link>
+                  <Nav.Link href="/Product" className="font-menu font-bold mx-2">ร้านค้า</Nav.Link>
+                  <Nav.Link href="/About" className="font-menu font-bold mx-2">เกี่ยวกับเรา</Nav.Link>
                 </div>
                 <Navbar.Brand href="/" className="logo-main d-none d-xl-block d-lg-block d-flex mx-auto">
                   <Image src={'images/logo.png'} alt="logo-nav" width={navLogo} style={{transition:"all 0.5s"}}/>
                 </Navbar.Brand>
                 <div className="d-lg-flex right-menu">
-                  <Nav.Link href="/Contact" className="font-menu font-bold mx-2" style={{color: navTextColor }}>ติดต่อ</Nav.Link>
-                  <Nav.Link href="/Login" className="font-menu font-bold mx-2" style={{color: navTextColor }}>เข้าสู่ระบบ</Nav.Link>
-                  <Nav.Link href="/Register" className="font-menu font-bold mx-2" style={{color: navTextColor }}>สมัครสมาชิก</Nav.Link>
+                  <Nav.Link href="/Contact" className="font-menu font-bold mx-2">ติดต่อ</Nav.Link>
+                  <Nav.Link href="/Login" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
+                  <Nav.Link href="/Register" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
                 </div>
             </Nav>
           </Navbar.Collapse>
