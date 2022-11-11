@@ -29,9 +29,9 @@ export default function Addressrpage (){
 
     <div className="box-btu-address">
 
-    <button className="btu-address" type='address-up'>ยกเลิก</button>
+    <a className="btu-address" type='address-up' href="/">ยกเลิก</a>
 
-    <button className="btu-address" type='address-up'>บันทึก</button>
+    <a className="btu-address" type='submit'>บันทึก</a>
 
     </div>
     </div>
