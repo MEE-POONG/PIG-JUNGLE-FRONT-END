@@ -3,46 +3,54 @@ import About from "../About/About";
 import Contactpage from "../Contact/Contact";
 
 
-<<<<<<< HEAD
 
 import Footer from "../Footers/Footer";
-=======
+import ImageSider from "../ImageSlider/ImageSider";
 // import Footer from "../Footers/Footer";
->>>>>>> 5e37d3a2b73e0a9414c5627559a8b05ae28ad365
 import Loginpage from "../Login/Login";
-import Productpage from "../Product/Product";
+// import Productpage from "../Product/Product";
 import Registerpage from "../Register/Register";
-import Cart from "../Cart/Cart";
+
+import Cart1 from "../Cart/Cart1";
+import CheckListpage from "@/pages/CheckList";
 
 
 export default function IndexLayout({ children }) {
   return (
     <>
-<<<<<<< HEAD
       <IndexNavbar />
-      {/* <About/> */}
-      <Cart/>
-=======
-      <IndexNavbar/>
+      <ImageSider/>
       <Productpage/>
       <Contactpage/>
-      <About/>
 
 
      
+      {/* <About/> */}
+
+
+      {/* <IndexNavbar /> */}
+      {/* <Productpage /> */}
+      {/* <Cart1 /> */}
+      {/* <Contactpage />
+      <About /> */}
+      <CheckListpage/>
+
+
+
       {/* <Product/> */}
 
 
 
 <<<<<<< HEAD
 =======
->>>>>>> 37397f04a995f5604a58bf027462fdd24a4ddabd
->>>>>>> 5e37d3a2b73e0a9414c5627559a8b05ae28ad365
         {children}
+>>>>>>> 26a21cfa91c602e6313e72814abc6e12acefdbb3
 
-        {/* <Footer/> */}
-   </>
-  
+      {children}
+
+      {/* <Footer/> */}
+    </>
+
 
   );
 }

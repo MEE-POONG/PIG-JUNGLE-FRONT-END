@@ -1,4 +1,3 @@
-import IndexNavbar from '@/components/Navbars/IndexNavbar'
 import React from 'react'
 import { GrHomeRounded , GrFacebook , GrGoogle ,GrPhone} from "react-icons/gr";
 import { RiLineFill } from "react-icons/ri";
@@ -9,7 +8,7 @@ import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Butt
 export default function Contactpage() {
     return (
         <div>
-              <IndexNavbar />
+              
             <div className='body'>
 
                 <div>
