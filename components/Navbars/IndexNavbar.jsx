@@ -8,14 +8,14 @@ import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Butt
 export default function IndexNavbar() {
   // const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [navSize, setNavSize] = useState("6rem")
-  const [navColor, setNavColor] = useState("transparent")
-  const [navTextColor, setNaveTextColor] = useState("#31b934")
+  const [navColor, setNavColor] = useState("#000000")
+  // const [navTextColor, setNaveTextColor] = useState("linear-gradient(red, yellow)")
   const [navLogo, setNavLogo] = useState("160px")
 
   const listenScrollEvent =() =>{
-    window.scrollY > 10 ? setNavColor("#ace1af") : setNavColor("transparent")
+    window.scrollY > 10 ? setNavColor("#222b21") : setNavColor("#000000")
     window.scrollY > 10 ? setNavSize("5rem") : setNavSize("6rem")
-    window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#31b934')
+    // window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#ffff')
     window.scrollY > 10 ? setNavLogo('90px') : setNavLogo('160px')
   };
   useEffect(() =>{
@@ -27,8 +27,13 @@ export default function IndexNavbar() {
 
   return (
     <>
-    <section className="topNavbar">
-
+    <section className="topNavbar d-flex">
+      <div className="topNavbar-red flex-fill">
+      </div>
+      <div className="topNavbar-yellow flex-fill">
+      </div>
+      <div className="topNavbar-green flex-fill">
+      </div>
     </section>
       <Navbar style={{backgroundColor: navColor,height: navSize, transition:"all 0.5s"}} className="header-area header-sticky wow slideInDown" sticky="top" expand="lg">
         <Container>
@@ -37,19 +42,19 @@ export default function IndexNavbar() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="d-flex align-items-center mx-auto w-100">
+            <Nav className="d-flex align-items-center w-100">
                 <div className="d-lg-flex left-menu">
-                  <Nav.Link href="/" className="font-menu font-bold mx-2" style={{color: navTextColor }}>หน้าแรก</Nav.Link>
-                  <Nav.Link href="/shop" className="font-menu font-bold mx-2" style={{color: navTextColor }}>ช็อปปิ้ง</Nav.Link>
-                  <Nav.Link href="/about" className="font-menu font-bold mx-2" style={{color: navTextColor }}>เกี่ยวกับเรา</Nav.Link>
+                  <Nav.Link href="/" className="font-menu font-bold mx-2">หน้าแรก</Nav.Link>
+                  <Nav.Link href="/Product" className="font-menu font-bold mx-2">ร้านค้า</Nav.Link>
+                  <Nav.Link href="/About" className="font-menu font-bold mx-2">เกี่ยวกับเรา</Nav.Link>
                 </div>
                 <Navbar.Brand href="/" className="logo-main d-none d-xl-block d-lg-block d-flex mx-auto">
                   <Image src={'images/logo.png'} alt="logo-nav" width={navLogo} style={{transition:"all 0.5s"}}/>
                 </Navbar.Brand>
                 <div className="d-lg-flex right-menu">
-                  <Nav.Link href="/contact" className="font-menu font-bold mx-2" style={{color: navTextColor }}>ติดต่อ</Nav.Link>
-                  <Nav.Link href="/login" className="font-menu font-bold mx-2" style={{color: navTextColor }}>เข้าสู่ระบบ</Nav.Link>
-                  <Nav.Link href="/signin" className="font-menu font-bold mx-2" style={{color: navTextColor }}>สมัครสมาชิก</Nav.Link>
+                  <Nav.Link href="/Contact" className="font-menu font-bold mx-2">ติดต่อ</Nav.Link>
+                  <Nav.Link href="/Login" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
+                  <Nav.Link href="/Register" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
                 </div>
             </Nav>
           </Navbar.Collapse>

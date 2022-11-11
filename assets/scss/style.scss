@@ -1,2 +1,20 @@
 @import "~bootstrap/scss/bootstrap";
 // @import 'bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+    font-family: VelvendaChill;
+    src: url(../fonts/VelvendaChill.ttf);
+}
+
+@font-face {
+    font-family: FCSoundRounded;
+    src: url(../fonts/FC-Sound-Rounded-[Non-commercial].ttf);
+}
+
+* {
+    font-family: FCSoundRounded;
+}
+
+.text-head {
+    font-family: VelvendaChill;
+}
