@@ -13,7 +13,7 @@ export default function IndexNavbar() {
   const [navLogo, setNavLogo] = useState("160px")
 
   const listenScrollEvent =() =>{
-    window.scrollY > 10 ? setNavColor("#ace1af") : setNavColor("#000000")
+    window.scrollY > 10 ? setNavColor("#222b21") : setNavColor("#000000")
     window.scrollY > 10 ? setNavSize("5rem") : setNavSize("6rem")
     // window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#ffff')
     window.scrollY > 10 ? setNavLogo('90px') : setNavLogo('160px')
@@ -42,7 +42,7 @@ export default function IndexNavbar() {
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
-            <Nav className="d-flex align-items-center mx-auto w-100">
+            <Nav className="d-flex align-items-center w-100">
                 <div className="d-lg-flex left-menu">
                   <Nav.Link href="/" className="font-menu font-bold mx-2">หน้าแรก</Nav.Link>
                   <Nav.Link href="/Product" className="font-menu font-bold mx-2">ร้านค้า</Nav.Link>
