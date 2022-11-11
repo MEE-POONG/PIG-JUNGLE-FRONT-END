@@ -11,9 +11,12 @@
     font-weight: 400;
     padding: 5.5%;
     margin-top: 0px;
-    
 
 }
+
+    
+
+
   /* ------------ text title------------------- */
 .body {
     background-color:#ffffff;
@@ -44,6 +47,7 @@
     color: #121312;
     background-color:#ffffff;
 }
+
   /* ------------ icon brand------------------- */
 .icon p{
     text-align: left;
