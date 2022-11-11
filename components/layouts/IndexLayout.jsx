@@ -1,5 +1,6 @@
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import About from "../About/About";
+import Addressrpage from "../Address/Address";
 import Contactpage from "../Contact/Contact";
 
 
@@ -39,10 +40,13 @@ export default function IndexLayout({ children }) {
 
       {/* <Product/> */}
 
+<<<<<<< HEAD
+=======
 
 
 <<<<<<< HEAD
 =======
+>>>>>>> 77fa42437102c4518d1fb29c32607787bf94eb6a
         {children}
 >>>>>>> 26a21cfa91c602e6313e72814abc6e12acefdbb3
 
