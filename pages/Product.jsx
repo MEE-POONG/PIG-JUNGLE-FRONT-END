@@ -154,7 +154,7 @@ export default function Productpage() {
                             <div className="card-2">
                             <p className="card-title">อุปกรณ์</p>
                             <p className="card-title">เมล็ดกัญชา</p>
-                            <p className="card-title">เสื้อ</p>
+                            <p className="card-title">เสื้อยืด</p>
                         </div>
                         </div>
                     </div>
