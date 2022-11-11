@@ -27,7 +27,13 @@ export default function IndexNavbar() {
 
   return (
     <>
-    <section className="topNavbar">
+    <section className="topNavbar d-flex">
+      <div className="topNavbar-red flex-fill">
+      </div>
+      <div className="topNavbar-yellow flex-fill">
+      </div>
+      <div className="topNavbar-green flex-fill">
+      </div>
     </section>
       <Navbar style={{backgroundColor: navColor,height: navSize, transition:"all 0.5s"}} className="header-area header-sticky wow slideInDown" sticky="top" expand="lg">
         <Container>

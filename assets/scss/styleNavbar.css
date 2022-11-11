@@ -17,11 +17,23 @@
 }
 
 .topNavbar{
-    background-image: url('../../public/images/topbar.jpg');
-    padding: 1rem;
-    background-size: cover;
+    justify-content: space-between;
 }
 
+.topNavbar-red{
+    background-color: #ef5440;
+    padding: 1rem;
+}
+
+.topNavbar-yellow{
+    background-color: #fed308;
+    padding: 1rem;
+}
+
+.topNavbar-green{
+    background-color: #129c4f;
+    padding: 1rem;
+}
 /* @media only screen and (min-width: 992px) {
     .left-menu{
         margin-right: 10rem;
