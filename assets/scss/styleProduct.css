@@ -59,7 +59,6 @@
 
   .btn {
     background: rgb(7, 184, 30);
-    font-family: monospace;
     color: black;
     transition-duration: 0.4s;
     cursor: pointer;

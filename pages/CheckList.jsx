@@ -4,15 +4,14 @@ import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Butt
 export default function CheckListpage(){
     return(
         <div>
-
-            <div>
-                
-            </div>
-
-            <div>
-                <h1>รายการสั้งซื้อ</h1>
-                <a href=""></a>
-            </div>
+            <header>
+                <div  className="bgheadtop">
+                    <h1>รายการสั้งซื้อ</h1>
+                    <a href="#">หน้าแรก</a>
+                    <span>/ รายการสั้งซื้อ</span>
+                </div>
+            </header>
+               
 
 
         </div>
