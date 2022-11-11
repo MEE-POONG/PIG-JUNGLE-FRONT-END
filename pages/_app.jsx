@@ -14,6 +14,7 @@ import "assets/scss/styleNavbar.css";
 import "assets/scss/Product.css";
 import "assets/scss/stylecontact.css";
 import "assets/scss/styleLoginAndRegister.css";
+import "assets/scss/cart.css"
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "../styles/tailwind.scss";
 

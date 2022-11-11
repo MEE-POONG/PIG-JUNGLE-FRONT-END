@@ -53,7 +53,8 @@ export default function About() {
                 <Image className="lgo" src={"images/product12.jpg"} />
                 <div className="fresh">Enjoy Our Products</div>
                 <div className="fresh-our">—Our company—</div>
-                <div className="grown">MORE ABOUT US</div>
+                
+                <a href="#" className="grown">MORE ABOUT US</a>
 
 
             </div>
