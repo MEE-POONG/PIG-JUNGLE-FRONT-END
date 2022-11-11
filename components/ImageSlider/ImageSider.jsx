@@ -9,7 +9,7 @@ export default function ImageSider({ show, image, handleClose }) {
     };
   
     return (
-      <Carousel activeIndex={index} onSelect={handleSelect} className="h-25">
+      <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img
             className="d-block img-fluid"
