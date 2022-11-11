@@ -1,4 +1,3 @@
-import IndexNavbar from "@/components/Navbars/IndexNavbar";
 import React from "react";
 // import Link from "next/link";
 
@@ -9,7 +8,6 @@ export default function Productpage() {
     return(
          
         <div className="divbg"> 
-            <IndexNavbar/>
 
             <div className="bgbaner">
                 <h1 className="title">Product</h1>
