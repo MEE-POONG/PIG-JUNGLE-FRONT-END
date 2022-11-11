@@ -26,9 +26,9 @@ export default function Productpage() {
         <br />
           
                 <div class="row">
-                <div class="col-9">col-8
+                <div class="col-10">col-8
                     <div class="row">
-                    <div class="col-3">col1
+                    <div class="col-3">
                     <div className="card">
                         <Image className="img" src={'images/product.jpg'} alt="product1" width={'100px'}/>
                         <div className="card-body">
@@ -38,7 +38,7 @@ export default function Productpage() {
                         </div>
                         </div>
                     </div>
-                    <div class="col-3">col2
+                    <div class="col-3">
                     <div className="card">
                         <Image className="img" src={'images/product2.jpg'} alt="product2" width={'100px'}/>
                         <div className="card-body">
@@ -48,7 +48,7 @@ export default function Productpage() {
                         </div>
                         </div>
                     </div>
-                    <div class="col-3">col3
+                    <div class="col-3">
                     <div className="card">
                         <Image className="img" src={'images/product3.jpg'} alt="product3" width={'100px'}/>
                         <div className="card-body">
@@ -58,7 +58,7 @@ export default function Productpage() {
                         </div>
                         </div>
                     </div>
-                    <div class="col-3">col4
+                    <div class="col-3">
                         <div className="card">
                             <Image className="img" src={'images/product3.jpg'} alt="product3" width={'100px'}/>
                             <div className="card-body">
@@ -71,7 +71,7 @@ export default function Productpage() {
                 </div>
                 {/* end row1 */}
                 <div class="row">
-                        <div class="col-3">col5
+                        <div class="col-3">
                             <div className="card">
                                 <Image className="img" src={'images/product5.jpg'} alt="product5" width={'100px'}/>
                             <div className="card-body">
@@ -81,7 +81,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">col6
+                        <div class="col-3">
                             <div className="card">
                                 <Image className="img" src={'images/product6.jpg'} alt="product6" width={'100px'}/>
                             <div className="card-body">
@@ -91,7 +91,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">col7
+                        <div class="col-3">
                             <div className="card">
                                 <Image className="img" src={'images/product7.jpg'} alt="product7" width={'100px'}/>
                             <div className="card-body">
@@ -101,7 +101,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">col8
+                        <div class="col-3">
                             <div className="card">
                                     <Image className="img" src={'images/product8.jpg'} alt="product8" width={'100px'}/>
                             <div className="card-body">
@@ -115,7 +115,7 @@ export default function Productpage() {
             {/* end row2 */}
 
                     <div class="row">
-                        <div class="col-3">col9
+                        <div class="col-3">
                             <div className="card">
                                 <Image className="img" src={'images/product9.jpg'} alt="product9" width={'100px'}/>
                             <div className="card-body">
@@ -125,7 +125,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">col10
+                        <div class="col-3">
                             <div className="card">
                                 <Image className="img" src={'images/product10.jpg'} alt="product10" width={'100px'}/>
                             <div className="card-body">
@@ -135,7 +135,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">col11
+                        <div class="col-3">
                             <div className="card">
                                 <Image className="img" src={'images/product11.jpg'} alt="product11" width={'100px'}/>
                             <div className="card-body">
@@ -151,15 +151,16 @@ export default function Productpage() {
             {/* end col1 */}   
 
 
-                    <div className="col">col
-                    <h3>ประเภทสินค้า</h3>
-                        <div>
-                            <div className="card">
-                                <p className="card-text">อุปกรณ์</p>
-                            </div>
+                    <div className="col">
+                        <h3>ประเภทสินค้า</h3>
+                            <div className="card-2">
+                            <p className="card-title">อุปกรณ์</p>
+                            <p className="card-title">เมล็ดกัญชา</p>
+                            <p className="card-title">เสื้อ</p>
+                        </div>
                         </div>
                     </div>
-
+                    <div>
 
                 </div>
                
