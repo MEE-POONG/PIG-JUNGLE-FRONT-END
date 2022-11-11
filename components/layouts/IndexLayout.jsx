@@ -41,10 +41,7 @@ export default function IndexLayout({ children }) {
 
 
 
-<<<<<<< HEAD
-=======
         {children}
->>>>>>> 26a21cfa91c602e6313e72814abc6e12acefdbb3
 
       {children}
 
