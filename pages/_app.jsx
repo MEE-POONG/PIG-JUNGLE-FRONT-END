@@ -10,11 +10,10 @@ import "assets/scss/style.css";
 
 import "assets/scss/aboutstyle.css";
 
-import "assets/scss/styleNavbar.css";
+import "assets/scss/Navbar.css";
 import "assets/scss/Product.css";
-import "assets/scss/stylecontact.css";
-import "assets/scss/styleLoginAndRegister.css";
-import "assets/scss/cart.css"
+import "assets/scss/contact.css";
+import "assets/scss/LoginAndRegister.css";
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "../styles/tailwind.scss";
 
