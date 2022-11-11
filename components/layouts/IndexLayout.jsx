@@ -3,18 +3,19 @@ import About from "../About/About";
 
 import Footer from "../Footers/Footer";
 
-import Footer from "../Footers/Footer";
+// import Footer from "../Footers/Footer";
 import Loginpage from "../Login/Login";
 import Productpage from "../Product/Product";
 import Registerpage from "../Register/Register";
-
+import Cart from "../Cart/Cart";
 
 
 export default function IndexLayout({ children }) {
   return (
     <>
       <IndexNavbar />
-      <About/>
+      {/* <About/> */}
+      <Cart/>
         {children}
     
     </>
