@@ -186,6 +186,7 @@
     transform: translate(-50%, -50%);
 }
 .grown{
+    text-decoration: none;
     display: inline-block;
     color: #ffffff;
     background: rgb(0, 0, 0);
