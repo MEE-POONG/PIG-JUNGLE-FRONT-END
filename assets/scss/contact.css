@@ -2,7 +2,7 @@
 .contact {
     justify-content: center;
     /* background: linear-gradient(#008a0d, #00b800); */
-    color: #151615;
+    text-shadow: -2px -2px 2px rgb(157, 0, 255), 2px 2px 1px #2eef24;
     text-align: center;
     font-style: normal;
     font-size: 40px;
@@ -31,7 +31,7 @@
     text-transform: none;
     letter-spacing: 0px;
     margin-bottom: 0.20em;
-    color: #9823ee;
+    text-shadow: -2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef;
     line-height: 2.59rem;
     margin-top: 5rem;
 }
@@ -45,14 +45,15 @@
 .icon p {
     text-align: left;
     font-weight: 500;
-    color: #00b800;
+    color: #000000;
     margin-left: 7em;
     margin-top: 2%;
 }
 
 .a {
     text-decoration: none;
-    color: #00b800;
+    color: #000000;
+    box-shadow: -1px -2px 2px rgb(9, 255, 0), 3px 2px 1px #b224ef;
     margin-right: 1rem;
     margin-left: 1.5em;
     font-size: 20px;
@@ -115,7 +116,7 @@
 
 /* ------------ footer------------------- */
 .footer {
-    background-color: rgba(245, 249, 245, 0.847);
+    background-color: rgb(255, 255, 255);
     margin-top: 150px;
 }
 

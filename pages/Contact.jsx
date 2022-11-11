@@ -1,6 +1,7 @@
 import React from 'react'
-import { GrHomeRounded, GrFacebook, GrGoogle, GrPhone } from "react-icons/gr";
+import {  GrFacebookOption, GrGoogle,  } from "react-icons/gr";
 import { RiLineFill } from "react-icons/ri";
+import { FaHome, FaPhoneAlt} from "react-icons/fa";
 
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
@@ -28,28 +29,30 @@ export default function Contactpage() {
                                 <div className="col-md-5">
                                     <div className="icon" >
                                         <p>
-                                            <a className='a' > <GrHomeRounded style={{ width: "30px", height: "30px" }} />  </a>
+                                            <a className='a' > <FaHome style={{ width: "31px", height: "30px" }} />  </a>
                                             Mittraphap, Pak Chong, Thailand, Nakhon Ratchasima
                                         </p>
                                         <div className="icon" >
                                             <p>
-                                                <a className='a' href="https://www.facebook.com/profile.php?id=100084921099285" > <GrFacebook style={{ width: "30px", height: "30px" }} /></a>
+                                                <a className='a' href="https://www.facebook.com/profile.php?id=100084921099285" > <GrFacebookOption style={{ width: "30px", height: "30px" }} /> </a>
                                                 Pig Jungle
                                             </p>
                                             <div className="icon" >
                                                 <p>
-                                                    <a className='a' href="#" > <RiLineFill style={{ width: "30px", height: "30px" }} /></a>
-                                                    Pig Jungle
+                                                    <a className='a' href="https://account.line.biz/login?redirectUri=https%3A%2F%2Fmanager.line.biz%2F" > <RiLineFill style={{ width: "30px", height: "30px" }} /> </a>
+                                                    @Pig Jungle
                                                 </p>
                                                 <div className="icon" >
                                                     <p>
-                                                        <a className='a' href="#"><GrGoogle style={{ width: "30px", height: "30px" }} /></a>
+                                                        <a className='a' href="#"> <GrGoogle style={{ width: "30px", height: "30px" }} /> </a>
                                                         Pig Jungle@gmail.com
                                                     </p>
+                                                    <div className="icon" >
                                                       <p>
-                                                        <a className='a' ><GrPhone style={{ width: "30px", height: "30px" }} /></a>
+                                                        <a className='a' > <FaPhoneAlt style={{ width: "30px", height: "30px" }} /> </a>
                                                         065-065-8538
                                                     </p>
+                                                  </div>
                                                 </div>
                                             </div>
                                         </div>
