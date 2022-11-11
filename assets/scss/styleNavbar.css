@@ -1,19 +1,11 @@
-/* .logo-main img{
-    margin-left: 10rem;
-    margin-right: 10rem;
-} */
-
 .header-area{
-    /* background-image: url('../../public/images/topbar.jpg'); */
     background-color: rgba(255, 255, 255, 0.4);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .font-menu{
-    /* color: #000000; */
     font-size: x-large;
     font-weight: 100;
-    text-shadow: 2px 4px 1px rgb(0, 255, 162);
 }
 
 .topNavbar{

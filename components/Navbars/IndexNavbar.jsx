@@ -8,14 +8,14 @@ import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Butt
 export default function IndexNavbar() {
   // const [navbarOpen, setNavbarOpen] = React.useState(false);
   const [navSize, setNavSize] = useState("6rem")
-  const [navColor, setNavColor] = useState("transparent")
-  const [navTextColor, setNaveTextColor] = useState("#31b934")
+  const [navColor, setNavColor] = useState("#000000")
+  const [navTextColor, setNaveTextColor] = useState("#ffff")
   const [navLogo, setNavLogo] = useState("160px")
 
   const listenScrollEvent =() =>{
-    window.scrollY > 10 ? setNavColor("#ace1af") : setNavColor("transparent")
+    window.scrollY > 10 ? setNavColor("#ace1af") : setNavColor("#000000")
     window.scrollY > 10 ? setNavSize("5rem") : setNavSize("6rem")
-    window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#31b934')
+    window.scrollY > 10 ? setNaveTextColor('#0c3e0d') : setNaveTextColor('#ffff')
     window.scrollY > 10 ? setNavLogo('90px') : setNavLogo('160px')
   };
   useEffect(() =>{
