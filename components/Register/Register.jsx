@@ -12,8 +12,6 @@ export default function Registerpage (){
     <input className='input-Lg-Rg' type="text" id="UserName" name="UserName" placeholder="UserName"/>
     
     <input className='input-Lg-Rg' type="text" id="Email" name="Email" placeholder="Email" />
-
-    <input className='input-Lg-Rg' type="text" id="Phone" name="Phone" placeholder="Phone" />
     
     <input className='input-Lg-Rg' type="text" id="Password" name="Password" placeholder="Password"  />
     

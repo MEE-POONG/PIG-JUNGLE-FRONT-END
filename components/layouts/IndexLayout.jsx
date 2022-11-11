@@ -1,5 +1,6 @@
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import About from "../About/About";
+import Addressrpage from "../Address/Address";
 import Contactpage from "../Contact/Contact";
 
 
@@ -18,6 +19,11 @@ import CheckListpage from "@/pages/CheckList";
 export default function IndexLayout({ children }) {
   return (
     <>
+
+      <IndexNavbar />
+      {/* <About/> */}
+      <Cart/>
+      <IndexNavbar/>
       <IndexNavbar />
       <ImageSider/>
       <Productpage/>
@@ -39,8 +45,16 @@ export default function IndexLayout({ children }) {
 
       {/* <Product/> */}
 
+<<<<<<< HEAD
+=======
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 77fa42437102c4518d1fb29c32607787bf94eb6a
+>>>>>>> e153cefdea60af42bded87378c922192618eca86
         {children}
 
       {children}
