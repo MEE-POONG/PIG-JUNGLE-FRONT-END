@@ -15,6 +15,7 @@ import "assets/scss/Product.css";
 import "assets/scss/contact.css";
 import "assets/scss/LoginAndRegister.css";
 import "assets/scss/address.css"
+import "assets/scss/product_test.css"
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "../styles/tailwind.scss";
 
