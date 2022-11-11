@@ -15,11 +15,11 @@ export default function Loginpage (){
 
     </form>
     <div className='box-btu-Lg-Rg'>
-    <button className='btu-Lg-Rg' type='Login'>Login</button>
+    <a className='btu-Lg-Rg' type='Login'>Login</a>
     
     </div>
     <div className='box-text'>
-        <a className='text-Lg-Rg' href=""> Register </a> <a className='text-Lg-Rg' href="">Forgot Password?</a>
+        <a className='text-Lg-Rg' href="/register"> Register </a> <a className='text-Lg-Rg' href="">Forgot Password?</a>
     </div>
 </div>
 </div>
