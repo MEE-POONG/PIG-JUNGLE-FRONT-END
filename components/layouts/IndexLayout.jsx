@@ -6,8 +6,8 @@ export default function IndexLayout({ children }) {
   return (
     <>
       <BackGroundMain />
-      {/* <IndexNavbar /> */}
-      {/* {children} */}
+      <IndexNavbar />
+      {children}
       {/* <Footer/> */}
     </>
 
