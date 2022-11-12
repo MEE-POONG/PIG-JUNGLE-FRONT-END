@@ -1,13 +1,25 @@
-import Productpage from "@/components/Product/Product";
+import ProductShow from "@/components/Product/Productshow";
 import React from "react";
+import Head from 'next/head';
+import IndexLayout from "components/layouts/IndexLayout";
 
 
-export default function productpage() {
+export default function ProductPage() {
     return(
-         <>
-           <Productpage/>
-         </>
-        
+        <>
+        <Head>
+          <title>PigJungle</title>
+          <meta
+            name="description"
+            content="Product"
+          />
+          <link rel="icon" href="/images/logo.png" />
+        </Head>
+        <div id='product-page' name="product-page" className='product-page'>
+          <ProductShow/>
+        </div>
+      </>
     )
     
 }
+ProductPage.layout = IndexLayout;
