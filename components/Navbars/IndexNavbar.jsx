@@ -40,19 +40,37 @@ export default function IndexNavbar() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="d-flex align-items-center w-100 text-center">
-                <div className="d-lg-flex w-40 justify-content-center">
-                  <Nav.Link href="/" className="font-menu font-bold mx-2">หน้าแรก</Nav.Link>
-                  <Nav.Link href="/product" className="font-menu font-bold mx-2">ร้านค้า</Nav.Link>
-                  <Nav.Link href="/about" className="font-menu font-bold mx-2">เกี่ยวกับเรา</Nav.Link>
-                </div>
-                <Navbar.Brand href="/" className="logo-main d-none d-xl-block d-lg-block d-flex mx-auto w-20">
-                  <Image src={'images/logo.png'} alt="logo-nav" width={navLogo} style={{transition:"all 0.5s"}}/>
-                </Navbar.Brand>
-                <div className="d-lg-flex w-40 justify-content-center">
-                  <Nav.Link href="/contact" className="font-menu font-bold mx-2">ติดต่อ</Nav.Link>
-                  <Nav.Link href="/sign_in_user" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
-                  <Nav.Link href="/sign_up_user" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
-                </div>
+              <div className="d-lg-flex w-40 justify-content-center">
+                <Nav.Link href="/" className="font-menu font-bold mx-2">
+                  <div className="active">หน้าแรก</div>
+                  <div className="n-active">หน้าแรก</div>
+                </Nav.Link>
+                <Nav.Link href="/product" className="font-menu font-bold mx-2">
+                  <div className="active">ร้านค้า</div>
+                  <div className="n-active">ร้านค้า</div>
+                </Nav.Link>
+                <Nav.Link href="/about" className="font-menu font-bold mx-2">
+                  <div className="active">เกี่ยวกับเรา</div>
+                  <div className="n-active">เกี่ยวกับเรา</div>
+                </Nav.Link>
+              </div>
+              <Navbar.Brand href="/" className="logo-main d-none d-xl-block d-lg-block d-flex mx-auto w-20">
+                <Image src={'images/logo.png'} alt="logo-nav" width={navLogo} style={{ transition: "all 0.5s" }} />
+              </Navbar.Brand>
+              <div className="d-lg-flex w-40 justify-content-center">
+                <Nav.Link href="/contact" className="font-menu font-bold mx-2">
+                  <div className="active">ติดต่อ</div>
+                  <div className="n-active">ติดต่อ</div>
+                </Nav.Link>
+                <Nav.Link href="/sign_in_user" className="font-menu font-bold mx-2">
+                  <div className="active">เข้าสู่ระบบ</div>
+                  <div className="n-active">เข้าสู่ระบบ</div>
+                </Nav.Link>
+                <Nav.Link href="/sign_up_user" className="font-menu font-bold mx-2">
+                  <div className="active">สมัครสมาชิก</div>
+                  <div className="n-active">สมัครสมาชิก</div>
+                </Nav.Link>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
