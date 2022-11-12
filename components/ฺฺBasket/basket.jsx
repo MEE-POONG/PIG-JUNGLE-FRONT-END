@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 
 
-export default function Cart1() {
+export default function ProductList() {
     return (
         // style={{backgroundColor: "#fdccbc"}}
         <section className="vh-100"  >
@@ -10,8 +10,8 @@ export default function Cart1() {
                 <div className="row d-flex justify-content-center align-items-center h-100">
                     <div className="col" style={{backgroundColor: "#fdccbc",}}>
                         <p><span className="h2">Shopping Cart </span><span className="h4">(1 item in your cart)</span></p>
-                        <div className="card mb-4">
-                            <div className="card-body p-4">
+                        <div className="lol mb-4">
+                            <div className="lol-body p-4">
                                 <div className="row align-items-center">
                                     <div className="col-md-2">
                                     <Image  src={"images/product4.jpg"} style={{width: "120px"}}/>
@@ -44,8 +44,8 @@ export default function Cart1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="card mb-5">
-          <div className="card-body p-4">
+                        <div className="lol mb-5">
+          <div className="lol-body p-4">
 
             <div className="float-end">
               <p className="mb-0 me-5 d-flex align-items-center">
