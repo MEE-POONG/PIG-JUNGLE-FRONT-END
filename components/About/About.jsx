@@ -41,7 +41,7 @@ export default function About() {
                     <Col md={12} lg={6}>
                         <header className="will">
                             <div className="numder">
-                                <Image className="logo" style={{ borderRadius: "10px" }} src={"images/product4.jpg"} />
+                                <Image className="logo" style={{ borderRadius: "10px" }} src={"images/product/product4.jpg"} />
                             </div>
 
                         </header>
@@ -60,11 +60,11 @@ export default function About() {
 
 
                 </div>
-                <Image className="lgo" src={"images/product12.jpg"} />
+                <Image className="lgo" src={"images/product/product12.jpg"} />
 
             </div>
 
-            {/* <Image className="back-logo" src={"images/product5.jpg"} />
+            {/* <Image className="back-logo" src={"images/product/product5.jpg"} />
                 <div className="back">
                 
                 <h1>Enjoy Our Products</h1>

@@ -14,7 +14,7 @@ export default function ProductList() {
                             <div className="card-body p-4">
                                 <div className="row align-items-center">
                                     <div className="col-md-2">
-                                    <Image  src={"images/product4.jpg"} style={{width: "120px"}}/>
+                                    <Image  src={"images/product/product4.jpg"} style={{width: "120px"}}/>
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>

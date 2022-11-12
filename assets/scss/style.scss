@@ -22,4 +22,23 @@ body {
     font-family: VelvendaChill;
 }
 
-@import "navbar.scss";
+
+
+.star-1 {
+    top: 125px;
+    left: 360px;
+    transform: rotate(40deg) scale(2);
+    animation: StarEffect 0.6s ease infinite;
+}
+
+@keyframes StarEffect {
+
+    0%,
+    100% {
+        filter: opacity(1) brightness(1.85) blur(0.5px);
+    }
+
+    50% {
+        filter: opacity(0) brightness(0.5) blur(1.5px);
+    }
+}

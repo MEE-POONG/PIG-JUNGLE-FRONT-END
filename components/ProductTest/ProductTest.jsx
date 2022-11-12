@@ -19,7 +19,7 @@ export default function Product_Test() {
                 <div className="col-md-6 col-lg-4 col-xl-3">
                     <div id="product-1" className="single-product">
                         <div className="part-1">
-                            <Image src={'images/product2.jpg'} fluid/>
+                            <Image src={'images/product/product2.jpg'} fluid/>
                             <ul>
                                 <li><a href="#"><FaShoppingCart/></a></li>
                                 <li><a href="#"><FaHeart/></a></li>
@@ -37,7 +37,7 @@ export default function Product_Test() {
                 <div className="col-md-6 col-lg-4 col-xl-3">
                     <div id="product-2" className="single-product">
                         <div className="part-1">
-                            <Image src={'images/product2.jpg'} fluid/>
+                            <Image src={'images/product/product2.jpg'} fluid/>
                             <span className="discount">15% off</span>
                             <ul>
                                 <li><a href="#"><FaShoppingCart/></a></li>
@@ -55,7 +55,7 @@ export default function Product_Test() {
                 <div className="col-md-6 col-lg-4 col-xl-3">
                     <div id="product-3" className="single-product">
                         <div className="part-1">
-                            <Image src={'images/product3.jpg'} fluid/>
+                            <Image src={'images/product/product3.jpg'} fluid/>
                             <ul>
                                 <li><a href="#"><FaShoppingCart/></a></li>
                                 <li><a href="#"><FaHeart/></a></li>
@@ -73,7 +73,7 @@ export default function Product_Test() {
                 <div className="col-md-6 col-lg-4 col-xl-3">
                     <div id="product-4" className="single-product">
                         <div className="part-1">
-                            <Image src={'images/product4.jpg'} fluid/>
+                            <Image src={'images/product/product4.jpg'} fluid/>
                             <span className="new">new</span>
                             <ul>
                                 <li><a href="#"><FaShoppingCart/></a></li>
