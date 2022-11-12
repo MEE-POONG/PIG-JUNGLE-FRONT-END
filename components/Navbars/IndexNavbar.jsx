@@ -53,8 +53,8 @@ export default function IndexNavbar() {
                 </Navbar.Brand>
                 <div className="d-lg-flex w-40 justify-content-center">
                   <Nav.Link href="/contact" className="font-menu font-bold mx-2">ติดต่อ</Nav.Link>
-                  <Nav.Link href="/login" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
-                  <Nav.Link href="/register" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
+                  <Nav.Link href="/sign_in_user" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
+                  <Nav.Link href="/sign_up_user" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
                 </div>
             </Nav>
           </Navbar.Collapse>
