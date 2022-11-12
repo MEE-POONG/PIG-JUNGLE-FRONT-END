@@ -3,6 +3,7 @@ import React from "react";
 
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
+import { BiSearchAlt2 } from "react-icons/bi";
 
 export default function Productpage() {
     return(
@@ -11,7 +12,7 @@ export default function Productpage() {
 
             <div className="bgbaner">
                 <h1 className="title">Product</h1>
-                <a className="bgbaner.a"  href="#">HOME</a>
+                <a className="text.a"  href="#">HOME</a>
                 <span >/ PRODUCT </span>
 
 
@@ -22,11 +23,31 @@ export default function Productpage() {
         <h1 className="top"> Product </h1>
         <hr />
         <br />
-          
-                <div class="row">
-                <div class="col-10">col-8
-                    <div class="row">
-                    <div class="col-3">
+
+              
+                <div className="row">
+                <div className="col-md-2">
+
+                <div className="input-group rounded">
+                        <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <span className="input-group-text border-0" id="search-addon">
+                           <i> <BiSearchAlt2/> </i>
+                        </span>
+                </div>
+
+                        <h3>ประเภทสินค้า</h3> <hr />
+                        
+                            <p>อุปกรณ์</p>
+                            <p>เมล็ดกัญชา</p>
+                            <p>เสื้อยืด</p>
+                     
+                            
+                </div>
+
+            {/* row left-col */}
+                <div className="col-md-10">
+                    <div className="row">
+                    <div className="col-sm-3">
                     <div className="card">
                         <Image className="img" src={'images/product.jpg'} alt="product1" width={'100px'}/>
                         <div className="card-body">
@@ -36,7 +57,7 @@ export default function Productpage() {
                         </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div className="col-sm-3">
                     <div className="card">
                         <Image className="img" src={'images/product2.jpg'} alt="product2" width={'100px'}/>
                         <div className="card-body">
@@ -46,7 +67,7 @@ export default function Productpage() {
                         </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div className="col-sm-3">
                     <div className="card">
                         <Image className="img" src={'images/product3.jpg'} alt="product3" width={'100px'}/>
                         <div className="card-body">
@@ -56,7 +77,7 @@ export default function Productpage() {
                         </div>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div className="col-sm-3">
                         <div className="card">
                             <Image className="img" src={'images/product3.jpg'} alt="product3" width={'100px'}/>
                             <div className="card-body">
@@ -65,11 +86,12 @@ export default function Productpage() {
                                 <a href="#" className="btn btn">ใส่ตะกร้า</a>
                             </div>
                             </div>
+                            
                     </div>
                 </div>
                 {/* end row1 */}
-                <div class="row">
-                        <div class="col-3">
+                <div className="row">
+                        <div className="col-sm-3">
                             <div className="card">
                                 <Image className="img" src={'images/product5.jpg'} alt="product5" width={'100px'}/>
                             <div className="card-body">
@@ -79,7 +101,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div className="col-sm-3">
                             <div className="card">
                                 <Image className="img" src={'images/product6.jpg'} alt="product6" width={'100px'}/>
                             <div className="card-body">
@@ -89,7 +111,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div className="col-sm-3">
                             <div className="card">
                                 <Image className="img" src={'images/product7.jpg'} alt="product7" width={'100px'}/>
                             <div className="card-body">
@@ -99,7 +121,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div className="col-sm-3">
                             <div className="card">
                                     <Image className="img" src={'images/product8.jpg'} alt="product8" width={'100px'}/>
                             <div className="card-body">
@@ -112,8 +134,8 @@ export default function Productpage() {
                 </div>
             {/* end row2 */}
 
-                    <div class="row">
-                        <div class="col-3">
+                    <div className="row">
+                        <div className="col-sm-3">
                             <div className="card">
                                 <Image className="img" src={'images/product9.jpg'} alt="product9" width={'100px'}/>
                             <div className="card-body">
@@ -123,7 +145,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div className="col-sm-3">
                             <div className="card">
                                 <Image className="img" src={'images/product10.jpg'} alt="product10" width={'100px'}/>
                             <div className="card-body">
@@ -133,7 +155,7 @@ export default function Productpage() {
                             </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div className="col-sm-3">
                             <div className="card">
                                 <Image className="img" src={'images/product11.jpg'} alt="product11" width={'100px'}/>
                             <div className="card-body">
@@ -143,20 +165,12 @@ export default function Productpage() {
                             </div>
                             </div>        
                         </div>
-                        {/* <div class="col-3">col12</div> */}
+                        {/* <div className="col-sm-3">col12</div> */}
                     </div>
                 </div>
-            {/* end col1 */}   
+            {/* end left-col */}   
 
 
-                    <div className="col">
-                        <h3>ประเภทสินค้า</h3>
-                            <div className="card-2">
-                            <p className="card-title">อุปกรณ์</p>
-                            <p className="card-title">เมล็ดกัญชา</p>
-                            <p className="card-title">เสื้อยืด</p>
-                        </div>
-                        </div>
                     </div>
                     <div>
 

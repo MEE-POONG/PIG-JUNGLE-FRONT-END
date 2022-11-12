@@ -29,7 +29,7 @@ export default function Addressrpage (){
 
     <div className="box-btu-address">
 
-    <a className="btu-address" type='address-up'>ยกเลิก</a>
+    <a className="btu-address" type='address-up' href="/">ยกเลิก</a>
 
     <a className="btu-address" type='submit'>บันทึก</a>
 
