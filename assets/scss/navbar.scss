@@ -18,6 +18,7 @@
     color: #FFFFFF;
 
     .n-active {
+        color: #FFFFFF;
         text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
 
     }
@@ -59,7 +60,7 @@
 
 .nav-link:hover .active,
 .nav-link:focus .active,
-.nav-link.active {
+.nav-link.active .active {
     font-size: x-large;
     background: linear-gradient(#ee5441, #ee5441, #fed406, #009b4e, #009b4e);
     -webkit-background-clip: text;

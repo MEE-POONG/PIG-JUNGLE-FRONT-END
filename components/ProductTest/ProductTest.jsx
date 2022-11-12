@@ -5,20 +5,20 @@ import { FaExpand, FaHeart, FaPlus, FaShoppingCart, IconName } from "react-icons
 export default function Product_Test() {
   return (
     <>
-    <section class="section-products">
-		<div class="container">
-            <div class="row justify-content-center text-center">
-                <div class="col-md-8 col-lg-6">
-                    <div class="header">
+    <section className="section-products">
+		<div className="container">
+            <div className="row justify-content-center text-center">
+                <div className="col-md-8 col-lg-6">
+                    <div className="header">
                         <h3>Featured Product</h3>
                         <h2>สินค้าขายดี</h2>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div id="product-1" class="single-product">
-                        <div class="part-1">
+            <div className="row">
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-1" className="single-product">
+                        <div className="part-1">
                             <Image src={'images/product2.jpg'} fluid/>
                             <ul>
                                 <li><a href="#"><FaShoppingCart/></a></li>
@@ -27,18 +27,18 @@ export default function Product_Test() {
                                 <li><a href="#"><FaExpand/></a></li>
                             </ul>
                         </div>
-                        <div class="part-2">
-                            <h3 class="product-title">Here Product Title</h3>
-                            <h4 class="product-old-price">$79.99</h4>
-                            <h4 class="product-price">$49.99</h4>
+                        <div className="part-2">
+                            <h3 className="product-title">Here Product Title</h3>
+                            <h4 className="product-old-price">$79.99</h4>
+                            <h4 className="product-price">$49.99</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div id="product-2" class="single-product">
-                        <div class="part-1">
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-2" className="single-product">
+                        <div className="part-1">
                             <Image src={'images/product2.jpg'} fluid/>
-                            <span class="discount">15% off</span>
+                            <span className="discount">15% off</span>
                             <ul>
                                 <li><a href="#"><FaShoppingCart/></a></li>
                                 <li><a href="#"><FaHeart/></a></li>
@@ -46,15 +46,15 @@ export default function Product_Test() {
                                 <li><a href="#"><FaExpand/></a></li>
                             </ul>
                         </div>
-                        <div class="part-2">
-                            <h3 class="product-title">Here Product Title</h3>
-                            <h4 class="product-price">$49.99</h4>
+                        <div className="part-2">
+                            <h3 className="product-title">Here Product Title</h3>
+                            <h4 className="product-price">$49.99</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div id="product-3" class="single-product">
-                        <div class="part-1">
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-3" className="single-product">
+                        <div className="part-1">
                             <Image src={'images/product3.jpg'} fluid/>
                             <ul>
                                 <li><a href="#"><FaShoppingCart/></a></li>
@@ -63,18 +63,18 @@ export default function Product_Test() {
                                 <li><a href="#"><FaExpand/></a></li>
                             </ul>
                         </div>
-                        <div class="part-2">
-                            <h3 class="product-title">Here Product Title</h3>
-                            <h4 class="product-old-price">$79.99</h4>
-                            <h4 class="product-price">$49.99</h4>
+                        <div className="part-2">
+                            <h3 className="product-title">Here Product Title</h3>
+                            <h4 className="product-old-price">$79.99</h4>
+                            <h4 className="product-price">$49.99</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 col-xl-3">
-                    <div id="product-4" class="single-product">
-                        <div class="part-1">
+                <div className="col-md-6 col-lg-4 col-xl-3">
+                    <div id="product-4" className="single-product">
+                        <div className="part-1">
                             <Image src={'images/product4.jpg'} fluid/>
-                            <span class="new">new</span>
+                            <span className="new">new</span>
                             <ul>
                                 <li><a href="#"><FaShoppingCart/></a></li>
                                 <li><a href="#"><FaHeart/></a></li>
@@ -82,9 +82,9 @@ export default function Product_Test() {
                                 <li><a href="#"><FaExpand/></a></li>
                             </ul>
                         </div>
-                        <div class="part-2">
-                            <h3 class="product-title">Here Product Title</h3>
-                            <h4 class="product-price">$49.99</h4>
+                        <div className="part-2">
+                            <h3 className="product-title">Here Product Title</h3>
+                            <h4 className="product-price">$49.99</h4>
                         </div>
                     </div>
                 </div>
