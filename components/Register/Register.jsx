@@ -21,7 +21,7 @@ export default function Register() {
                         <a className="btu-Lg-Rg" type='sign-up' href="/address">SIGN UP</a>
                     </div>
                     <div className='box-text'>
-                        <a className='text-Lg-Rg' href="/login"> Sign in </a>
+                        <a className='text-Lg-Rg' href="/login">Sign in</a>
                     </div>
                 </div>
             </div>
