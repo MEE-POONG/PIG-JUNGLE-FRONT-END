@@ -1,4 +1,4 @@
-import ProductShow from "@/components/Product/Productshow";
+import ProductShow from "container/Product/Productshow";
 import React from "react";
 import Head from 'next/head';
 import IndexLayout from "components/layouts/IndexLayout";

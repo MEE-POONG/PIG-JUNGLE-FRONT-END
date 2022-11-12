@@ -1,7 +1,7 @@
 
 import React from "react";
 import Head from 'next/head';
-import SigninUser from "@/components/Sign_In_User/Sign_In_User";
+import SigninUser from "container/Sign_In_User/Sign_In_User";
 
 export default function AdderssUserPage() {
     return (
