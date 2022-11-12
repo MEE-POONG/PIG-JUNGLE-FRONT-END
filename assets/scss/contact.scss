@@ -1,5 +1,6 @@
-.contact-page{
-    /* ------------ title title------------------- */
+.contact-page {
+
+    /* ------------ title ------------------ */
     .ncontact {
         justify-content: center;
         color: #000000;
@@ -9,20 +10,20 @@
         font-weight: 400;
         padding: 5.5%;
         margin-top: 0px;
-    
+
     }
-    
-    /* ------------ text title------------------- */
+
+    /* ------------ sub title------------------- */
     .bgbody {
         background-color: #ccc;
     }
-    
+
     .provide {
         margin-left: 5em;
         margin-right: 65rem;
-    
+
     }
-    
+
     .provide h3 {
         text-align: center;
         font-size: 46px;
@@ -35,73 +36,81 @@
         margin-bottom: 0.20em;
         color: #040404;
         line-height: 2.59rem;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
-    
+
     .provide p {
         text-align: center;
         color: #040404;
     }
-    
-    .provide:hover {
-        text-shadow: -2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef;
-    
-    }
-    
-    /* ------------ icon brand------------------- */
-/* .text-icon .a,.text-icon .a svg  {
-        text-decoration: none;
-        color: #000000;
-        margin-right: 1rem;
-        margin-left: 1.5em;
-        font-size: 20px;
-    
-    }
-    
 
-    
+    .provide:hover {
+        text-shadow: -2px -2px 3px rgb(0, 255, 30), 4px 3px 2px #b224ef;
+    }
+
+    /* ------------ icon brand------------------- */
     .text-icon {
-        margin-left: 7em;
-        margin-top: 2%;
-    }
-    
-.text-icon .a,.text-icon .a svg  {
-        text-align: left;
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 700;
-        font-style: normal;
-        font-weight: 500;
-        color: #000000;
+        transition-duration: none;
+        .icon {
+            .row{
+                &:hover{
+                    text-shadow: -2px -2px 2px rgb(0, 255, 30), 4px 3px 2px #b224ef;
+                }
+            }
+            a {
+                color: #000000;
+                font-size: 23px;
+                margin-left: 5.5em;
+                margin-top: 2%;             
+            }
+            .icon-svg{
+                max-width: fit-content !important;
+                
+            }
+       
+        }
+    //    .a:hover,.text-icon,.a.icon-svg:hover {
+    //         text-shadow: -2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef; 
+    //     }
     }
-    .text-icon .a:hover,.text-icon .a svg:hover  {
-        text-shadow: -2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef;
-    } */
-    
+
+    // .text-icon p{
+    //     margin-left: 7em;
+    //     margin-top: 2%;
+    // }   
+    // .text-icon .a:hover,.text-icon .a svg:hover  {
+    //     text-shadow: -2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef;
+    // } 
+
     /* ------------ Map ------------------- */
     .map {
-        margin-left: 10%;
-        margin-right: 20%;
-    } 
+
+        margin-left: 2.5%;
+        margin-right: 9.5%;
+    }
+
     .map {
         background-color: rgb(255, 255, 255);
         border: 10px solid #000000;
-        box-shadow: -6px 4px 2px rgb(23, 25, 22), 6px 6px 1px #3ac94d;
+        box-shadow: -6px 4px 4px rgb(52, 153, 63), 6px 4px 4px #943bcf;
     }
-    
+
     /* ------------ letter ------------------- */
     .letter {
         background-color: rgb(255, 255, 255);
         border: 15px solid #000000;
-        box-shadow: -6px 4px 2px rgb(9, 255, 0), 6px 6px 1px #b224ef;
+        box-shadow: -6px 4px 2px rgb(146, 35, 183), 6px 6px 1px rgb(52, 153, 63);
         justify-content: center;
         align-items: center;
-        margin-top: 70px;
+        margin-top: 10%;
         margin-left: 100px;
         margin-right: 100px;
         border-radius: 50px;
         padding: 1%;
     }
-    
+
     .letter h3 {
         font-size: 40px;
         color: #0f0f0f;
@@ -109,7 +118,7 @@
         align-items: center;
         margin-left: 100px;
     }
-    
+
     .letter p {
         font-size: 20px;
         border-radius: 0%;
@@ -117,7 +126,7 @@
         justify-content: center;
         margin-left: 100px;
     }
-    
+
     .input-email {
         width: 70%;
         padding: 10px 30px 10px;
@@ -126,8 +135,9 @@
         border-radius: 15px;
         box-sizing: border-box;
         resize: vertical;
+        margin-bottom: 1px;
     }
-    
+
     .input-submit {
         border: 10px solid #000000;
         box-shadow: -3px 3px 2px rgb(9, 255, 0), 6px 6px 1px #b224ef;
@@ -136,15 +146,15 @@
         border-radius: 15px;
         margin-left: 3px;
     }
-    
+
     /* ------------ footer------------------- */
     .footer {
         /* background: linear-gradient(-45deg, #000000, #190e12, #562071, #a0ddce);
         background-size: 400% 400%;
         animation: gradient 15s ease infinite; */
-        margin-top: 150px;
+        margin-top: 5%;
     }
-    
+
     .footer p {
         color: #050505;
         text-align: center;
@@ -153,6 +163,6 @@
         font-style: normal;
         font-size: 25px;
         padding: 7%;
-    
+
     }
 }

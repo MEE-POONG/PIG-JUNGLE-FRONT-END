@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 
-export default function CheckListPage() {
+export default function CheckList() {
     return (
         <section className="h-100 h-custom" style={{ backgroundColor: "#eee" }}>
             <div className="container h-100 py-5">

@@ -2,7 +2,7 @@
 import ProductList from '@/components/ฺฺBasket/basket'
 import React from 'react'
 import Head from 'next/head';
-import IndexLayout from "components/layouts/IndexLayout";
+import IndexLayout from "@/components/layouts/IndexLayout";
 export default function BasketPage() {
   return (
     <>

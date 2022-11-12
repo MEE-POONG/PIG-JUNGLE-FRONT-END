@@ -1,14 +1,30 @@
 .header-area {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgb(233, 54, 244);
+    height: 6rem;
+    transition: all 0.5s ease 0s;
+    border-bottom: 3px solid black;
 }
 
-.font-menu {
+.header-area-scroll {
+    background-color: rgb(233, 54, 244);
+    height: 6rem;
+    transition: all 0.5s ease 0s;
+    border-bottom: 3px solid black;
+    height: 5rem;
+}
+
+.nav-link {
     font-size: x-large;
-    background: linear-gradient(#ee5441, #ee5441, #fed406, #009b4e, #009b4e);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    color: #FFFFFF;
+
+    .n-active {
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+
+    }
+}
+
+.nav-link .active {
+    position: absolute;
 }
 
 .topNavbar {
@@ -39,6 +55,17 @@
 
 .w-20 {
     width: 20%;
+}
+
+.nav-link:hover .active,
+.nav-link:focus .active,
+.nav-link.active {
+    font-size: x-large;
+    background: linear-gradient(#ee5441, #ee5441, #fed406, #009b4e, #009b4e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
 /* @media only screen and (min-width: 992px) {
