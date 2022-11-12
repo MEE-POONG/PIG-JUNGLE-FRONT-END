@@ -1,13 +1,19 @@
-
+.bgpage {
+  background-color: #e5e5f7;
+  opacity: 0.9;
+  background-image:  radial-gradient(#444cf7 1.7000000000000002px, transparent 1.7000000000000002px), radial-gradient(#444cf7 1.7000000000000002px, #e5e5f7 1.7000000000000002px);
+  background-size: 68px 68px;
+  background-position: 0 0,34px 34px;
+} 
 .content{
     padding: 0 5rem;
     margin-top: 5rem;
-    background: hsl(282, 86%, 54%);
+   
 }
 
 .bgbaner {
     height: 45vmin;
-    background: rgba(72, 150, 53, 0.808);
+    background: rgb(58, 94, 50);
     background-size: cover;
     background-repeat: no-repeat;
     color: aliceblue;
@@ -39,7 +45,7 @@
 
   .title {
     color: rgb(236, 236, 236);
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
     padding: 7%;
   }
