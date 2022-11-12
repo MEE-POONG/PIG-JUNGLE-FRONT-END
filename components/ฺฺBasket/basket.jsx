@@ -8,49 +8,49 @@ export default function ProductList() {
         <section className="vh-100"  >
             <div className="container h-100">
                 <div className="row d-flex justify-content-center align-items-center h-100">
-                    <div className="col" style={{backgroundColor: "#fdccbc",}}>
-                        <p><span className="h2">Shopping Cart </span><span className="h4">(1 item in your cart)</span></p>
-                        <div className="lol mb-4">
-                            <div className="lol-body p-4">
+                    <div className="col" >
+                        <p><span className="h2">ตะกร้าสิน </span><span className="h4">(รายการที่สั่ง)</span></p>
+                        <div className="card mb-4">
+                            <div className="card-body p-4">
                                 <div className="row align-items-center">
                                     <div className="col-md-2">
                                     <Image  src={"images/product4.jpg"} style={{width: "120px"}}/>
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>
-                                            <p className="small text-muted mb-4 pb-2">Name</p>
-                                            <p className="lead fw-normal mb-0">iPad Air</p>
+                                            <p className="small text-muted mb-4 pb-2">ชื่อสินค้า</p>
+                                            <p className="lead fw-normal mb-0">กัญชาอันก้อน</p>
 
                                         </div>
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>
-                                            <p className="small text-muted mb-4 pb-2">Quantity</p>
+                                            <p className="small text-muted mb-4 pb-2">จำนวนสินค้า</p>
                                             <p className="lead fw-normal mb-0"> - 1 +</p>
                                         </div>
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>
-                                            <p className="small text-muted mb-4 pb-2">Price</p>
-                                            <p className="lead fw-normal mb-0">$799</p>
+                                            <p className="small text-muted mb-4 pb-2">ราคาสินค้า</p>
+                                            <p className="lead fw-normal mb-0">799 บาท</p>
                                         </div>
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>
-                                            <p className="small text-muted mb-4 pb-2">Total</p>
-                                            <p className="lead fw-normal mb-0">$799</p>
+                                            <p className="small text-muted mb-4 pb-2">ราคารวมทั้งหมด</p>
+                                            <p className="lead fw-normal mb-0">799 บาท</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="lol mb-5">
-          <div className="lol-body p-4">
+                        <div className="card mb-5">
+          <div className="card-body p-4">
 
             <div className="float-end">
               <p className="mb-0 me-5 d-flex align-items-center">
-                <span className="small text-muted me-2">Order total:</span> <span
-                  className="lead fw-normal">$799</span>
+                <span className="small text-muted me-5">ยอดสั้งซื้อทั้งหมด:</span> <span
+                  className="lead fw-normal">799 บาท</span>
               </p>
             </div>
 
@@ -58,8 +58,8 @@ export default function ProductList() {
 
         </div>
         <div className="d-flex justify-content-end">
-          <button type="button" className="btn btn-light btn-lg me-2">Continue shopping</button>
-          <button type="button" className="btn btn-primary btn-lg">Add to cart</button>
+          <button type="button" className="btn btn-light btn-lg me-2">ย้อนกลับ</button>
+          <button type="button" className="btn btn-primary btn-lg">ยืนยัน</button>
         </div>
                     </div>
 

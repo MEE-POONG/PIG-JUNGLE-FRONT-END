@@ -1,12 +1,12 @@
 import React from "react"
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 
-export default function Register() {
+export default function SignUpUser() {
     return (
         <>
             <div className="box-Container-Rg">
                 <div className='Container-Rg'>
-                    <h2 className='title-Lg-Rg'>Sign up</h2>
+                    <h2 className='title-Si-Su'>Sign up</h2>
                     <form>
 
                         <input className='input-Lg-Rg' type="text" id="UserName" name="UserName" placeholder="UserName" />
