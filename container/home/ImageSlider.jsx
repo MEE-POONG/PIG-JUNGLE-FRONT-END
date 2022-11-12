@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import styles from '../ImageSlider/ImageSlider.module.css'
+import styles from 'assets/css/ImageSlider.module.css'
 
 export default function ImageSider({ show, image, handleClose }) {
     const [index, setIndex] = useState(0);
