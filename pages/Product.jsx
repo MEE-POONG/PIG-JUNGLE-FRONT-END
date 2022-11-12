@@ -133,7 +133,6 @@ export default function Productpage() {
                         </div>
                 </div>
             {/* end row2 */}
-
                     <div className="row">
                         <div className="col-sm-3">
                             <div className="card">
@@ -169,22 +168,14 @@ export default function Productpage() {
                     </div>
                 </div>
             {/* end left-col */}   
-
-
                     </div>
                     <div>
-
-                </div>
-               
+                </div>         
             </div> 
-             
-            
-     
                     <footer className="foot">
                     <a>Pic Jungle</a>
                     </footer>  
         </div>
-
         
     )
     
