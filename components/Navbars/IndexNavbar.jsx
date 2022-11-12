@@ -40,19 +40,19 @@ export default function IndexNavbar() {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="d-flex align-items-center w-100 text-center">
-              <div className="d-lg-flex w-40 justify-content-center">
-                <Nav.Link href="/" className="font-menu font-bold mx-2">หน้าแรก</Nav.Link>
-                <Nav.Link href="/product" className="font-menu font-bold mx-2">ร้านค้า</Nav.Link>
-                <Nav.Link href="/about" className="font-menu font-bold mx-2">เกี่ยวกับเรา</Nav.Link>
-              </div>
-              <Navbar.Brand href="/" className="logo-main d-none d-xl-block d-lg-block d-flex mx-auto w-20">
-                <Image src={'images/logo.png'} alt="logo-nav" width={navLogo} style={{ transition: "all 0.5s" }} />
-              </Navbar.Brand>
-              <div className="d-lg-flex w-40 justify-content-center">
-                <Nav.Link href="/contact" className="font-menu font-bold mx-2">ติดต่อ</Nav.Link>
-                <Nav.Link href="/login" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
-                <Nav.Link href="/register" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
-              </div>
+                <div className="d-lg-flex w-40 justify-content-center">
+                  <Nav.Link href="/" className="font-menu font-bold mx-2">หน้าแรก</Nav.Link>
+                  <Nav.Link href="/product" className="font-menu font-bold mx-2">ร้านค้า</Nav.Link>
+                  <Nav.Link href="/about" className="font-menu font-bold mx-2">เกี่ยวกับเรา</Nav.Link>
+                </div>
+                <Navbar.Brand href="/" className="logo-main d-none d-xl-block d-lg-block d-flex mx-auto w-20">
+                  <Image src={'images/logo.png'} alt="logo-nav" width={navLogo} style={{transition:"all 0.5s"}}/>
+                </Navbar.Brand>
+                <div className="d-lg-flex w-40 justify-content-center">
+                  <Nav.Link href="/contact" className="font-menu font-bold mx-2">ติดต่อ</Nav.Link>
+                  <Nav.Link href="/sign_in_user" className="font-menu font-bold mx-2">เข้าสู่ระบบ</Nav.Link>
+                  <Nav.Link href="/sign_up_user" className="font-menu font-bold mx-2">สมัครสมาชิก</Nav.Link>
+                </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
