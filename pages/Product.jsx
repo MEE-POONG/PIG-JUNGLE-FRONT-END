@@ -1,11 +1,8 @@
+import Productpage from "@/components/Product/Product";
 import React from "react";
-// import Link from "next/link";
 
-// components
-import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
-import { BiSearchAlt2 } from "react-icons/bi";
 
-export default function Productpage() {
+export default function productpage() {
     return(
          
         <div className="divbg"> 
@@ -180,4 +177,3 @@ export default function Productpage() {
     )
     
 }
- 

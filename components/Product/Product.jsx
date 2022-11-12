@@ -1,8 +1,8 @@
 import React from "react";
-// import Link from "next/link";
-
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
+import { BiSearchAlt2 } from "react-icons/bi";
+import IndexLayout from "../layouts/IndexLayout";
 
 export default function Productpage() {
     return(
@@ -26,8 +26,14 @@ export default function Productpage() {
               
                 <div className="row">
                 <div className="col-md-3">
+                    <div className="input-group rounded">
+                            <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                            <span className="input-group-text border-0" id="search-addon">
+                            <i> <BiSearchAlt2/> </i>
+                            </span>
+                    </div>
+
                         <h3>ประเภทสินค้า</h3> <hr />
-                        
                             <p>อุปกรณ์</p>
                             <p>เมล็ดกัญชา</p>
                             <p>เสื้อยืด</p>
@@ -180,4 +186,4 @@ export default function Productpage() {
     )
     
 }
- 
+Productpage.layout = IndexLayout;
