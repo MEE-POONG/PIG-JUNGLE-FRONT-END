@@ -4,15 +4,17 @@ import React, { useEffect, useState } from "react";
 
 
 export default function BackGroundMain() {
+    function randomIntFromInterval(min, max) { // min and max included 
+        return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+
     return (
         <>
-            <div className="star s-1 four-pointed-star"></div>
-            <div className="star s-2 four-pointed-star"></div>
-            <div className="star s-3 four-pointed-star"></div>
-            <div className="star s-4 four-pointed-star"></div>
-            <div className="star s-5 four-pointed-star"></div>
-            <div className="star s-6 four-pointed-star"></div>
-            <div className="star s-7 four-pointed-star"></div>
+            <div className="position-fixed w-100 h-100 " style={{ zIndex: "-1" }}>
+                {[...Array(20).keys()].map(() => (
+                    <div style={{ top: randomIntFromInterval(0, 100) + "%", left: randomIntFromInterval(0, 100) + "%", animation: "StarEffect " + randomIntFromInterval(2, 20) + "s ease infinite" }} className="star four-pointed-star"></div>
+                ))}
+            </div>
         </>
     );
 }
