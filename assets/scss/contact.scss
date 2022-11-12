@@ -3,7 +3,7 @@
     /* ------------ title ------------------ */
     .ncontact {
         justify-content: center;
-        color: #000000;
+        text-shadow: -2px -2px 3px rgb(0, 255, 30), 4px 3px 2px #f3e938;
         text-align: center;
         font-style: normal;
         font-size: 40px;
@@ -45,7 +45,7 @@
     }
 
     .provide:hover {
-        text-shadow: -2px -2px 3px rgb(0, 255, 30), 4px 3px 2px #b224ef;
+        text-shadow: -2px -2px 3px rgb(0, 255, 30), 4px 3px 2px #f3e938;
     }
 
     /* ------------ icon brand------------------- */
@@ -56,7 +56,7 @@
         .icon {
             .row{
                 &:hover{
-                    text-shadow: -2px -2px 2px rgb(0, 255, 30), 4px 3px 2px #b224ef;
+                    text-shadow: -2px -2px 2px rgb(0, 255, 30), 4px 3px 2px #f3e938;
                 }
             }
             a {
@@ -94,14 +94,14 @@
     .map {
         background-color: rgb(255, 255, 255);
         border: 10px solid #000000;
-        box-shadow: -6px 4px 4px rgb(52, 153, 63), 6px 4px 4px #943bcf;
+        box-shadow: -6px 4px 4px #0bdd43, 6px 4px 3px rgb(240, 224, 47);
     }
 
     /* ------------ letter ------------------- */
     .letter {
         background-color: rgb(255, 255, 255);
         border: 15px solid #000000;
-        box-shadow: -6px 4px 2px rgb(146, 35, 183), 6px 6px 1px rgb(52, 153, 63);
+        box-shadow: -6px 4px 2px #0bdd43, 6px 4px 3px rgb(240, 47, 47);
         justify-content: center;
         align-items: center;
         margin-top: 10%;
