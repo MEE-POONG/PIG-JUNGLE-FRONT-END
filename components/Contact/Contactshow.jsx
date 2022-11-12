@@ -9,7 +9,7 @@ import IndexLayout from '@/components/layouts/IndexLayout';
 
 export default function Contactshow() {
     return (
-        <div  className='bgbody'>
+        <div  className='contact-show'>
 
             <div>
 
@@ -29,10 +29,10 @@ export default function Contactshow() {
                             <div className="row">
                                 <div className="col-md-5">
                                     <div className="icon" >
-                                        <p>
-                                            <a className='a' > <FaHome style={{ width: "31px", height: "30px" }} />  </a>
+                                            <a className='a' > <FaHome style={{ width: "31px", height: "30px" }} />
                                             Mittraphap, Pak Chong, Thailand, Nakhon Ratchasima
-                                        </p>
+                                              </a>
+                                            
                                         <div className="icon" >
                                             <p>
                                                 <a className='a' href="https://www.facebook.com/profile.php?id=100084921099285" > <GrFacebookOption style={{ width: "30px", height: "30px" }} /> </a>
