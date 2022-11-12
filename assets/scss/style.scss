@@ -23,22 +23,47 @@ body {
 }
 
 
-
-.star-1 {
-    top: 125px;
-    left: 360px;
-    transform: rotate(40deg) scale(2);
-    animation: StarEffect 0.6s ease infinite;
+.star {
+    position: absolute;
 }
+
+.four-pointed-star {
+    position: absolute;
+    width: .2em;
+    font-size: 3em;
+    transform: rotate(40deg) scale(2);
+    animation: StarEffect 4s ease infinite;
+}
+
+.four-pointed-star:before {
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    width: .2em;
+    height: .2em;
+    transform: rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+    box-shadow: #000000 0px 1px 4px, #000000 0px 0px 0px 3px;
+}
+
+.four-pointed-star:after {
+    content: "";
+    position: absolute;
+    background: #ffffff;
+    width: .2em;
+    height: .2em;
+    transform: rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+    box-shadow: #000000 0px 1px 4px, #000000 0px 0px 0px 3px;
+}
+
 
 @keyframes StarEffect {
 
     0%,
     100% {
-        filter: opacity(1) brightness(1.85) blur(0.5px);
+        filter: opacity(1) brightness(1.85) blur(0px);
     }
 
     50% {
-        filter: opacity(0) brightness(0.5) blur(1.5px);
+        filter: opacity(0) brightness(0.5) blur(1px);
     }
 }
