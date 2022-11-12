@@ -1,10 +1,25 @@
 import About from '@/components/About/About'
-import React from 'react'
+import Head from 'next/head';
+import React from 'react';
+import IndexLayout from "@/components/layouts/IndexLayout";
 
-export default function about() {
+
+export default function AboutPage() {
   return (
-    <div>
+    <>
+      <Head>
+        <title>PigJungle</title>
+        <meta
+          name="description"
+          content="I2AROBOT 2"
+        />
+        <link rel="icon" href="/images/logo.png" />
+      </Head>
+      <div id='about-page' name="about-page" className='about-page'>
+        
         <About/>
-    </div>
+      </div>
+    </>
   )
 }
+AboutPage.layout = IndexLayout;
