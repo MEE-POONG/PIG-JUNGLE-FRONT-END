@@ -3,23 +3,23 @@ import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Butt
 
 export default function SigninUser() {
     return (
-        <div className='box-Container-Lg'>
-            <div className='Container-Lg'>
+        <div className='box-Container-Si'>
+            <div className='Container-Si'>
                 <h2 className='title-Si-Su'>Sign in</h2>
                 <form>
 
-                    <input className='input-Lg-Rg' type="text" id="Email" name="Email" placeholder="Email" />
+                    <input className='input-Si-Su' type="text" id="Email" name="Email" placeholder="Email" />
 
-                    <input className='input-Lg-Rg' type="text" id="Password" name="Password" placeholder="Password" />
+                    <input className='input-Si-Su' type="text" id="Password" name="Password" placeholder="Password" />
 
 
                 </form>
-                <div className='box-btu-Lg-Rg'>
-                    <a className='btu-Lg-Rg' type='Login'>Sign in</a>
+                <div className='box-btu-Si-Su'>
+                    <a className='btu-Si-Su-Ad' type='SignIn'>Sign in</a>
 
                 </div>
                 <div className='box-text'>
-                    <a className='text-Lg-Rg' href="/register"> Sign up</a> <a className='text-Lg-Rg' href="">Forgot Password?</a>
+                    <a className='text-Si-Su' href="/sign_up_user"> Sign up</a> <a className='text-Si-Su' href="">Forgot Password?</a>
                 </div>
             </div>
         </div>
