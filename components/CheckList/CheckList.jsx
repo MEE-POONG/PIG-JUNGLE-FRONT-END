@@ -7,12 +7,12 @@ export default function CheckListPage() {
             <div className="container h-100 py-5">
                 <div className="row d-flex justify-content-center align-items-center h-100">
                     <div className="col">
-                        <div className="pop shopping-cart" style={{
+                        <div className="card shopping-cart" style={{
                             borderRadius: "15px", borderRadius: "15px",
                             border: "10px solid #000000",
                             boxShadow: "-6px -6px 2px rgb(0 255 162), 6px 6px 1px #b224ef"
                         }}>
-                            <div className="pop-body text-black">
+                            <div className="card-body text-black">
                                 <div className="row">
                                     <div className="col-lg-6 px-5 py-4">
                                         <h3 className="mb-5 pt-2 text-center fw-bold text-uppercase" style={{ textShadow: "-2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef" }}>Your products</h3>

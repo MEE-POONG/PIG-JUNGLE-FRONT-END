@@ -1,4 +1,4 @@
-@import "~bootstrap/scss/bootstrap";
+
 // @import 'bootstrap/dist/css/bootstrap.min.css';
 
 @font-face {
@@ -18,3 +18,4 @@
 .text-head {
     font-family: VelvendaChill;
 }
+@import "navbar.scss";
