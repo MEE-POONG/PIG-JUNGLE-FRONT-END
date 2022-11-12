@@ -1,4 +1,3 @@
-
 // @import 'bootstrap/dist/css/bootstrap.min.css';
 
 @font-face {
@@ -15,7 +14,12 @@
     font-family: FCSoundRounded;
 }
 
+body {
+    background-color: #9823ee;
+}
+
 .text-head {
     font-family: VelvendaChill;
 }
+
 @import "navbar.scss";

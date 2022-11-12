@@ -1,7 +1,7 @@
 import React from "react"
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 
-export default function Addressr() {
+export default function AddressUser() {
     return (
         <>
             <div className="box-Container-address">
