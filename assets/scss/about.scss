@@ -143,49 +143,62 @@
         color: rgb(2, 2, 1);
     }
 
-    .shop-now {
-        display: inline-block;
-        color: #ffffff;
-        background: rgb(0, 0, 0);
-        line-height: 24px;
-        border-radius: 10px;
-        font-family: inherit;
-        transition: ease .40s;
-        top: 59%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+    // .shop-now {
+    //     display: inline-block;
+    //     color: #ffffff;
+    //     background: rgb(0, 0, 0);
+    //     line-height: 24px;
+    //     border-radius: 10px;
+    //     font-family: inherit;
+    //     transition: ease .40s;
+    //     top: 59%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    // }
 
     .shop-now:hover {
         transform: scale(1.1);
     }
 
-    .lgo {
-        width: 100%;
-        margin-top: 15rem;
-    }
-
     .view {
         position: relative;
         text-align: center;
+        margin-top: 5rem;
+
+        .background-text {
+            width: 30%;
+            height: 80%;
+            background-color: #ffffff;
+            position: absolute;
+            div.text{
+                position: relative;
+            }
+
+        }
+
+        .lgo {
+            width: 100%;
+        }
+        .titel {
+            font-size: xxx-large;
+            position: absolute;
+            
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    
+        .script {
+            position: absolute;
+            
+            top: 59%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
     }
 
-    .fresh {
-        font-size: xxx-large;
-        position: absolute;
-        font-family: cursive;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    .fresh-our {
-        position: absolute;
-        font-family: cursive;
-        top: 59%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+    
 
     .grown {
         text-decoration: none;
@@ -197,14 +210,11 @@
         font-family: inherit;
         transition: ease .40s;
         position: absolute;
-        top: 75%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 1rem;
+        // top: 75%;
+        // left: 50%;
+        // transform: translate(-50%, -50%);
+        // padding: 1rem;
     }
-    .background-text{
-        padding: 5rem;
-        background-color: #ffffff;
-    }
+
 
 }
