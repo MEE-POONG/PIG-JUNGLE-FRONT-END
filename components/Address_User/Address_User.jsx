@@ -29,9 +29,9 @@ export default function AddressUser() {
 
                     <div className="box-btu-address">
 
-                        <a className="btu-address" type='address-up' href="/">ยกเลิก</a>
+                        <a className="btu-Si-Su-Ad" type='address-up' href="/">ยกเลิก</a>
 
-                        <a className="btu-address" type='submit'>บันทึก</a>
+                        <a className="btu-Si-Su-Ad" type='submit'>บันทึก</a>
 
                     </div>
                 </div>
