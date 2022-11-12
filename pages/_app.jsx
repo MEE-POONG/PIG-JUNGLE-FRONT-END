@@ -8,14 +8,7 @@ import SSRProvider from "react-bootstrap/SSRProvider";
 import "assets/scss/style.scss";
 import "assets/scss/style.css";
 
-import "assets/scss/aboutstyle.css";
 
-import "assets/scss/Navbar.css";
-import "assets/scss/Product.css";
-import "assets/scss/contact.css";
-import "assets/scss/LoginAndRegister.css";
-import "assets/scss/address.css"
-import "assets/scss/product_test.css"
 // import "@fortawesome/fontawesome-free/css/all.min.css";
 // import "../styles/tailwind.scss";
 

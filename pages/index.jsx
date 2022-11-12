@@ -14,7 +14,7 @@ export default function HomePage() {
         <title>PigJungle</title>
         <meta
           name="description"
-          content="I2AROBOT 2"
+          content="|| Home"
         />
         <link rel="icon" href="/images/logo.png" />
       </Head>
