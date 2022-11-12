@@ -2,9 +2,8 @@ import React from "react";
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 import { BiSearchAlt2 } from "react-icons/bi";
-import IndexLayout from "../layouts/IndexLayout";
 
-export default function Productpage() {
+export default function ProductShow() {
     return(
          
         <div className="divbg"> 
@@ -175,8 +174,6 @@ export default function Productpage() {
                
             </div> 
              
-            
-     
                     <footer className="foot">
                     <a>Pic Jungle</a>
                     </footer>  
@@ -186,4 +183,3 @@ export default function Productpage() {
     )
     
 }
-Productpage.layout = IndexLayout;
