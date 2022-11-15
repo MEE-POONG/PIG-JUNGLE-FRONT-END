@@ -27,57 +27,57 @@ export default function Contactshow() {
                         <div className="col-md-6">
                             <div className="icon" >
 
-                            <Nav className="flex-column">
-                                <Nav.Link href="/#">
-                                    <Row>
-                                        <Col className='icon-svg'>
-                                            <FaHome width={"5rem"} />
-                                        </Col>
-                                        <Col>
-                                            <p>
-                                                Mittraphap, Pak Chong, Thailand, Nakhon Ratchasima
-                                            </p>
-                                        </Col>
-                                    </Row>
-                                </Nav.Link>
-                                <Nav.Link href="https://www.facebook.com/profile.php?id=100084921099285">
-                                    <Row>
-                                        <Col className='icon-svg'> 
-                                            <GrFacebookOption width={"5rem"} />
-                                        </Col>
-                                        <Col>
-                                            <p>
-                                                Pig Jungle
-                                            </p>
-                                        </Col>
-                                    </Row>
-                                </Nav.Link>
-                                <Nav.Link href="https://account.line.biz/login?redirectUri=https%3A%2F%2Fmanager.line.biz%2F">
-                                    <Row>
-                                        <Col className='icon-svg'>
-                                            <GrGoogle width={"1rem"} />
-                                        </Col>
-                                        <Col>
-                                            <p>
-                                                Pig Jungle@gmail.com
-                                            </p>
-                                        </Col>
-                                    </Row>
-                                </Nav.Link>
+                                <Nav className="flex-column">
+                                    <Nav.Link href="/#">
+                                        <Row>
+                                            <Col className='icon-svg'>
+                                                <FaHome width={"5rem"} />
+                                            </Col>
+                                            <Col>
+                                                <p>
+                                                    Mittraphap, Pak Chong, Thailand, Nakhon Ratchasima
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                    </Nav.Link>
+                                    <Nav.Link href="https://www.facebook.com/profile.php?id=100084921099285">
+                                        <Row>
+                                            <Col className='icon-svg'>
+                                                <GrFacebookOption width={"5rem"} />
+                                            </Col>
+                                            <Col>
+                                                <p>
+                                                    Pig Jungle
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                    </Nav.Link>
+                                    <Nav.Link href="https://account.line.biz/login?redirectUri=https%3A%2F%2Fmanager.line.biz%2F">
+                                        <Row>
+                                            <Col className='icon-svg'>
+                                                <GrGoogle width={"1rem"} />
+                                            </Col>
+                                            <Col>
+                                                <p>
+                                                    Pig Jungle@gmail.com
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                    </Nav.Link>
 
-                                <Nav.Link href="#">
-                                    <Row>
-                                        <Col className='icon-svg'>
-                                            <FaPhoneAlt width={"1rem"} />
-                                        </Col>
-                                        <Col>
-                                            <p>
-                                                065-065-8538
-                                            </p>
-                                        </Col>
-                                    </Row>
-                                </Nav.Link>
-                            </Nav>
+                                    <Nav.Link href="#">
+                                        <Row>
+                                            <Col className='icon-svg'>
+                                                <FaPhoneAlt width={"1rem"} />
+                                            </Col>
+                                            <Col>
+                                                <p>
+                                                    065-065-8538
+                                                </p>
+                                            </Col>
+                                        </Row>
+                                    </Nav.Link>
+                                </Nav>
                             </div>
 
                         </div>
@@ -90,7 +90,7 @@ export default function Contactshow() {
                                     width="650"
                                     height="450"
                                     frameBorder="0"
-                                    style={{ border: 0 }}
+                                    style={{ border: 1 }}
                                     allowFullScreen=""
                                     aria-hidden="false"
                                     tabIndex="0"
@@ -106,8 +106,8 @@ export default function Contactshow() {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-6">
-                            <p> Sign up for our fresh news</p>
-                            <h3> Sign up for newsletter </h3>
+                            <p> Sign up for our fresh news Pig Jungle Kuncha </p>
+                            <h3 className='text-letter '> Sign up for newsletter.. </h3>
                         </div>
                         <br />
                         <br />
@@ -118,6 +118,7 @@ export default function Contactshow() {
                                 <br />
                                 <input className="input-email" type="email" name="E-mail" placeholder="Enter Your Email" id="#" />
                                 <input type="submit" value="Sing up" className="input-submit" />
+                                <link rel="stylesheet" href="COntacta.jsx" />
                             </p>
                             <br />
                         </div>
@@ -138,11 +139,9 @@ export default function Contactshow() {
 
 
 
-        // start contact
 
 
 
-        // RiLineFill
 
 
 

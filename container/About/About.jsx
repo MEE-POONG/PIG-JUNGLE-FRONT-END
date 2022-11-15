@@ -13,7 +13,7 @@ export default function About() {
             </header>
             <Container>
                 <Row>
-                    <Col md={12} lg={6}>
+                    <Col md={12} lg={6} sm={6}>
                         <div className="products">
                             <h3>
                                 We provide
@@ -35,10 +35,12 @@ export default function About() {
                             <br />The total number of our livestock is also increasing.
 
                         </p>
-                        <a href="#"
-                            className="mm">MORE ABOUT US</a>
+                        <div className="col-xl-9 mx-auto">
+                            <a href="#"
+                                className="mm">MORE ABOUT US</a>
+                        </div>
                     </Col>
-                    <Col md={12} lg={6}>
+                    <Col md={12} lg={6} sm={6}>
                         <header className="will">
                             <div className="numder">
                                 <Image className="logo" style={{ borderRadius: "10px" }} src={"images/product/product4.jpg"} />
@@ -48,8 +50,27 @@ export default function About() {
                     </Col>
                 </Row>
             </Container>
+            <section className="call-to-action text-white text-center">
+                <dvi className="container">
+                    <div className="row">
+                        <div className="col-xl-9 mx-auto">
+                            <h2 className="mb-4">Enjoy Our Products</h2>
+                            <a href="#" className="button-shop">MORE ABOUT US</a>
+                        </div>
+                    </div>
 
-            <div className="view">
+                </dvi>
+            </section>
+
+
+
+
+
+
+
+
+
+            {/* <div className="view">
                 <div className="background-text">
                     <div className="text">
 
@@ -62,17 +83,8 @@ export default function About() {
                 </div>
                 <Image className="lgo" src={"images/product/product12.jpg"} />
 
-            </div>
+            </div> */}
 
-            {/* <Image className="back-logo" src={"images/product/product5.jpg"} />
-                <div className="back">
-                
-                <h1>Enjoy Our Products</h1>
-                <p>Organic Fresh Products</p>
-                
-            </div>
-            
-                <p className="shop-now">SHOP NOW</p> */}
 
 
 

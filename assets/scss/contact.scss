@@ -3,7 +3,7 @@
     /* ------------ title ------------------ */
     .ncontact {
         justify-content: center;
-        text-shadow: -2px -2px 3px rgb(0, 255, 30), 4px 3px 2px #f3e938;
+        text-shadow: -2px -2px 3px rgb(0, 255, 30), -2px -2px 3px rgb(0, 255, 30), 4px 3px 2px #b238f3, 4px 3px 2px #ef2f2f;
         text-align: center;
         font-style: normal;
         font-size: 40px;
@@ -45,7 +45,7 @@
     }
 
     .provide:hover {
-        text-shadow: -2px -2px 3px rgb(0, 255, 30), 4px 3px 2px #f3e938;
+        text-shadow: -2px -2px 3px rgb(0, 255, 30), -4px -3px 4px rgb(228, 244, 52), 4px 3px 2px #f33838;
     }
 
     /* ------------ icon brand------------------- */
@@ -53,36 +53,36 @@
         font-size: 22px;
         font-weight: 700;
         transition-duration: none;
+
         .icon {
-            .row{
-                &:hover{
-                    text-shadow: -2px -2px 2px rgb(0, 255, 30), 4px 3px 2px #f3e938;
-                }
+            .row {
+                font-size: 23px;
             }
+
             a {
                 color: #000000;
                 font-size: 23px;
                 margin-left: 5.5em;
-                margin-top: 2%;             
+                margin-top: 2%;
+                &:hover {
+                    background-color: rgb(255, 255, 255);
+                   
+                    text-shadow: -2px -2px 3px rgb(0, 255, 30), -2px -2px 3px rgb(228, 244, 52), 2px 2px 2px #f33838;
+                    transform: scale(1.0);
+                }
             }
-            .icon-svg{
-                max-width: fit-content !important;
-                
-            }
-       
-        }
-    //    .a:hover,.text-icon,.a.icon-svg:hover {
-    //         text-shadow: -2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef; 
-    //     }
-    }
 
-    // .text-icon p{
-    //     margin-left: 7em;
-    //     margin-top: 2%;
-    // }   
-    // .text-icon .a:hover,.text-icon .a svg:hover  {
-    //     text-shadow: -2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef;
-    // } 
+            .icon-svg {
+                max-width: fit-content !important;
+
+                &:hover {
+                    box-shadow: -2px -2px 3px rgb(0, 255, 30), -4px -3px 4px rgb(228, 244, 52), 4px 3px 2px #f33838;
+                }
+
+            }
+
+        }
+    }
 
     /* ------------ Map ------------------- */
     .map {
@@ -126,6 +126,51 @@
         justify-content: center;
         margin-left: 100px;
     }
+
+    li {
+        list-style-type: none;
+      }
+      
+     .text-letter {
+        font-size: 2.5rem;
+        position: relative;
+        width: max-content;
+      }
+      
+      .text-letter:before,
+      .text-letter:after {
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+      }
+      
+      .text-letter::before {
+        background-color: white;
+        animation: typewriter 1.5s steps(8) alternate infinite;
+      }
+      
+      .text-letter::after {
+        width: .125rem;
+        background-color: black;
+        animation: 
+         typewriter 1.5s steps(8) alternate infinite,
+         blink 500ms steps(8) infinite;
+      }
+      
+      @keyframes typewriter {
+        to {
+          left: calc(100% + 1ch);
+        }
+      }
+      
+      @keyframes blink {
+        to {
+          background: transparent;
+        }
+      }
 
     .input-email {
         width: 70%;
