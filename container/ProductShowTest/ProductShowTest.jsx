@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image } from 'react-bootstrap'
-import { FaSearch, FaShoppingBag, FaShoppingCart, FaUser } from 'react-icons/fa'
+import { FaMinus, FaPlus, FaSearch, FaShoppingBag, FaShoppingCart, FaUser } from 'react-icons/fa'
 
 export default function ProductShowTest() {
   return (
@@ -24,12 +24,9 @@ export default function ProductShowTest() {
                         <h4><span className="fa fa-dollar"></span>150</h4>
                     </div>
                     <ul>
-                        <li>SIZE</li>
-                        <li className="bg">7</li>
-                        <li className="bg">8</li>
-                        <li className="bg">9</li>
-                        <li className="bg">10</li>
-                        <li className="bg">11</li>
+                        <li>จำนวน</li>
+                        <li className="bg"><FaPlus/></li>
+                        <li className="bg"><FaMinus/></li>
                     </ul>
                     <span className="foot"><FaShoppingBag className='icon'/>Buy Now</span>
                     <span className="foot"><FaShoppingCart className='icon'/>Add TO Cart</span>
