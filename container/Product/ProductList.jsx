@@ -65,7 +65,7 @@ export default function ProductList() {
                     </Col> */}
                     <Col lg={3}>
                         <Card>
-                            <Card.Header bsPrefix='sds'>
+                            <Card.Header bsPrefix='card-header'>
                                 <h2>ชื่อสินค้า</h2>
                             </Card.Header>
                             <Card.Img src={'images/product/marijuana_01.png'} className='img-product' alt="imgProduct" />
@@ -74,7 +74,7 @@ export default function ProductList() {
                                     <h5>รายละเอียดสินค้า</h5>
                                     <h4><p>ราคา {price.toLocaleString("en-US")} บาท</p></h4>
                                 </div>
-                                <ul>
+                                <ul className='p-0'>
                                     <li>จำนวน</li>
 
                                     <li className="bg"
