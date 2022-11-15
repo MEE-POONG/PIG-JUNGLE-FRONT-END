@@ -12,10 +12,13 @@ export default function Contactshow() {
         <div className='contact-show'>
 
             {/* -------title----------- */}
-            <div className='ncontact'>
-                <p>CONTACTS</p>
+            <div className='title-header mx-auto'>
+                <div className="active">เกี่ยวกับเรา</div>
+                <div className="n-active">เกี่ยวกับเรา</div>
             </div>
+     
             {/* ------------sub title---------- */}
+
             <div className="provide">
                 <h3> Pig Jungle Kuncha </h3>
                 <p>—My Contact—</p>
@@ -24,7 +27,7 @@ export default function Contactshow() {
             <div className='text-icon'>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-md-6 ">
                             <div className="icon" >
 
                                 <Nav className="flex-column">
@@ -84,10 +87,10 @@ export default function Contactshow() {
 
                         {/*--------------- map -----------------*/}
                         <div className="col-md-6">
-                            <div className='map'>
+                            <div className="map">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.2298070344245!2d101.40634931445456!3d14.699592178584794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311c2bb5aa80c05d%3A0xf0d75169f3e8a461!2sPetrol!5e0!3m2!1sen!2sth!4v1668056782458!5m2!1sen!2sth"
-                                    width="650"
+                                    width="700"
                                     height="450"
                                     frameBorder="0"
                                     style={{ border: 1 }}
