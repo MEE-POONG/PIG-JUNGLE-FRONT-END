@@ -6,23 +6,18 @@ import { BiSearchAlt2 } from "react-icons/bi";
 export default function ProductShow() {
     return(
          
-        <> 
+        <div className="product-page"> 
 
-            <div className="bgbaner">
-                <h1 className="title">Product</h1>
-                <a className="text.a"  href="#">HOME</a>
-                <span >/ PRODUCT </span>
-
-
-            </div>
         
-        {/* start content */}
-        <div className="cont">
-        {/* <h1> Product </h1> */}
+ 
+        {/* -----start content----- */}
+        <div className="container">
+            <div>
+                
+            </div>
+            <h2>สินค้าของเรา</h2>
         <hr  />
         <br />
-
-              
                 <div className="row row-1">
                 <div className="col-md-2">
                     <div className="input-group rounded">
@@ -32,7 +27,7 @@ export default function ProductShow() {
                             </span>
                     </div>
 
-                        <h3>ประเภทสินค้า</h3> <hr />
+                        <h4>ประเภทสินค้า</h4> <hr />
                             <p>อุปกรณ์</p>
                             <p>เมล็ดกัญชา</p>
                             <p>เสื้อยืด</p>
@@ -43,8 +38,8 @@ export default function ProductShow() {
             {/* row left-col */}
                 <div className="col-md-10">
                     <div className="row">
-                    <div className="col-sm-3">
 
+                    <div className="col-sm-3">
                     <div className="card">
                         <Image className="img" src={'images/product/product.jpg'} alt="product1" width={'100px'}/>
                         <div className="card-body">
@@ -178,7 +173,7 @@ export default function ProductShow() {
                     <footer className="foot">
                     <a>Pic Jungle</a>
                     </footer>  
-        </>
+        </div>
 
         
     )
