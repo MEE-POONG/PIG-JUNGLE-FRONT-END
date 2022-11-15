@@ -7,11 +7,9 @@
   }
     /*main card*/
 
-  .card {
+  .product-card {
     display: flex;
-    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.4);
-    
-
+    // box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.4);
     .left {
       content: "";
       height: 395px;

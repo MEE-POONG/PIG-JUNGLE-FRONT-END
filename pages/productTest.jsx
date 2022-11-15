@@ -5,9 +5,7 @@ import ProductShowTest from 'container/ProductShowTest/ProductShowTest'
 export default function productTest() {
   return (
     <>
-        <div className='product-test'>
-            <ProductShowTest/>
-        </div>
+      <ProductShowTest/>
     </>
   )
 }
