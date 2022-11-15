@@ -4,7 +4,35 @@
 
 
 
+.product-list{
+  .card{
+    .card-header{
 
+    }
+    .card-body{
+      color: rgb(255, 0, 0);
+      ul {
+        list-style-type: none;
+        li {
+          display: inline-block;
+          margin-right: 25px;
+          color: #ffffff;
+          margin-top: 20px;
+          font-weight: 500;
+          font-size: 11px;
+        }
+      }
+    
+      
+    
+
+    }
+    .card-footer{
+
+    }
+  }
+
+}
   
 
 
