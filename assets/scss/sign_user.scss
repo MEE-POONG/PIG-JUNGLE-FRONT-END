@@ -4,6 +4,10 @@
 /* -------Su =Sign up ---------- */
 /* -------Ad =Sign adress ---------- */
 
+.box-img{
+
+}
+
 .box-Container-Si {
     width: 100%;
     min-height: 100vh;
@@ -26,12 +30,12 @@
     overflow: hidden;
     padding: 55px 55px 37px;
     background: #ffffff;
-    border: 10px solid #000000;
+    border: 5px solid #000000;
     /* background:-webkit-linear-gradient(top,#7ad8fb,#ffffff); */
-    box-shadow: -6px -6px 2px #386a00, 6px 6px 1px#528833;
+    box-shadow:-6px -6px 2px #88ff00, 6px 6px 1px#105100;
     background: linear-gradient(-45deg,  #00471f, #70b678, #009161, #7dd06f);
     animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
+    background-size: 400%;
 
 }
 
@@ -61,12 +65,12 @@
     overflow: hidden;
     padding: 55px 55px 37px;
     background: #ffffff;
-    border: 10px solid #000000;
+    border: 5px solid #000000;
     /* background:-webkit-linear-gradient(top,#7ad8fb,#ffffff); */
-    box-shadow: -6px -6px 2px #386a00, 6px 6px 1px#528833;
+    box-shadow:-6px -6px 2px #88ff00, 6px 6px 1px#105100;
     background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
     animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
+    background-size: 400%;
 }
 
 /* -----End Sign up------ */
@@ -93,12 +97,12 @@
         overflow: hidden;
         padding: 55px 55px 37px;
         background: #ffffff;
-        border: 10px solid #000000;
+        border: 5px solid #000000;
         // background:-webkit-linear-gradient(top,#7ad8fb,#ffffff);
         box-shadow: -6px -6px 2px #386a00, 6px 6px 1px#528833;
         background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
         animation: gradient 15s ease infinite;
-        background-size: 400% 400%;
+        background-size: 400%;
     }
 
     .box-address-left {
@@ -119,8 +123,8 @@
         width: 100%;
         padding: 0 35px 0 10px;
         border: 1px solid #ddd;
-        font-size: 14px;
-        height: 40px;
+        font-size: 18px;
+        height: 50px;
     }
 
 
@@ -136,6 +140,21 @@
 
     /* -------Sign in , Sign up ,address ---------- */
 
+    .box-img{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 30%;
+    }
+    .img-Si-Su{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
     .title-Si-Su {
         font-size: 60px;
         color: #000000;

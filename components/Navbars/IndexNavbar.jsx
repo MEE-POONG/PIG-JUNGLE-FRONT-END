@@ -58,15 +58,15 @@ export default function IndexNavbar() {
                 <Image src={'images/logo.png'} alt="logo-nav" width={navLogo} style={{ transition: "all 0.5s" }} />
               </Navbar.Brand>
               <div className="d-lg-flex w-40 justify-content-center">
-                <Nav.Link href="/contact" className="font-menu font-bold mx-2">
+                <Nav.Link href="/Contact" className="font-menu font-bold mx-2">
                   <div className="active">ติดต่อ</div>
                   <div className="n-active">ติดต่อ</div>
                 </Nav.Link>
-                <Nav.Link href="/sign_in_user" className="font-menu font-bold mx-2">
+                <Nav.Link href="/sign_in" className="font-menu font-bold mx-2">
                   <div className="active">เข้าสู่ระบบ</div>
                   <div className="n-active">เข้าสู่ระบบ</div>
                 </Nav.Link>
-                <Nav.Link href="/sign_up_user" className="font-menu font-bold mx-2">
+                <Nav.Link href="/sign_up" className="font-menu font-bold mx-2">
                   <div className="active">สมัครสมาชิก</div>
                   <div className="n-active">สมัครสมาชิก</div>
                 </Nav.Link>

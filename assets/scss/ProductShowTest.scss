@@ -1,14 +1,17 @@
-.product-test{
+.product-list {
 
   /*reset*/
   * {
     margin: 0;
     padding: 0;
   }
-    /*main card*/
+
+  /*main card*/
 
   .product-card {
     display: flex;
+    margin-top: 50px;
+
     // box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.4);
     .left {
       content: "";
@@ -16,18 +19,21 @@
       width: 300px;
       display: flex;
       align-items: center;
-      background-color: #EAE0F8;
+      background-color: #00d7a1;
       border-radius: 0% 50% 50% 0%;
       position: absolute;
       z-index: 5;
-      margin-left: 93px;
     }
 
     .left .img-product {
-      // margin-left: -88px;
-      // margin-top: 60px;
-      height: 500px;
-      width: auto;
+      margin-left: -40px;
+      width: 300px;
+      height: auto;
+      transition: transform .1s ease-in-out;
+
+      &:hover {
+        transform: rotate(5deg);
+      }
     }
 
     .right {
@@ -36,7 +42,7 @@
       width: 550px;
       background-color: #2a2f40;
       z-index: 3;
-      margin-left: 200px;
+      margin-left: 100px;
     }
 
     .product-info {
@@ -50,28 +56,15 @@
 
   /*product info */
   h1 {
-    color: #ffffff;
-    font-family: "muli";
+    color: #00d7a1;
     font-weight: bold;
     font-size: 22px;
     margin-top: 21px;
     display: inline-block;
   }
 
-  .product-name .icon {
-    color: #ffffff;
-    transition: 0.3s all ease;
-    margin: 0px 12px;
-  }
-
-  .product-name .icon:hover {
-    color: #ff6d39;
-    cursor: pointer;
-  }
-
   h3 {
     color: #ffffff;
-    font-family: "muli";
     margin-top: 84px;
     font-size: 20px;
     font-weight: 500;
@@ -79,7 +72,6 @@
 
   h2 {
     color: #ffffff;
-    font-family: "muli";
     margin-top: 10px;
     font-weight: 800;
     font-size: 29px;
@@ -88,10 +80,15 @@
   h4 {
     display: inline-block;
     color: #ffffff;
-    font-family: "muli";
     margin-top: 10px;
     font-weight: bold;
     font-size: 20px;
+  }
+
+  h5 {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 15px;
   }
 
   ul {
@@ -105,7 +102,6 @@
 
   ul li {
     color: #ffffff;
-    font-family: "muli";
     margin-top: 20px;
     font-weight: 500;
     font-size: 11px;
@@ -119,19 +115,18 @@
     margin-right: 20px;
     transition: 0.3s all ease;
     border-radius: 50%;
-  }
 
-  .bg:hover {
-    background-color: #ff6d39;
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
+    &:hover {
+      background-color: #00d7a1;
+      border-radius: 50%;
+      width: 15px;
+      height: 15px;
+      cursor: pointer;
+    }
   }
 
   .foot {
     color: #ffffff;
-    font-family: "muli";
     margin-top: 20px;
     margin-right: 50px;
     font-weight: 500;
@@ -139,14 +134,14 @@
     float: left;
     transition: 0.3s all ease;
 
-      .icon:nth-child(1) {
-        margin-left: 0;
-        margin-right: 15px;
-      }
-    
-      &:hover {
-        color: #f76b39;
-        cursor: pointer;
-      }
+    .icon:nth-child(1) {
+      margin-left: 0;
+      margin-right: 15px;
+    }
+
+    &:hover {
+      color: #00d7a1;
+      cursor: pointer;
+    }
   }
 }
