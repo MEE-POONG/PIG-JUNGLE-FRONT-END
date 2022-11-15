@@ -67,3 +67,26 @@ body {
         filter: opacity(0) brightness(0.5) blur(1px);
     }
 }
+
+.title-header {
+    font-size: 50px;
+    width: max-content;
+
+    .n-active {
+        color: #FFFFFF;
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+
+    }
+
+    .active {
+        position: absolute;
+        background: linear-gradient(#ee5441, #ee5441, #fed406, #009b4e, #009b4e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-background-clip: text;
+        -moz-text-fill-color: transparent;
+    }
+
+
+
+}

@@ -8,7 +8,9 @@ export default function IndexLayout({ children }) {
     <>
       <BackGroundMain />
       <IndexNavbar />
+      <div className="mt-5">
       {children}
+      </div>
       {/* <Footer/> */}
     </>
 

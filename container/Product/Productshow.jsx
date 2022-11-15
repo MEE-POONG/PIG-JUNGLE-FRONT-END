@@ -18,10 +18,10 @@ export default function ProductShow() {
                 <div className="row">
                 <div className="col-md-2">
                     <div className="input-group rounded">
-                            <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                            <span className="input-group-text border-0" id="search-addon">
+                        <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <span className="input-group-text border-0" id="search-addon">
                             <i> <BiSearchAlt2/> </i>
-                            </span>
+                        </span>
                     </div>
                     <div className="type-card">
                         <h4>ประเภทสินค้า</h4> <hr />
@@ -41,22 +41,6 @@ export default function ProductShow() {
                         <div className="left">
                             <Image src={'images/product/marijuana_07.png'} className='img-product' alt="imgProduct"/>
                         </div>
-                        <div className="right">
-                            <div className="product-info">
-                            <div className="product-name">
-                                <h3>PicJungle</h3>
-                            </div>
-                            <div className="details">
-                                <i>ใบกัญชา</i>
-                                <h2>Gorilla purple</h2>
-                                <h5>- hybrid indica
-                                    <br />- THC 17%
-                                    <br />- effects. หิว ง่วงนอน
-                                   <br /> - กลิ่นรสชาติ. หวาน เบอร์รี่ องุ่น</h5>
-                                <h4><p>ราคา......บาท</p></h4>
-                            </div> 
-                            </div>
-                        </div>
                         
                         </div>
                     </div>
@@ -72,9 +56,6 @@ export default function ProductShow() {
                
             </div> 
              
-                    <footer className="foot">
-                    <a>Pic Jungle</a>
-                    </footer>  
         </div>
 
         

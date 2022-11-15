@@ -3,24 +3,22 @@
     /* ------------ title ------------------ */
     .ncontact {
         justify-content: center;
-        text-shadow: -2px -2px 3px rgb(0, 255, 30), -2px -2px 3px rgb(0, 255, 30), 4px 3px 2px #b238f3, 4px 3px 2px #ef2f2f;
+        color: #FFFFFF;
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
         text-align: center;
         font-style: normal;
         font-size: 40px;
         font-weight: 400;
         padding: 5.5%;
         margin-top: 0px;
-
+    
     }
 
-    /* ------------ sub title------------------- */
-    .bgbody {
-        background-color: #ccc;
-    }
-
-    .provide {
+  .provide {
         margin-left: 5em;
         margin-right: 65rem;
+        color: #FFFFFF;
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
 
     }
 
@@ -34,53 +32,56 @@
         text-transform: none;
         letter-spacing: 0px;
         margin-bottom: 0.20em;
-        color: #040404;
         line-height: 2.59rem;
         margin-top: 2rem;
     }
-
     .provide p {
         text-align: center;
-        color: #040404;
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
     }
 
     .provide:hover {
         text-shadow: -2px -2px 3px rgb(0, 255, 30), -4px -3px 4px rgb(228, 244, 52), 4px 3px 2px #f33838;
     }
+    /* ------------ sub title------------------- */
+    .bgbody {
+        background-color: #ccc;
+    }
+
+
 
     /* ------------ icon brand------------------- */
+
     .text-icon {
         font-size: 22px;
         font-weight: 700;
         transition-duration: none;
-
         .icon {
             .row {
                 font-size: 23px;
             }
 
             a {
-                color: #000000;
+                color: #FFFFFF;
+                text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
                 font-size: 23px;
                 margin-left: 5.5em;
                 margin-top: 2%;
+
                 &:hover {
-                    background-color: rgb(255, 255, 255);
                    
-                    text-shadow: -2px -2px 3px rgb(0, 255, 30), -2px -2px 3px rgb(228, 244, 52), 2px 2px 2px #f33838;
-                    transform: scale(1.0);
+                   
                 }
             }
-
             .icon-svg {
                 max-width: fit-content !important;
+                color: #FFFFFF;
+                text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
 
                 &:hover {
                     box-shadow: -2px -2px 3px rgb(0, 255, 30), -4px -3px 4px rgb(228, 244, 52), 4px 3px 2px #f33838;
                 }
-
             }
-
         }
     }
 
@@ -129,48 +130,48 @@
 
     li {
         list-style-type: none;
-      }
-      
-     .text-letter {
+    }
+
+    .text-letter {
         font-size: 2.5rem;
         position: relative;
         width: max-content;
-      }
-      
-      .text-letter:before,
-      .text-letter:after {
+    }
+
+    .text-letter:before,
+    .text-letter:after {
         content: '';
         position: absolute;
-        top:0;
-        left:0;
-        right:0;
-        bottom:0;
-      }
-      
-      .text-letter::before {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .text-letter::before {
         background-color: white;
         animation: typewriter 1.5s steps(8) alternate infinite;
-      }
-      
-      .text-letter::after {
+    }
+
+    .text-letter::after {
         width: .125rem;
         background-color: black;
-        animation: 
-         typewriter 1.5s steps(8) alternate infinite,
-         blink 500ms steps(8) infinite;
-      }
-      
-      @keyframes typewriter {
+        animation:
+            typewriter 1.5s steps(8) alternate infinite,
+            blink 500ms steps(8) infinite;
+    }
+
+    @keyframes typewriter {
         to {
-          left: calc(100% + 1ch);
+            left: calc(100% + 1ch);
         }
-      }
-      
-      @keyframes blink {
+    }
+
+    @keyframes blink {
         to {
-          background: transparent;
+            background: transparent;
         }
-      }
+    }
 
     .input-email {
         width: 70%;
@@ -208,6 +209,45 @@
         font-style: normal;
         font-size: 25px;
         padding: 7%;
+
+    }
+   //-------responsive---------//
+    @media screen and (max-width: 480px){
+        .ncontact{
+            font-size: 28px;
+        }
+        .provide h3{
+            font-size: 24px;
+            margin-left: 16px;
+        }
+        .provide{
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        .icon{
+            margin-left: -8rem;
+        }
+        .col{
+            font-size: 16px;
+        }
+        .letter{
+            font-size: 12px;
+            margin-left: 9px;
+            margin-right: 9px;
+            margin-top: 10%;
+        }
+        .letter h3 {
+            font-size: 12px;
+            margin-left: 9px;
+            
+        }
+        .letter p {
+            margin-left: 9px;
+            font-size: 12px;  
+        }
+        .input-email .input-submit{
+            margin-left: 2px;
+        }
 
     }
 }
