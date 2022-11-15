@@ -26,12 +26,12 @@
     overflow: hidden;
     padding: 55px 55px 37px;
     background: #ffffff;
-    border: 10px solid #000000;
+    border: 5px solid #000000;
     /* background:-webkit-linear-gradient(top,#7ad8fb,#ffffff); */
-    box-shadow: -6px -6px 2px #386a00, 6px 6px 1px#528833;
+    box-shadow:-6px -6px 2px #386a00, 6px 6px 1px#528833;
     background: linear-gradient(-45deg,  #00471f, #70b678, #009161, #7dd06f);
     animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
+    background-size: 400%;
 
 }
 
@@ -61,12 +61,12 @@
     overflow: hidden;
     padding: 55px 55px 37px;
     background: #ffffff;
-    border: 10px solid #000000;
+    border: 5px solid #000000;
     /* background:-webkit-linear-gradient(top,#7ad8fb,#ffffff); */
     box-shadow: -6px -6px 2px #386a00, 6px 6px 1px#528833;
     background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
     animation: gradient 15s ease infinite;
-    background-size: 400% 400%;
+    background-size: 400%;
 }
 
 /* -----End Sign up------ */
@@ -93,12 +93,12 @@
         overflow: hidden;
         padding: 55px 55px 37px;
         background: #ffffff;
-        border: 10px solid #000000;
+        border: 5px solid #000000;
         // background:-webkit-linear-gradient(top,#7ad8fb,#ffffff);
         box-shadow: -6px -6px 2px #386a00, 6px 6px 1px#528833;
         background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
         animation: gradient 15s ease infinite;
-        background-size: 400% 400%;
+        background-size: 400%;
     }
 
     .box-address-left {
