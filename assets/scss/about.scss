@@ -3,7 +3,7 @@
         background-color: rgb(15 129 16);
         color: aliceblue;
         text-align: center;
-        font-family: monospace;
+
         padding: 7%;
         font-size: 20px;
 
@@ -14,7 +14,7 @@
         background-color: rgb(15 129 16);
         color: aliceblue;
         text-align: center;
-        font-family: cursive;
+
 
         font-size: 50px;
     }
@@ -27,7 +27,7 @@
 
     .products h3 {
         text-align: center;
-        font-family: "FrankRuhlLibre", serif;
+      
         font-size: 2.235rem;
         font-weight: 700;
         font-style: normal;
@@ -35,7 +35,7 @@
         text-transform: none;
         letter-spacing: 0px;
         margin-bottom: 0.14em;
-        font-family: none;
+
         color: rgb(15 129 16);
         line-height: 2.59rem;
         margin-top: 10rem;
@@ -65,20 +65,10 @@
         width: 40rem;
         margin-top: 10rem;
         margin-left: 5rem;
+        box-shadow: 5px 5px 38px #b500a2;
     }
 
-    /* .mm {
-    background: #1086f5;
-    text-align: center;
-    margin-left: 14rem;
-    color: antiquewhite;
-    border-radius: 10px;
-    width: 187px;
-    height: 50px;
-    padding: 15px;
-    font-family: none;
 
-} */
     .mm {
         display: inline-block;
         color: #ffffff;
@@ -88,23 +78,23 @@
         font-weight: 500;
         line-height: 24px;
         border-radius: 10px;
-        font-family: inherit;
+
         transition: ease .40s;
         text-decoration: none;
 
 
     }
 
-    .mm:hover {
-        transform: scale(1.1);
-    }
+    // .mm:hover {
+    //     transform: scale(1.1);
+    // }
 
     .best h1 {
         padding-bottom: 2px;
         margin-left: 40rem;
         font-size: 3.5rem;
         padding: 0rem;
-        font-family: none;
+
         color: #9d6a32;
         margin-top: 15rem;
 
@@ -117,7 +107,7 @@
         margin-left: 54rem;
 
         padding: 0rem;
-        font-family: none;
+
         color: #eab317;
         margin-top: 0rem;
         font-family: cursive;
@@ -143,18 +133,7 @@
         color: rgb(2, 2, 1);
     }
 
-    // .shop-now {
-    //     display: inline-block;
-    //     color: #ffffff;
-    //     background: rgb(0, 0, 0);
-    //     line-height: 24px;
-    //     border-radius: 10px;
-    //     font-family: inherit;
-    //     transition: ease .40s;
-    //     top: 59%;
-    //     left: 50%;
-    //     transform: translate(-50%, -50%);
-    // }
+
 
     .shop-now:hover {
         transform: scale(1.1);
@@ -170,7 +149,8 @@
             height: 80%;
             background-color: #ffffff;
             position: absolute;
-            div.text{
+
+            div.text {
                 position: relative;
             }
 
@@ -179,18 +159,19 @@
         .lgo {
             width: 100%;
         }
+
         .titel {
             font-size: xxx-large;
             position: absolute;
-            
+
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
-    
+
         .script {
             position: absolute;
-            
+
             top: 59%;
             left: 50%;
             transform: translate(-50%, -50%);
@@ -198,7 +179,7 @@
 
     }
 
-    
+
 
     .grown {
         text-decoration: none;
@@ -210,11 +191,58 @@
         font-family: inherit;
         transition: ease .40s;
         position: absolute;
-        // top: 75%;
-        // left: 50%;
-        // transform: translate(-50%, -50%);
-        // padding: 1rem;
-    }
 
+    }
+.call-to-action{
+    background: url("../../public/images/product/product12.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 9rem;
+    padding-bottom: 20rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+.button-shop{
+    text-decoration: none;
+    background: rgb(15, 129, 16);
+    padding: 15px;
+    color: #ffffff;
+    border-radius: 10px;
+    transition: ease 0.4s;
+}
+
+.button-shop:hover{
+    
+    transform: scale(1.1);
+}
+
+.mb-4{
+    margin-bottom: 5rem !important;
+}
+
+
+    @media screen and (max-width: 480px) {
+        .logo {
+            margin-top: 1rem;
+            margin-left: 14px;
+            max-width: 20rem;
+        }
+
+        .products h3 {
+            margin-top: 2rem;
+        }
+
+        .work {
+            font-size: 10px;
+        }
+        .mm{
+            display: inline-block;
+            color: #ffffff;
+            background: rgb(15, 129, 16);
+            padding: 6px;
+            font-size: 10px;
+            margin-left: 130px;
+        }
+    }
 
 }
