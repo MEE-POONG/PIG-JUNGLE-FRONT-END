@@ -8,17 +8,17 @@ export default function ProductShow() {
          
         <> 
 
-            {/* <div className="bgbaner">
+            <div className="bgbaner">
                 <h1 className="title">Product</h1>
                 <a className="text.a"  href="#">HOME</a>
                 <span >/ PRODUCT </span>
 
 
-            </div> */}
+            </div>
         
         {/* start content */}
-        <div className='backgroundpage'>
-        <h1 className="h1"> Product </h1>
+        <div className="cont">
+        {/* <h1> Product </h1> */}
         <hr  />
         <br />
 
