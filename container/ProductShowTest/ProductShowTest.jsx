@@ -7,7 +7,7 @@ export default function ProductShowTest() {
     <>
       <div className="card">
         <div className="left">
-            <Image src="https://www.dropbox.com/s/e928cht0h5crcn4/shoe.png?raw=1" alt="shoe"/>
+            {/* <Image src={'images/product/marijuana_04.png'} className='img-product' alt="imgProduct"/> */}
         </div>
         <div className="right">
             <div className="product-info">
@@ -21,7 +21,6 @@ export default function ProductShowTest() {
                     <h3>Winter Collection</h3>
                     <h2>Men Black Sneakers</h2>
                     <h4><span className="fa fa-dollar"></span>150</h4>
-                    <h4 className="dis"><span className="fa fa-dollar"></span>200</h4>
                 </div>
                 <ul>
                     <li>SIZE</li>
@@ -30,12 +29,6 @@ export default function ProductShowTest() {
                     <li className="bg">9</li>
                     <li className="bg">10</li>
                     <li className="bg">11</li>
-                </ul>
-                    <ul>
-                    <li>COLOR</li>
-                    <li className="yellow"></li>
-                    <li className="black"></li>
-                    <li className="blue"></li>
                 </ul>
                 <span className="foot"><FaShoppingBag className='icon'/>Buy Now</span>
                 <span className="foot"><FaShoppingCart className='icon'/>Add TO Cart</span>

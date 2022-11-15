@@ -5,10 +5,54 @@
     margin: 0;
     padding: 0;
   }
+    /*main card*/
+
+  .card {
+    display: flex;
+    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.4);
+    
+
+    .left {
+      content: "";
+      height: 395px;
+      width: 300px;
+      display: flex;
+      align-items: center;
+      background-color: #EAE0F8;
+      border-radius: 0% 50% 50% 0%;
+      position: absolute;
+      z-index: 5;
+      margin-left: 93px;
+    }
+
+    .left .img-product {
+      // margin-left: -88px;
+      // margin-top: 60px;
+      height: 500px;
+      width: auto;
+    }
+
+    .right {
+      content: "";
+      height: 395px;
+      width: 550px;
+      background-color: #2a2f40;
+      z-index: 3;
+      margin-left: 200px;
+    }
+
+    .product-info {
+      position: absolute;
+      margin-left: 245px;
+      height: 394px;
+      width: 305px;
+      z-index: 10;
+    }
+  }
 
   /*product info */
   h1 {
-    color: #ff6d39;
+    color: #ffffff;
     font-family: "muli";
     font-weight: bold;
     font-size: 22px;
@@ -52,24 +96,6 @@
     font-size: 20px;
   }
 
-  h4.dis {
-    display: inline-block;
-    color: #ffffff;
-    font-family: "muli";
-    font-weight: 400;
-    font-size: 17px;
-    margin-left: 30px;
-    text-decoration: line-through #ea3201;
-  }
-
-  h4.dis span {
-    text-decoration: line-through #ea3201;
-  }
-
-  .discount {
-    display: inline-block;
-  }
-
   ul {
     list-style-type: none;
   }
@@ -105,46 +131,6 @@
     cursor: pointer;
   }
 
-  .yellow {
-    content: "";
-    width: 13px;
-    height: 13px;
-    background-color: #fec60f;
-    border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0);
-    transition: 0.3s all ease;
-  }
-
-  .black {
-    content: "";
-    width: 13px;
-    height: 13px;
-    background-color: #000000;
-    border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0);
-    transition: 0.3s all ease;
-  }
-
-  .blue {
-    content: "";
-    width: 13px;
-    height: 13px;
-    background-color: #02a2ca;
-    border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0);
-    transition: 0.3s all ease;
-  }
-
-  .yellow:hover,
-  .black:hover,
-  .blue:hover {
-    border: 2px solid #f76b39;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    cursor: pointer;
-  }
-
   .foot {
     color: #ffffff;
     font-family: "muli";
@@ -154,57 +140,15 @@
     font-size: 11px;
     float: left;
     transition: 0.3s all ease;
-  }
 
-  .foot .icon:nth-child(1) {
-    margin-left: 0;
-    margin-right: 15px;
-  }
-
-  .foot:hover {
-    color: #f76b39;
-    cursor: pointer;
-  }
-
-  /*main card*/
-
-  .card {
-    display: flex;
-    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.4);
-  }
-
-  .left {
-    content: "";
-    height: 395px;
-    width: 330px;
-    display: flex;
-    align-items: center;
-    background-color: #ff6d39;
-    margin-left: 93px;
-    border-radius: 0% 50% 50% 0%;
-    position: absolute;
-    z-index: 5;
-  }
-
-  .left img {
-    margin-left: -88px;
-    margin-top: 60px;
-  }
-
-  .right {
-    content: "";
-    height: 395px;
-    width: 550px;
-    background-color: #2a2f40;
-    z-index: 3;
-    margin-left: 200px;
-  }
-
-  .product-info {
-    position: absolute;
-    margin-left: 245px;
-    height: 394px;
-    width: 305px;
-    z-index: 10;
+      .icon:nth-child(1) {
+        margin-left: 0;
+        margin-right: 15px;
+      }
+    
+      &:hover {
+        color: #f76b39;
+        cursor: pointer;
+      }
   }
 }
