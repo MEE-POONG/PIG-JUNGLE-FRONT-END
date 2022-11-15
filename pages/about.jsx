@@ -1,7 +1,7 @@
-import About from '@/components/About/About'
 import Head from 'next/head';
 import React from 'react';
 import IndexLayout from "@/components/layouts/IndexLayout";
+import About from 'container/About/About';
 
 
 export default function AboutPage() {
