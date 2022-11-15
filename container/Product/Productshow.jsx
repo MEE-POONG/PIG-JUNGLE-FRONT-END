@@ -37,53 +37,14 @@ export default function ProductShow() {
             {/* row right-col */}
                 <div className="col-md-10">
                     <Row>
-                        <Col  xs={12} sm={6} md={4} lg={3}>
-                            <div className="card">
-                            <Image className="img" src={'images/product/marijuana_01.png'} alt="product1" width={'100px'}/>
-                            <div class="details">
-                                <h3>Eleven rosé</h3>
-                                <h5>Men Black Sneakers</h5>
-                                <h6><span class="fa fa-dollar"></span>150</h6>
-                                <h6 class="dis"><span><TbCurrencyBaht/></span>200</h6>
-                                </div> 
-                                    <span class="foot"><i><FaShoppingBasket/></i>Buy Now</span>
-                                    <span class="foot"><i><FaShoppingCart/></i>Add TO Cart</span>
-                        </div>
+                        <Col  xs={12} sm={6} md={4}>
+                            
                         </Col>
-
-                        <Col  xs={12} sm={6} md={4} lg={3}>
-                            <div className="card">
-                            <Image className="img" src={'images/product/marijuana_02.png'} alt="product1" width={'100px'}/>
-                            <div class="details">
-                                <h3>Eleven rosé</h3>
-                                <h5>Men Black Sneakers</h5>
-                                <h6><span class="fa fa-dollar"></span>150</h6>
-                                <h6 class="dis"><span><TbCurrencyBaht/></span>200</h6>
-                                </div> 
-                                    <span class="foot"><i><FaShoppingBasket/></i>Buy Now</span>
-                                    <span class="foot"><i><FaShoppingCart/></i>Add TO Cart</span>
-                        </div>
-                        </Col>
-
-                        <Col  xs={12} sm={6} md={4} lg={3}>
-                            <div className="card">
-                            <Image className="img" src={'images/product/marijuana_03.png'} alt="product1" width={'100px'}/>
-                            <div class="details">
-                                <h3>Eleven rosé</h3>
-                                <h5>Men Black Sneakers</h5>
-                                <h6><span class="fa fa-dollar"></span>150</h6>
-                                <h6 class="dis"><span><TbCurrencyBaht/></span>200</h6>
-                                </div> 
-                                    <span class="foot"><i><FaShoppingBasket/></i>Buy Now</span>
-                                    <span class="foot"><i><FaShoppingCart/></i>Add TO Cart</span>
-                        </div>
-                        </Col>
+                    
                     </Row>
                    
 
-                   
-            {/* end row2 */}
-
+      
         
                 </div>
             {/* end right-col */}   
