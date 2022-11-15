@@ -1,65 +1,58 @@
+
+
 .product-page{
+  
 
-.backgroundpage {
-  background: rgb(204, 81, 177);
+/* ------------ title ------------------ */
+h2, .h2 {
+  font-size: 2rem;
+  margin-top: 50px;
 }
+  
+ //style card// 
 
-  .input-group-rounded{
-    text-shadow: -6px -6px 2px rgb(0 255 162), 6px 6px 1px #b224ef;
-  }
+
+
+
+
+
+
+
+ //////////////////////////////
+  // .card {
+  //   box-shadow: 0 4px 8px 0 rgba(35, 233, 9, 0.911);
+  //   transition: 0.3s;
+  //   width: 40%;
+  //   border-radius: 5px;
+  // }
   
-  .card {
-      box-shadow: 0 4px 8px 0 rgba(6, 122, 11, 0.719);
-      transition: 0.3s;
-      width: 100%;
-      height: 100px;
-      border-radius: 5px;
-      margin-top: 2em;
-    }
+  // .card:hover {
+  //   box-shadow: 0 8px 16px 0 rgb(239, 255, 15);
+  // }
+  
+  // .img {
+  //   border-radius: 5px 5px 0 0;
     
-    .card:hover {
-      box-shadow: 0 8px 16px 0 rgba(206, 44, 3, 0.801);
-    }
     
-    .img {
-      border-radius: 5px 5px 0 0;
-      height: 60px;
-    }
+  // }
   
-    .title {
-      color: rgb(236, 236, 236);
-      font-size: 70px;
-      text-align: center;
-      padding: 7%;
-    }
+  // .body {
+  //   padding: 2px 16px;
+  // }
   
-    .p1 {
-      
-      color: rgb(255, 255, 255);
-      text-align: center;
-      
-    }
   
-    .btn {
-      background: rgb(7, 184, 30);
-      color: black;
-      transition-duration: 0.4s;
-      cursor: pointer;
-      padding-bottom: 0;
-    }
-    .btn:hover {
-          background-color: #def186;
-        }
-  
-    .foot {
-      width: 100%;
-      height: 25px;
-      background-color: rgb(40, 41, 39);
-      background-size: cover;
-      background-repeat: no-repeat;
-      color: aliceblue;
-      text-align: center;
-      padding: 4%;
-      font-size: 18px;
-    }
+
+
+
+    // .foot {
+    //   width: 100%;
+    //   height: 25px;
+    //   background-color: rgb(40, 41, 39);
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    //   color: aliceblue;
+    //   text-align: center;
+    //   padding: 4%;
+    //   font-size: 18px;
+    // }
   }

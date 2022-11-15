@@ -1,7 +1,8 @@
 
 import React from "react";
 import Head from 'next/head';
-import AddressUser from "@/components/Address_User/Address_User";
+import AddressUser from "container/addressuser/Address_User";
+
 
 export default function AddressUserPages() {
     return (
