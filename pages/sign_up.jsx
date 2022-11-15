@@ -1,7 +1,7 @@
 
 import React from "react";
 import Head from 'next/head';
-import SignUpUser from "@/components/Sign_Up_User/Sign_Up_User";
+
 
 export default function SignUpUserPages() {
     return (
@@ -32,7 +32,7 @@ export default function SignUpUserPages() {
                             <a className="btu-Si-Su-Ad" type='sign-up' href="/address_user">SIGN UP</a>
                         </div>
                         <div className='box-text'>
-                            <a className='text-Si-Su' href="/sign_in_user">Sign in</a>
+                            <a className='text-Si-Su' href="/sign_in">Sign in</a>
                         </div>
                     </div>
                 </div>

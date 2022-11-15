@@ -1,7 +1,7 @@
 
 import React from "react";
 import Head from 'next/head';
-import SigninUser from "container/Sign_In_User/Sign_In_User";
+
 
 export default function AdderssUserPage() {
     return (
@@ -33,7 +33,7 @@ export default function AdderssUserPage() {
 
                         </div>
                         <div className='box-text'>
-                            <a className='text-Si-Su' href="/sign_up_user"> Sign up</a> <a className='text-Si-Su' href="">Forgot Password?</a>
+                            <a className='text-Si-Su' href="/sign_up"> Sign up</a> <a className='text-Si-Su' href="">Forgot Password?</a>
                         </div>
                     </div>
                 </div>
