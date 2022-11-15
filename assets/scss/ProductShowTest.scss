@@ -1,15 +1,17 @@
-.product-list{
+.product-list {
 
   /*reset*/
   * {
     margin: 0;
     padding: 0;
   }
-    /*main card*/
+
+  /*main card*/
 
   .product-card {
     display: flex;
     margin-top: 50px;
+
     // box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.4);
     .left {
       content: "";
@@ -28,7 +30,8 @@
       width: 300px;
       height: auto;
       transition: transform .1s ease-in-out;
-      &:hover{
+
+      &:hover {
         transform: rotate(5deg);
       }
     }
@@ -131,14 +134,14 @@
     float: left;
     transition: 0.3s all ease;
 
-      .icon:nth-child(1) {
-        margin-left: 0;
-        margin-right: 15px;
-      }
-    
-      &:hover {
-        color: #00d7a1;
-        cursor: pointer;
-      }
+    .icon:nth-child(1) {
+      margin-left: 0;
+      margin-right: 15px;
+    }
+
+    &:hover {
+      color: #00d7a1;
+      cursor: pointer;
+    }
   }
 }
