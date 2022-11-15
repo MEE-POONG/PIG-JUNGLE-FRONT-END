@@ -53,7 +53,7 @@ export default function ProductShow() {
 
                         <Col  xs={12} sm={6} md={4} lg={3}>
                             <div className="card">
-                            <Image className="img" src={'images/product/marijuana_01.png'} alt="product1" width={'100px'}/>
+                            <Image className="img" src={'images/product/marijuana_02.png'} alt="product1" width={'100px'}/>
                             <div class="details">
                                 <h3>Eleven rosé</h3>
                                 <h5>Men Black Sneakers</h5>
@@ -67,7 +67,7 @@ export default function ProductShow() {
 
                         <Col  xs={12} sm={6} md={4} lg={3}>
                             <div className="card">
-                            <Image className="img" src={'images/product/marijuana_01.png'} alt="product1" width={'100px'}/>
+                            <Image className="img" src={'images/product/marijuana_03.png'} alt="product1" width={'100px'}/>
                             <div class="details">
                                 <h3>Eleven rosé</h3>
                                 <h5>Men Black Sneakers</h5>
