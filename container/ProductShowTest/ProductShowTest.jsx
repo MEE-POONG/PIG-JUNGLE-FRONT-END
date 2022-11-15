@@ -27,7 +27,7 @@ export default function ProductShowTest() {
     <div className='product-test'>
         <div className="product-card">
             <div className="left">
-                <Image src={'images/product/marijuana_07.png'} className='img-product' alt="imgProduct"/>
+                <Image src={'images/product/marijuana_hookah_01.png'} className='img-product' alt="imgProduct"/>
             </div>
             <div className="right">
                 <div className="product-info">
