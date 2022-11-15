@@ -1,7 +1,8 @@
-import Contactshow from '@/components/Contact/Contactshow';
+
 import React from 'react'
 import Head from 'next/head';
 import IndexLayout from "components/layouts/IndexLayout";
+import Contactshow from 'container/Contact/Contactshow';
 
 export default function Contactpage() {
   return (
@@ -15,7 +16,7 @@ export default function Contactpage() {
         <link rel="icon" href="/images/logo.png" />
       </Head>
       <div id='contact-page' name="contact-page" className='contact-page'>
-        <Contactshow />
+     <Contactshow/>
       </div>
     </>
   )
