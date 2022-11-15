@@ -56,13 +56,7 @@
 
         .icon {
             .row {
-                &:hover {
-                    box-shadow: -2px -2px 3px rgb(234, 255, 0), -4px -3px 4px rgb(52, 244, 84), 4px 3px 2px #f33838;
-                }
-                &:hover {
-                    text-shadow: -2px -2px 3px rgb(0, 255, 30), -4px -3px 4px rgb(228, 244, 52), 4px 3px 2px #f33838;
-                    // box-shadow: 9px 9px 7px rgba(0,0,0,0.3);
-                }
+                font-size: 23px;
             }
 
             a {
@@ -70,6 +64,12 @@
                 font-size: 23px;
                 margin-left: 5.5em;
                 margin-top: 2%;
+                &:hover {
+                    background-color: rgb(255, 255, 255);
+                   
+                    text-shadow: -2px -2px 3px rgb(0, 255, 30), -2px -2px 3px rgb(228, 244, 52), 2px 2px 2px #f33838;
+                    transform: scale(1.0);
+                }
             }
 
             .icon-svg {
@@ -126,6 +126,51 @@
         justify-content: center;
         margin-left: 100px;
     }
+
+    li {
+        list-style-type: none;
+      }
+      
+     .text-letter {
+        font-size: 2.5rem;
+        position: relative;
+        width: max-content;
+      }
+      
+      .text-letter:before,
+      .text-letter:after {
+        content: '';
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+      }
+      
+      .text-letter::before {
+        background-color: white;
+        animation: typewriter 1.5s steps(8) alternate infinite;
+      }
+      
+      .text-letter::after {
+        width: .125rem;
+        background-color: black;
+        animation: 
+         typewriter 1.5s steps(8) alternate infinite,
+         blink 500ms steps(8) infinite;
+      }
+      
+      @keyframes typewriter {
+        to {
+          left: calc(100% + 1ch);
+        }
+      }
+      
+      @keyframes blink {
+        to {
+          background: transparent;
+        }
+      }
 
     .input-email {
         width: 70%;
