@@ -1,7 +1,7 @@
 
 import React from "react";
 import Head from 'next/head';
-
+import BackGroundMain from "@/components/Bg/BackGroundMain";
 
 export default function AdderssUserPage() {
     return (
@@ -15,6 +15,8 @@ export default function AdderssUserPage() {
                 />
                 <link rel="icon" href="/images/logo.png" />
             </Head>
+
+            <BackGroundMain/>
 
             <div id='sign-user' name="sign-user" className='sign-user'>
                 <div className='box-Container-Si'>
