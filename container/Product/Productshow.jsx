@@ -18,10 +18,10 @@ export default function ProductShow() {
                 <div className="row">
                 <div className="col-md-2">
                     <div className="input-group rounded">
-                            <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
-                            <span className="input-group-text border-0" id="search-addon">
+                        <input type="search" className="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                        <span className="input-group-text border-0" id="search-addon">
                             <i> <BiSearchAlt2/> </i>
-                            </span>
+                        </span>
                     </div>
                     <div className="type-card">
                         <h4>ประเภทสินค้า</h4> <hr />
@@ -34,7 +34,18 @@ export default function ProductShow() {
 
             {/* row left-col */}
                 <div className="col-md-10">
-                  
+                    <div className="row">
+
+                    <div className="col-sm-3">
+                    <div className="product-card">
+                        <div className="left">
+                            <Image src={'images/product/marijuana_07.png'} className='img-product' alt="imgProduct"/>
+                        </div>
+                        
+                        </div>
+                    </div>
+                </div>
+                </div>
             {/* end left-col */}   
 
 
@@ -45,9 +56,6 @@ export default function ProductShow() {
                
             </div> 
              
-                    <footer className="foot">
-                    <a>Pic Jungle</a>
-                    </footer>  
         </div>
 
         
