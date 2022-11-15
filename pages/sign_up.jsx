@@ -3,6 +3,7 @@ import React from "react";
 import Head from 'next/head';
 import BackGroundMain from "@/components/Bg/BackGroundMain";
 
+import { Image } from 'react-bootstrap';
 
 export default function SignUpUserPages() {
     return (
@@ -16,12 +17,17 @@ export default function SignUpUserPages() {
                 <link rel="icon" href="/images/logo.png" />
             </Head>
 
-            <BackGroundMain/>
+            <BackGroundMain />
 
             <div id='sign-user' name="sign-user" className='sign-user'>
                 <div className="box-Container-Su">
+
+                    <div className="box-img">
+                        <Image src={'images/B01.png'} width={'300px'} />
+                    </div>
+
                     <div className='Container-Su'>
-                        <h2 className='title-Si-Su'>Sign up</h2>
+                        <Image src={'images/logo02.png'} className='img-Si-Su' />
                         <form>
 
                             <input className='input-Si-Su' type="text" id="UserName" name="UserName" placeholder="UserName" />
@@ -39,6 +45,11 @@ export default function SignUpUserPages() {
                             <a className='text-Si-Su' href="/sign_in">Sign in</a>
                         </div>
                     </div>
+
+                    <div className="box-img">
+                        <Image src={'images/B01.png'} width={'300px'} />
+                    </div>
+
                 </div>
             </div>
         </>

@@ -4,6 +4,10 @@
 /* -------Su =Sign up ---------- */
 /* -------Ad =Sign adress ---------- */
 
+.box-img{
+
+}
+
 .box-Container-Si {
     width: 100%;
     min-height: 100vh;
@@ -119,8 +123,8 @@
         width: 100%;
         padding: 0 35px 0 10px;
         border: 1px solid #ddd;
-        font-size: 14px;
-        height: 40px;
+        font-size: 18px;
+        height: 50px;
     }
 
 
@@ -136,6 +140,21 @@
 
     /* -------Sign in , Sign up ,address ---------- */
 
+    .box-img{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 30%;
+    }
+    .img-Si-Su{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        margin: auto;
+    }
     .title-Si-Su {
         font-size: 60px;
         color: #000000;
