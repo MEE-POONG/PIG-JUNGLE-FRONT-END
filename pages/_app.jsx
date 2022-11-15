@@ -81,10 +81,7 @@ export default class MyApp extends App {
               href="https://fonts.gstatic.com"
               crossOrigin="true"
             />
-            <link
-              href="https://fonts.googleapis.com/css2?family=Kodchasan&display=swap"
-              rel="stylesheet"
-            ></link>
+          
           </Head>
           <Layout>
             <Component {...pageProps} />
