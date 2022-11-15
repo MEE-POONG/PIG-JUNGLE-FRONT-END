@@ -5,7 +5,7 @@ import ProductShowTest from 'container/Product/ProductList'
 export default function productTest() {
   return (
     <>
-      <ProductShowTest/>
+      <ProductShow/>
     </>
   )
 }

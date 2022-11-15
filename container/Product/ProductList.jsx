@@ -24,10 +24,9 @@ export default function ProductList() {
 
     return (
         <>
-            <Container>
+            <Container className='product-list'>
                 <Row>
-                    <Col xs={12} md={12} lg={6}>
-                        <div className='product-list'>
+                    {/* <Col xs={12} md={12} lg={6}>
                             <div className="product-card">
                                 <div className="left">
                                     <Image src={'images/product/marijuana_01.png'} className='img-product' alt="imgProduct" />
@@ -63,22 +62,19 @@ export default function ProductList() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </Col>
+                    </Col> */}
                     <Col lg={3}>
                         <Card>
-                            <Card.Header>
-                                PigJungle
+                            <Card.Header bsPrefix='card-header'>
+                                <h2>ชื่อสินค้า</h2>
                             </Card.Header>
                             <Card.Img src={'images/product/marijuana_01.png'} className='img-product' alt="imgProduct" />
                             <Card.Body>
                                 <div className="details">
-                                    <h3>ประเภท</h3>
-                                    <h2>ชื่อสินค้า</h2>
                                     <h5>รายละเอียดสินค้า</h5>
                                     <h4><p>ราคา {price.toLocaleString("en-US")} บาท</p></h4>
                                 </div>
-                                <ul>
+                                <ul className='p-0'>
                                     <li>จำนวน</li>
 
                                     <li className="bg"
