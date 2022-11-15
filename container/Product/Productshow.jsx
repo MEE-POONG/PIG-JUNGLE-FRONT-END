@@ -46,11 +46,7 @@ export default function ProductShow() {
                     <div className="col-sm-3">
 
                     <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                        <Image className="card card img" src={'images/product.jpg'} alt="product1" width={'100%'}/>
-=======
                         <Image className="img" src={'images/product/product.jpg'} alt="product1" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                         <div className="card-body">
                             <h5 className="card-title">สินค้า1</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -60,11 +56,7 @@ export default function ProductShow() {
                     </div>
                     <div className="col-sm-3">
                     <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                        <Image className="card card img"  src={'images/product2.jpg'} alt="product2" width={'100%'}/>
-=======
                         <Image className="img" src={'images/product/product2.jpg'} alt="product2" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                         <div className="card-body">
                             <h5 className="card-title">สินค้า2</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -74,11 +66,7 @@ export default function ProductShow() {
                     </div>
                     <div className="col-sm-3">
                     <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                        <Image className="card img" src={'images/product3.jpg'} alt="product3" width={'100%'}/>
-=======
                         <Image className="img" src={'images/product/product3.jpg'} alt="product3" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                         <div className="card-body">
                             <h5 className="card-title">สินค้า3</h5>
                             <p className="card-text">อธิบายสินค้า.</p>
@@ -88,11 +76,7 @@ export default function ProductShow() {
                     </div>
                     <div className="col-sm-3">
                         <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                            <Image className="card img" src={'images/product3.jpg'} alt="product3" width={'100%'}/>
-=======
                             <Image className="img" src={'images/product/product3.jpg'} alt="product3" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                             <div className="card-body">
                                 <h5 className="card-title">สินค้า4</h5>
                                 <p className="card-text">อธิบายสินค้า.</p>
@@ -106,11 +90,7 @@ export default function ProductShow() {
                 <div className="row">
                         <div className="col-sm-3">
                             <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                                <Image className="card img" src={'images/product5.jpg'} alt="product5" width={'100%'}/>
-=======
                                 <Image className="img" src={'images/product/product5.jpg'} alt="product5" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                             <div className="card-body">
                                 <h5 className="card-title">สินค้า5</h5>
                                 <p className="card-text">อธิบายสินค้า.</p>
@@ -120,11 +100,7 @@ export default function ProductShow() {
                         </div>
                         <div className="col-sm-3">
                             <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                                <Image className="card img" src={'images/product6.jpg'} alt="product6" width={'100%'}/>
-=======
                                 <Image className="img" src={'images/product/product6.jpg'} alt="product6" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                             <div className="card-body">
                                 <h5 className="card-title">สินค้า6</h5>
                                 <p className="card-text">อธิบายสินค้า.</p>
@@ -134,11 +110,7 @@ export default function ProductShow() {
                         </div>
                         <div className="col-sm-3">
                             <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                                <Image className="card img" src={'images/product7.jpg'} alt="product7" width={'100%'}/>
-=======
                                 <Image className="img" src={'images/product/product7.jpg'} alt="product7" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                             <div className="card-body">
                                 <h5 className="card-title">สินค้า7</h5>
                                 <p className="card-text">อธิบายสินค้า.</p>
@@ -148,11 +120,7 @@ export default function ProductShow() {
                         </div>
                         <div className="col-sm-3">
                             <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                                    <Image className="card img" src={'images/product8.jpg'} alt="product8" width={'100%'}/>
-=======
                                     <Image className="img" src={'images/product/product8.jpg'} alt="product8" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                             <div className="card-body">
                                 <h5 className="card-title">สินค้า8</h5>
                                 <p className="card-text">อธิบายสินค้า.</p>
@@ -166,11 +134,7 @@ export default function ProductShow() {
                     <div className="row">
                         <div className="col-sm-3">
                             <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                                <Image className="card img" src={'images/product9.jpg'} alt="product9" width={'100%'}/>
-=======
                                 <Image className="img" src={'images/product/product9.jpg'} alt="product9" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                             <div className="card-body">
                                 <h5 className="card-title">สินค้า9</h5>
                                 <p className="card-text">อธิบายสินค้า.</p>
@@ -180,11 +144,7 @@ export default function ProductShow() {
                         </div>
                         <div className="col-sm-3">
                             <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                                <Image className="card img" src={'images/product10.jpg'} alt="product10" width={'100%'}/>
-=======
                                 <Image className="img" src={'images/product/product10.jpg'} alt="product10" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                             <div className="card-body">
                                 <h5 className="card-title">สินค้า10</h5>
                                 <p className="card-text">อธิบายสินค้า.</p>
@@ -194,11 +154,7 @@ export default function ProductShow() {
                         </div>
                         <div className="col-sm-3">
                             <div className="card">
-<<<<<<< HEAD:components/Product/Productshow.jsx
-                                <Image className="card img" src={'images/product11.jpg'} alt="product11" width={'100%'}/>
-=======
                                 <Image className="img" src={'images/product/product11.jpg'} alt="product11" width={'100px'}/>
->>>>>>> 8b556e6b59570fd22c1a7bb6ea7c0dddafb99177:container/Product/Productshow.jsx
                             <div className="card-body">
                                 <h5 className="card-title">สินค้า11</h5>
                                 <p className="card-text">อธิบายสินค้า.</p>
