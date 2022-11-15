@@ -3,6 +3,8 @@ import React from "react";
 import Head from 'next/head';
 import BackGroundMain from "@/components/Bg/BackGroundMain";
 
+import { Image } from 'react-bootstrap';
+
 export default function AdderssUserPage() {
     return (
         <>
@@ -16,12 +18,17 @@ export default function AdderssUserPage() {
                 <link rel="icon" href="/images/logo.png" />
             </Head>
 
-            <BackGroundMain/>
+            <BackGroundMain />
 
             <div id='sign-user' name="sign-user" className='sign-user'>
                 <div className='box-Container-Si'>
+
+                    <div className="box-img">
+                        <Image src={'images/B02.png'} width={'300px'} />
+                    </div>
+
                     <div className='Container-Si'>
-                        <h2 className='title-Si-Su'>Sign in</h2>
+                        <Image src={'images/logo.png'} className='img-Si-Su' />
                         <form>
 
                             <input className='input-Si-Su' type="text" id="Email" name="Email" placeholder="Email" />
@@ -38,6 +45,11 @@ export default function AdderssUserPage() {
                             <a className='text-Si-Su' href="/sign_up"> Sign up</a> <a className='text-Si-Su' href="">Forgot Password?</a>
                         </div>
                     </div>
+
+                    <div className="box-img">
+                        <Image src={'images/B02.png'} width={'300px'} />
+                    </div>
+
                 </div>
             </div>
 

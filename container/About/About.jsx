@@ -16,24 +16,14 @@ export default function About() {
                     <Col md={12} lg={6} sm={6}>
                         <div className="products">
                             <h3>
-                                We provide
-                                <br />high-quality
-                                organic <br />products
+                            ความรู้เกี่ยวกับกัญชา
                             </h3>
-                            <p>—Our company—</p>
+                            <p>—รอบรู้เรื่องกัญชา—</p>
                         </div>
-                        <p className="work">Our core values guide us in how we conduct ourselves—
-                            <br />personally and professionally. In this ever-changing world of
-                            <br />agriculture, our core values are constant. They underlie our work,
-                            <br />how we interact with each other and which strategies we employ
-                            <br />to fulfill our mission. </p>
+                        <p className="work">กัญชา เป็นพืชสกุล Cannabis อยู่ในวงศ์ Cannabaceae มี 3 สายพันธุ์ที่พบบ่อย ได้แก่ สายพันธุ์ซาติวา (Cannabis sativa) สายพันธุ์อินดิกา (Cannabis indica) และสายพันธุ์รูเดอราลิส (Cannabis ruderalis) ส่วนคำว่ามาลีฮวนน่า (Marijuana) เป็นคำแสลงที่ใช้ส่วนดอกของต้นกัญชานำมาสูบ
+ </p>
 
-                        <p className="work">We continue to develop our capacities.
-                            Even more fruits
-                            <br />and vegetables will be grown
-                            and gathered in the nearest future.
-                            <br />The total number of our livestock is also increasing.
-
+                        <p className="work">
                         </p>
                         <div className="col-xl-9 mx-auto">
                             <a href="#"
@@ -54,8 +44,8 @@ export default function About() {
                 <dvi className="container">
                     <div className="row">
                         <div className="col-xl-9 mx-auto">
-                            <h2 className="mb-4">Enjoy Our Products</h2>
-                            <a href="#" className="button-shop">MORE ABOUT US</a>
+                            <h2 className="shop">สินค้าพร้อมให้บริการ</h2>
+                            <a href="#" className="button-shop">SHOP NOW</a>
                         </div>
                     </div>
 
