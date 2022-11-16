@@ -87,6 +87,12 @@
         color: #495057;
     }
 
+    .card-body{
+        background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
+        animation: gradient 15s ease infinite;
+        background-size: 400%;
+    }
+
     @media not all and (min-resolution:.001dpcm) {
         @supports (-webkit-appearance: none) and (stroke-color:transparent) {
 

@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import React from 'react'
 import IndexLayout from "@/components/layouts/IndexLayout";
-import CheckList from '@/components/CheckList/checklist';
+import CheckList from 'container/CheckList/CheckList';
 
 export default function CheckListPage() {
   return (
@@ -17,7 +17,7 @@ export default function CheckListPage() {
         <link rel="icon" href="/images/logo.png" />
       </Head>
       <div id='checklist-page' name="checklist-page" className='checklist-page'>
-        <CheckList/>
+       <CheckList/>
       </div>
     </>
   )
