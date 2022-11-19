@@ -13,8 +13,8 @@ export default function Contactshow() {
 
             {/* -------title----------- */}
             <div className='title-header mx-auto'>
-                <div className="active">เกี่ยวกับเรา</div>
-                <div className="n-active">เกี่ยวกับเรา</div>
+                <div className="active">ช่องทางติดต่อ</div>
+                <div className="n-active">ช่องทางติดต่อ</div>
             </div>
      
             {/* ------------sub title---------- */}

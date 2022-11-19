@@ -28,7 +28,9 @@ export default function AdderssUserPage() {
                     </div>
 
                     <div className='Container-Si'>
-                        <Image src={'images/logo.png'} className='img-Si-Su' />
+
+                            <Image src={'images/logo.png'} className='img-Si-Su' />
+
                         <form>
 
                             <input className='input-Si-Su' type="text" id="Email" name="Email" placeholder="Email" />
