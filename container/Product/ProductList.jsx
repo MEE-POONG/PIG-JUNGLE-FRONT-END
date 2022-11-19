@@ -91,8 +91,8 @@ export default function ProductList() {
                                 </ul>
                             </Card.Body>
                             <Card.Footer>
-                                <span className="foot"><FaShoppingBag className='icon' />Buy Now</span>
-                                <span className="foot"><FaShoppingCart className='icon' />Add TO Cart</span>
+                                <span className="foot"><FaShoppingBag className='icon me-1' />Buy Now</span>
+                                <span className="foot"><FaShoppingCart className='icon me-1' />Add TO Cart</span>
                             </Card.Footer>
                         </Card>
                     </Col>
