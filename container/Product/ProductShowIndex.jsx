@@ -5,7 +5,7 @@ export default function Product_ShowIndex() {
   return (
     <>
         <div >
-                <h1 className='text-center pt-5'>
+                <h1 className='text-center pt-5 text-light'>
                     สินค้าขายดี
                 </h1>
             <Container>
