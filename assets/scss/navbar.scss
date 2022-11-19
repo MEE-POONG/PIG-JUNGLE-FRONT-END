@@ -1,15 +1,14 @@
 .header-area {
-    background-color: rgb(233, 54, 244);
+    background-color: transparent;
     height: 6rem;
     transition: all 0.5s ease 0s;
-    border-bottom: 3px solid black;
 }
 
 .header-area-scroll {
-    background-color: rgb(233, 54, 244);
+    background-color: #303134cc;
     height: 6rem;
     transition: all 0.5s ease 0s;
-    border-bottom: 3px solid black;
+    // border-bottom: 3px solid black;
     height: 5rem;
 }
 
@@ -84,5 +83,24 @@
             margin-left: 350px;
          }
     }
-}
+    
+    .right-menu{
+        margin-left: 10rem;
+    }
+} */
+.header-area, .header-area-scroll {
 
+    @media screen and (max-width: 320px) {
+        // .container{
+        //     padding: 0;
+        // }
+        .navbar-brand{
+            width: 100vw;
+            text-align: center;
+            position: absolute;
+        }
+        .navbar-toggler{
+            margin-left: auto;
+        }
+    }
+}

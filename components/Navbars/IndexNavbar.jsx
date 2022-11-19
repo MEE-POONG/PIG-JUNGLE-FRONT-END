@@ -35,8 +35,9 @@ export default function IndexNavbar() {
       <Navbar className={navLogo == "160px" ? "header-area " : "header-area-scroll" + " header-sticky"} sticky="top" expand="lg">
         <Container>
           <Navbar.Brand href="/" className="d-xl-none d-lg-none">
-            <Image src={'images/logo.png'} alt="logo-nav" width={'100px'} />
+            <Image src={'images/logo.png'} alt="logo-nav" width={'100px'}/>
           </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="d-flex align-items-center w-100 text-center">
