@@ -91,11 +91,47 @@ export default function ProductList() {
                                 </ul>
                             </Card.Body>
                             <Card.Footer>
+                                <span className="foot"><FaShoppingBag className='icon me-1' />Buy Now</span>
+                                <span className="foot"><FaShoppingCart className='icon me-1' />Add TO Cart</span>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
+
+
+                    <Col lg={3}>
+                        <Card>
+                            <Card.Header bsPrefix='card-header'>
+                                <h2>ชื่อสินค้า</h2>
+                            </Card.Header>
+                            <Card.Img src={'images/product/marijuana_01.png'} className='img-product' alt="imgProduct" />
+                            <Card.Body>
+                                <div className="details">
+                                    <h5>รายละเอียดสินค้า</h5>
+                                    <h4><p>ราคา {price.toLocaleString("en-US")} บาท</p></h4>
+                                </div>
+                                <ul className='p-0'>
+                                    <li>จำนวน</li>
+
+                                    <li className="bg"
+                                        onClick={() => countIncreat()}>
+                                        <FaPlus /></li>
+
+                                    <li>{count}</li>
+
+                                    <li className="bg"
+                                        onClick={() => countDecreat()}>
+                                        <FaMinus /></li>
+
+                                    <li>กรัม</li>
+                                </ul>
+                            </Card.Body>
+                            <Card.Footer>
                                 <span className="foot"><FaShoppingBag className='icon' />Buy Now</span>
                                 <span className="foot"><FaShoppingCart className='icon' />Add TO Cart</span>
                             </Card.Footer>
                         </Card>
                     </Col>
+                    
                 </Row>
             </Container>
         </>
