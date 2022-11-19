@@ -2,11 +2,12 @@ import React from "react";
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 import { BiSearchAlt2 } from "react-icons/bi";
+import ProductList from "container/Product/ProductList";
 
 export default function ProductShow() {
     return(
          
-        <div className="product-page"> 
+        <div className="product-show"> 
 
             <div className="activ">สินค้าของเรา</div>
             <div className="n-active">สินค้าของเรา</div>
@@ -35,15 +36,7 @@ export default function ProductShow() {
             {/* row left-col */}
                 <div className="col-md-10">
                     <div className="row">
-
-                    <div className="col-sm-3">
-                    <div className="product-card">
-                        <div className="left">
-                            <Image src={'images/product/marijuana_07.png'} className='img-product' alt="imgProduct"/>
-                        </div>
-                        
-                        </div>
-                    </div>
+                         <ProductList/>
                 </div>
                 </div>
             {/* end left-col */}   
