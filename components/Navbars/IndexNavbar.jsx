@@ -3,17 +3,18 @@ import Link from "next/link";
 
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
+import { FaBars } from "react-icons/fa";
 
 
 export default function IndexNavbar() {
   const [navSize, setNavSize] = useState("6rem")
   const [navColor, setNavColor] = useState("#e936f4")
-  const [navLogo, setNavLogo] = useState("160px")
+  const [navLogo, setNavLogo] = useState("140px")
 
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setNavColor("#e936f4") : setNavColor("#e936f4")
     window.scrollY > 10 ? setNavSize("5rem") : setNavSize("6rem")
-    window.scrollY > 10 ? setNavLogo('90px') : setNavLogo('160px')
+    window.scrollY > 10 ? setNavLogo('80px') : setNavLogo('140px')
   };
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent)
@@ -32,13 +33,14 @@ export default function IndexNavbar() {
         <div className="topNavbar-green flex-fill">
         </div>
       </section>
-      <Navbar className={navLogo == "160px" ? "header-area " : "header-area-scroll" + " header-sticky"} sticky="top" expand="lg">
+      <Navbar className={navLogo == "160px" ? "header-area " : "header-area scroll " + " header-sticky"} sticky="top" expand="lg">
         <Container>
           <Navbar.Brand href="/" className="d-xl-none d-lg-none">
-            <Image src={'images/logo.png'} alt="logo-nav" width={'100px'}/>
+            <Image src={'images/logo.png'} alt="logo-nav" width={'60px'} />
           </Navbar.Brand>
-
-          <Navbar.Toggle aria-controls="navbarScroll" />
+          <Navbar.Toggle aria-controls="navbarScroll" >
+            <FaBars />
+          </Navbar.Toggle>
           <Navbar.Collapse id="navbarScroll">
             <Nav className="d-flex align-items-center w-100 text-center">
               <div className="d-lg-flex w-40 justify-content-center">
