@@ -28,18 +28,20 @@
         // overflow: hidden;
         padding: 55px 55px 37px;
         background: #ffffff;
+  
+        
+        border: 10px double transparent;
+        background-image: linear-gradient(rgb(36, 36, 36), rgb(36, 36, 36)), radial-gradient(circle at left top, #C33764, #1D2671,#8e54e9);
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        
+        animation: gradient 15s ease infinite;
+        background-size: 400%;
+
         // border: 5px solid #000000;
         /* background:-webkit-linear-gradient(top,#7ad8fb,#ffffff); */
         // // box-shadow: -6px -6px 2px #88ff00, 6px 6px 1px#105100;
         // background: linear-gradient(-45deg, #35753e, #688b6c, #459e34, #35753e);
-        animation: gradient 15s ease infinite;
-        background-size: 400%;
-        
-        border: 5px double transparent;
-        background-image: linear-gradient(rgb(255, 255, 255), rgb(245, 245, 245)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
-        background-origin: border-box;
-        background-clip: padding-box, border-box;
-
     }
 
     /* -----End sign in------ */
@@ -68,12 +70,21 @@
         overflow: hidden;
         padding: 55px 55px 37px;
         background: #ffffff;
-        border: 5px solid #000000;
-        /* background:-webkit-linear-gradient(top,#7ad8fb,#ffffff); */
-        box-shadow: -6px -6px 2px #88ff00, 6px 6px 1px#105100;
-        background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
+      
+       
+
+        border: 10px double transparent;
+        background-image: linear-gradient(rgb(39, 39, 39), rgb(39, 39, 39)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        
         animation: gradient 15s ease infinite;
         background-size: 400%;
+
+          // border: 5px solid #000000;
+        // /* background:-webkit-linear-gradient(top,#7ad8fb,#ffffff); */
+        // box-shadow: -6px -6px 2px #88ff00, 6px 6px 1px#105100;
+        // background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
     }
 
     /* -----End Sign up------ */
@@ -100,12 +111,20 @@
         overflow: hidden;
         padding: 55px 55px 37px;
         background: #ffffff;
-        border: 5px solid #000000;
-        // background:-webkit-linear-gradient(top,#7ad8fb,#ffffff);
-        box-shadow: -6px -6px 2px #386a00, 6px 6px 1px#528833;
-        background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
+
+
+        border: 10px double transparent;
+        background-image: linear-gradient(rgb(39, 39, 39), rgb(39, 39, 39)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        
         animation: gradient 15s ease infinite;
         background-size: 400%;
+
+        // border: 5px solid #000000;
+        // // background:-webkit-linear-gradient(top,#7ad8fb,#ffffff);
+        // box-shadow: -6px -6px 2px #386a00, 6px 6px 1px#528833;
+        // background: linear-gradient(-45deg, #00471f, #70b678, #009161, #7dd06f);
     }
 
     .box-address-left {
@@ -160,16 +179,16 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
+        width: 60%;
         // transform: translate(-45%, -55%) translateZ(200px);
         // filter: drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.2));
         // animation: float 2s alternate ease-in-out infinite;
         // transition: 0.65s;
     }
 
-    .title-Si-Su {
+    .title-Si-Su-Ad {
         font-size: 60px;
-        color: #000000;
+        color: #ffffff;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -183,7 +202,7 @@
 
     .input-Si-Su {
         font-size: 20px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         line-height: 1.2;
         display: block;
         width: 100%;
@@ -193,16 +212,16 @@
         margin-top: 30px;
         outline: none;
         border: none;
-        border-bottom: 5px solid rgba(0, 0, 0, 1);
+        border-bottom: 5px solid rgb(255, 255, 255);
 
     }
 
     .input-Si-Su::placeholder {
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
 
     .btu-Si-Su-Ad {
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
         font-size: 300px;
         line-height: 1.2;
         font-size: 16px;
@@ -234,8 +253,13 @@
         justify-content: center;
     }
 
-    .text-Si-Su {
-        color: #000;
+    .text-Ad{
+        color: rgb(255, 255, 255);
+        margin-top: 5px;
+        
+    }
+    .text-Si-Su  {
+        color: rgb(255, 255, 255);
         font-size: 20px;
         line-height: 1.5;
         margin-left: 10px;

@@ -27,7 +27,7 @@ export default function SignUpUserPages() {
                     </div>
 
                     <div className='Container-Su'>
-                        <Image src={'images/logo02.png'} className='img-Si-Su' />
+                        <Image src={'images/logo.png'} className='img-Si-Su' />
                         <form>
 
                             <input className='input-Si-Su' type="text" id="UserName" name="UserName" placeholder="UserName" />
