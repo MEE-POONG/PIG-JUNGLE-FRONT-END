@@ -32,7 +32,7 @@ const data = [
 
 export default function ProductList() {
 
-    const [product, setProduct] = useState(data);
+
     const [count, setCount] = useState(1)
     const [price, setPrice] = useState(data.price)
 
@@ -54,7 +54,7 @@ export default function ProductList() {
         <>
             <Container className='product-list'>
                 <Row>
-                    {product.map((item) => {
+                    {data.map((item) => {
                         const { id, name, price } = item
                         return (
                             <Col lg={3}>
