@@ -16,12 +16,19 @@ export default function Contactshow() {
                 <div className="active">ช่องทางติดต่อ</div>
                 <div className="n-active">ช่องทางติดต่อ</div>
             </div>
-     
+
             {/* ------------sub title---------- */}
 
             <div className="provide">
-                <h3> Pig Jungle Kuncha </h3>
+             <h3> Pig Jungle Kuncha </h3>
                 <p>—My Contact—</p>
+
+            {/* <div className='subtitle'>
+                <div className="sactive"> Pig Jungle Kuncha</div>
+                <div className="s-active"> Pig Jungle Kuncha</div>
+                <div className="sactive"> —My Contact—</div>
+                <div className="s-active"> —My Contact— </div> */} 
+
             </div>
             {/*--------------- icon --------------*/}
             <div className='text-icon'>
@@ -90,7 +97,7 @@ export default function Contactshow() {
                             <div className="map">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3859.2298070344245!2d101.40634931445456!3d14.699592178584794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311c2bb5aa80c05d%3A0xf0d75169f3e8a461!2sPetrol!5e0!3m2!1sen!2sth!4v1668056782458!5m2!1sen!2sth"
-                                    width="630"
+                                    width="612"
                                     height="450"
                                     frameBorder="0"
                                     style={{ border: 0 }}
@@ -116,14 +123,11 @@ export default function Contactshow() {
                         <br />
                         {/*--------------- map -----------------*/}
                         <div className="col-md-6">
-                            <br />
-                            <p>
-                                <br />
+                        <div className='d-flex'> 
                                 <input className="input-email" type="email" name="E-mail" placeholder="Enter Your Email" id="#" />
                                 <input type="submit" value="Sing up" className="input-submit" />
-                                <link rel="stylesheet" href="COntacta.jsx" />
-                            </p>
-                            <br />
+                            
+                                </div>
                         </div>
                     </div>
                 </div>
