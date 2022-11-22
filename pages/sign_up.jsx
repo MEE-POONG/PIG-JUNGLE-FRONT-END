@@ -20,11 +20,21 @@ export default function SignUpUserPages() {
             <BackGroundMain />
 
             <div id='sign-user' name="sign-user" className='sign-user'>
-                <div className="box-Container-Su">
 
+                <div className="topnav">
+
+                    <a className='btunav' type='SignIn' href="/">กลับ</a>
+
+                    <a className='btunav' type='SignIn' href="/sign_in">เข้าสู่ระบบ</a>
+
+
+                </div>
+
+                <div className="box-Container-Su">
+                    {/* 
                     <div className="box-img">
                         <Image src={'images/B01.png'} width={'300px'} />
-                    </div>
+                    </div> */}
 
                     <div className='Container-Su'>
                         <Image src={'images/logo.png'} className='img-Si-Su' />
@@ -39,16 +49,13 @@ export default function SignUpUserPages() {
                             <input className='input-Si-Su' type="text" id="ConfirmPassword" name="ConfirmPassword" placeholder="ConfirmPassword" />
                         </form>
                         <div className="box-btu-Si-Su">
-                            <a className="btu-Si-Su-Ad" type='sign-up' href="/address_user">SIGN UP</a>
-                        </div>
-                        <div className='box-text'>
-                            <a className='text-Si-Su' href="/sign_in">Sign in</a>
+                            <a className="btu-Si-Su-Ad" type='sign-up' href="/address_user">ลงชื่อเข้าใช้</a>
                         </div>
                     </div>
 
-                    <div className="box-img">
+                    {/* <div className="box-img">
                         <Image src={'images/B01.png'} width={'300px'} />
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
