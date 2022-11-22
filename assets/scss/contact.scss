@@ -11,79 +11,104 @@
         font-weight: 400;
         padding: 5.5%;
         margin-top: 0px;
-    
+
     }
 
-  .provide {
-        margin-left: 5em;
-        margin-right: 65rem;
-        color: #FFFFFF;
-        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+    .provide {
+        margin-left: 2em;
+        margin-right: 50em;
 
+        &:hover>* {
+            color: #8defbe;
+
+        }
     }
 
     .provide h3 {
+        color: #FFFFFF;
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
         text-align: center;
-        font-size: 46px;
+        font-size: 36px;
         font-weight: 700;
-        font-style: normal;
-        cursor: pointer;
         text-decoration: none;
         text-transform: none;
         letter-spacing: 0px;
         margin-bottom: 0.20em;
         line-height: 2.59rem;
         margin-top: 2rem;
+        cursor: pointer;
+
     }
+
     .provide p {
         text-align: center;
+        color: #FFFFFF;
         text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
     }
 
-    .provide:hover {
-        text-shadow: -2px -2px 3px rgb(0, 255, 30), -4px -3px 4px rgb(228, 244, 52), 4px 3px 2px #f33838;
-    }
+
     /* ------------ sub title------------------- */
     .bgbody {
         background-color: #ccc;
     }
 
+    // .subtitle {
+    //     font-size: 28px;
+    //     width: max-content;
+    //     margin-left: 6%;
+    //     margin-top: 2%;
 
+    //     .s-active {
+    //         color: #FFFFFF;
+    //         text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
+
+    //     }
+
+    //     .sactive {
+    //         position: absolute;
+    //         background: linear-gradient(#ee5441, #ee5441, #fed406, #009b4e, #009b4e);
+    //         -webkit-background-clip: text;
+    //         -webkit-text-fill-color: transparent;
+    //         -moz-background-clip: text;
+    //         -moz-text-fill-color: transparent;
+    //     }
+    // }
 
     /* ------------ icon brand------------------- */
 
     .text-icon {
-        font-size: 22px;
-        font-weight: 700;
+        font-size: 16px;
+        margin-left: 2%;
         transition-duration: none;
+
         .icon {
             .row {
                 font-size: 23px;
+
+                &:hover > * {
+                    color: #8defbe;
+
+                }
             }
 
             a {
                 color: #FFFFFF;
                 text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
-                font-size: 23px;
-                margin-left: 5.5em;
+                font-size: 16px;
+                margin-left: 1.5em;
                 margin-top: 2%;
 
-                &:hover {
-                   
-                   
-                }
             }
+
             .icon-svg {
                 max-width: fit-content !important;
                 color: #FFFFFF;
                 text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
-
-                &:hover {
-                    box-shadow: -2px -2px 3px rgb(0, 255, 30), -4px -3px 4px rgb(228, 244, 52), 4px 3px 2px #f33838;
-                }
             }
         }
     }
+
+
 
     /* ------------ Map ------------------- */
     .map {
@@ -93,16 +118,23 @@
     }
 
     .map {
-        background-color: rgb(255, 255, 255);
-        border: 10px solid #000000;
-        box-shadow: -6px 4px 4px #0bdd43, 6px 4px 3px rgb(240, 224, 47);
+        border: 10px double transparent;
+        background-image: linear-gradient(rgb(36, 36, 36), rgb(36, 36, 36)), radial-gradient(circle at left top, #C33764, #1D2671, #8e54e9);
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        animation: gradient 15s ease infinite;
+        background-size: 400%;
     }
 
     /* ------------ letter ------------------- */
     .letter {
-        background-color: rgb(255, 255, 255);
-        border: 15px solid #000000;
-        box-shadow: -6px 4px 2px #0bdd43, 6px 4px 3px rgb(240, 47, 47);
+        border: 10px double transparent;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(249, 249, 249)), radial-gradient(circle at left top,  #C33764, #1D2671, #8e54e9);
+        background-origin: border-box;
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        animation: gradient 15s ease infinite;
+        background-size: 400%;
         justify-content: center;
         align-items: center;
         margin-top: 10%;
@@ -150,15 +182,15 @@
 
     .text-letter::before {
         background-color: white;
-        animation: typewriter 1.5s steps(8) alternate infinite;
+        animation: typewriter 1.5s steps(10) alternate infinite;
     }
 
     .text-letter::after {
         width: .125rem;
         background-color: black;
         animation:
-            typewriter 1.5s steps(8) alternate infinite,
-            blink 500ms steps(8) infinite;
+            typewriter 1.5s steps(10) alternate infinite,
+            blink 500ms steps(10) infinite;
     }
 
     @keyframes typewriter {
@@ -176,21 +208,31 @@
     .input-email {
         width: 70%;
         padding: 10px 30px 10px;
-        border: 1px solid #ccc;
+        border: 2px solid #ccc;
         border: 5px solid #000000;
         border-radius: 15px;
         box-sizing: border-box;
         resize: vertical;
+        margin-top: 3.2%;
         margin-bottom: 1px;
+        margin-right: 20px;
+
     }
 
     .input-submit {
-        border: 10px solid #000000;
-        box-shadow: -3px 3px 2px rgb(9, 255, 0), 6px 6px 1px #b224ef;
+        display: flex;
+        border: 10px double transparent;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(249, 249, 249)), radial-gradient(circle at left top, #C33764, #1D2671, #8e54e9);
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        animation: gradient 15s ease infinite;
+        background-size: 400%;
         padding-left: 1em;
         padding-right: 2em;
         border-radius: 15px;
-        margin-left: 3px;
+        margin-top: 3.2%;
+        margin-bottom: 1px;
+        margin-right: 20px;
     }
 
     /* ------------ footer------------------- */
@@ -211,41 +253,50 @@
         padding: 7%;
 
     }
-   //-------responsive---------//
-    @media screen and (max-width: 480px){
-        .ncontact{
+
+    //-------responsive---------//
+    @media screen and (max-width: 480px) {
+        .ncontact {
             font-size: 28px;
         }
-        .provide h3{
+
+        .provide h3 {
             font-size: 24px;
             margin-left: 16px;
         }
-        .provide{
+
+        .provide {
             margin-left: 0%;
             margin-right: 0%;
         }
-        .icon{
+
+        .icon {
             margin-left: -8rem;
         }
-        .col{
+
+        .col {
             font-size: 16px;
         }
-        .letter{
+
+        .letter {
             font-size: 12px;
             margin-left: 9px;
             margin-right: 9px;
             margin-top: 10%;
         }
+
         .letter h3 {
             font-size: 12px;
             margin-left: 9px;
-            
+
         }
+
         .letter p {
             margin-left: 9px;
-            font-size: 12px;  
+            font-size: 12px;
         }
-        .input-email .input-submit{
+
+        .input-email .input-submit {
             margin-left: 2px;
         }
 

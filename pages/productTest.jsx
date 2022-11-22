@@ -1,6 +1,8 @@
-import React from 'react'
-import IndexLayout from '@/components/layouts/IndexLayout'
-import ProductShowTest from 'container/Product/Productshow'
+import ProductShow from "container/Product/Productshow";
+import React from "react";
+import Head from 'next/head';
+import IndexLayout from "components/layouts/IndexLayout";
+
 
 export default function productTest() {
   return (
