@@ -1,6 +1,6 @@
 import React from "react";
 // components
-import { Container, Card, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
+import { Container, Card, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
 import { BiSearchAlt2 } from "react-icons/bi";
 import ProductList from "container/Product/ProductList";
 
