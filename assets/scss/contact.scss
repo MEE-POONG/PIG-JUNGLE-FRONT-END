@@ -15,28 +15,28 @@
     }
 
   .provide {
-        margin-left: 5em;
-        margin-right: 65rem;
-        color: #FFFFFF;
-        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
-
+        margin-left: 2em;
+        margin-right: 50em;
     }
 
     .provide h3 {
+        color: #FFFFFF;
+        text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
         text-align: center;
         font-size: 46px;
         font-weight: 700;
-        font-style: normal;
-        cursor: pointer;
         text-decoration: none;
         text-transform: none;
         letter-spacing: 0px;
         margin-bottom: 0.20em;
         line-height: 2.59rem;
         margin-top: 2rem;
+        cursor: pointer;
+        
     }
     .provide p {
         text-align: center;
+        color: #FFFFFF;
         text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
     }
 
@@ -95,7 +95,7 @@
     .map {
         background-color: rgb(255, 255, 255);
         border: 10px solid #000000;
-        box-shadow: -6px 4px 4px #0bdd43, 6px 4px 3px rgb(240, 224, 47);
+        box-shadow: -6px 4px 4px #0bdd43, 6px 4px 3px rgb(185, 47, 240);
     }
 
     /* ------------ letter ------------------- */
@@ -182,15 +182,17 @@
         box-sizing: border-box;
         resize: vertical;
         margin-bottom: 1px;
+  
     }
 
     .input-submit {
+        display: flex;
         border: 10px solid #000000;
         box-shadow: -3px 3px 2px rgb(9, 255, 0), 6px 6px 1px #b224ef;
         padding-left: 1em;
         padding-right: 2em;
         border-radius: 15px;
-        margin-left: 3px;
+        margin-left: 0px;
     }
 
     /* ------------ footer------------------- */
