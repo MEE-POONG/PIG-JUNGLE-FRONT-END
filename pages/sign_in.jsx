@@ -21,15 +21,29 @@ export default function AdderssUserPage() {
             <BackGroundMain />
 
             <div id='sign-user' name="sign-user" className='sign-user'>
+
+                <div className="topnav">
+
+                    <a className='btunav' type='SignIn' href="/">กลับ</a>
+
+                    <a className='btunav' type='SignIn' href="/sign_up">ลงชื่อเข้าใช้</a>
+
+                    <a className='btunav' type='SignIn' href="">ลืมรหัสผ่าน?</a>
+                    
+                </div>
                 <div className='box-Container-Si'>
 
-                    <div className="box-img">
+
+
+                    {/* <div className="box-img">
                         <Image src={'images/B02.png'} width={'300px'} />
-                    </div>
+                    </div> */}
+
+
 
                     <div className='Container-Si'>
 
-                            <Image src={'images/logo.png'} className='img-Si-Su' />
+                        <Image src={'images/logo.png'} className='img-Si-Su' />
 
                         <form>
 
@@ -40,17 +54,13 @@ export default function AdderssUserPage() {
 
                         </form>
                         <div className='box-btu-Si-Su'>
-                            <a className='btu-Si-Su-Ad' type='SignIn'>Sign in</a>
-
-                        </div>
-                        <div className='box-text'>
-                            <a className='text-Si-Su' href="/sign_up"> Sign up</a> <a className='text-Si-Su' href="">Forgot Password?</a>
+                            <a className='btu-Si-Su-Ad' type='SignIn'>เข้าสู่ระบบ</a>
                         </div>
                     </div>
 
-                    <div className="box-img">
+                    {/* <div className="box-img">
                         <Image src={'images/B02.png'} width={'300px'} />
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
