@@ -81,7 +81,7 @@ export default function ProductList() {
                                         onClick={() => countIncreat()}>
                                         <FaPlus /></li>
 
-                                    <li>{count}</li>
+                                    {count}
 
                                     <li className="bg"
                                         onClick={() => countDecreat()}>
