@@ -54,10 +54,13 @@
     }
 
     .logo {
-        text-align: center;
+       
        width: 100%;
        margin-top: 8rem;
-        box-shadow: 5px 5px 38px rgb(45 149 9 / 35%);
+       border: 3px double transparent;
+       background-image: linear-gradient(rgb(10, 7, 49), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255));
+       background-origin: border-box;
+       background-clip: padding-box, border-box;
     }
 
 
