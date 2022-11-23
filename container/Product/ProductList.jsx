@@ -34,10 +34,7 @@ export default function ProductList() {
                             <Card.Img src={'images/product/marijuana_01.png'} className='img-product' alt="imgProduct" />
                             <Card.Body>
                                 <div className="details">
-                                    <h5>- indica
-                                        - THC 17%
-                                        - effects ง่วงนอน หิว ผ่อนคลาย
-                                        - กลิ่นรสชาติ กุหลาบ</h5>
+                                    <h5>รายละเอียด</h5>
                                     <h4><p>ราคา {price.toLocaleString("en-US")} บาท</p></h4>
                                 </div>
                                 <ul className='p-0'>
