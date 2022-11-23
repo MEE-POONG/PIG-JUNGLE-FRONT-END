@@ -91,8 +91,8 @@
     /* ------------ Map ------------------- */
     .map {
 
-        margin-left: 2.5%;
-        margin-right: 9.5%;
+        margin-left: -9.5%;
+        margin-right: 4.5%;
     }
 
     .map {
@@ -231,64 +231,64 @@
     }
 
     //-------responsive---------//
-    @media screen and (max-width: 1200px) and (min-width: 480px) {
-        .ncontact {
-            font-size: 28px;
-        }
+    // @media screen and (max-width: 1200px) and (min-width: 480px) {
+    //     .ncontact {
+    //         font-size: 28px;
+    //     }
 
-        .provide h3 {
-            font-size: 24px;
-            margin-left: 16px;
-        }
+    //     .provide h3 {
+    //         font-size: 24px;
+    //         margin-left: 16px;
+    //     }
 
-        .provide {
+    //     .provide {
 
-            margin-left: 0%;
-            margin-right: 0%;
-        }
+    //         margin-left: 0%;
+    //         margin-right: 0%;
+    //     }
 
-        .icon {
-            font-size: 18px;
-        }
+    //     .icon {
+    //         font-size: 18px;
+    //     }
 
-        .col {
-            font-size: 18px;
-        }
+    //     .col {
+    //         font-size: 18px;
+    //     }
 
-        .map {
-            width: 420px;
-            margin: 0;
-            margin-left: 10%;
-            padding: 0;
+    //     .map {
+    //         width: 420px;
+    //         margin: 0;
+    //         margin-left: 10%;
+    //         padding: 0;
 
-            iframe {
-                width: 700px;
-            }
-        }
+    //         iframe {
+    //             width: 700px;
+    //         }
+    //     }
 
-        .letter {
-            font-size: 18px;
-            margin-left: 9px;
-            margin-right: 9px;
-            margin-top: 10%;
-        }
+    //     .letter {
+    //         font-size: 18px;
+    //         margin-left: 9px;
+    //         margin-right: 9px;
+    //         margin-top: 10%;
+    //     }
 
-        .letter h3 {
-            font-size: 16px;
-            margin-left: 9px;
+    //     .letter h3 {
+    //         font-size: 16px;
+    //         margin-left: 9px;
 
-        }
+    //     }
 
-        .letter p {
-            margin-left: 12px;
-            font-size: 16px;
-        }
+    //     .letter p {
+    //         margin-left: 12px;
+    //         font-size: 16px;
+    //     }
 
-        .input-email .input-submit {
-            margin-left: 2px;
-            align-items: center;
-        }
-    }
+    //     .input-email .input-submit {
+    //         margin-left: 2px;
+    //         align-items: center;
+    //     }
+    // }
 
     // @media (min-width: 1281px) {
 
@@ -350,329 +350,388 @@
 
     // }
 
-    // /* 
-    //     ##Device = Laptops, Desktops
-    //     ##Screen = B/w 1025px to 1280px
-    //   */
-
-    // @media (min-width: 1025px) and (max-width: 1280px) {
-
-    //     .ncontact {
-    //         font-size: 28px;
-    //     }
-
-    //     .provide h3 {
-    //         font-size: 24px;
-    //         margin-left: 16px;
-    //     }
-
-    //     .provide {
-
-    //         margin-left: 0%;
-    //         margin-right: 0%;
-    //     }
-
-    //     .icon {
-    //         font-size: 18px;
-    //     }
-
-    //     .col {
-    //         font-size: 18px;
-    //     }
-
-    //     .map {
-    //         width: 420px;
-    //         margin: 0;
-    //         margin-left: 20%;
-    //         padding: 0;
-
-    //         iframe {
-    //             width: 400px;
-    //         }
-    //     }
-
-    //     .letter {
-    //         font-size: 18px;
-    //         margin-left: 9px;
-    //         margin-right: 9px;
-    //         margin-top: 10%;
-    //     }
-
-    //     .letter h3 {
-    //         font-size: 16px;
-    //         margin-left: 9px;
-
-    //     }
-
-    //     .letter p {
-    //         margin-left: 12px;
-    //         font-size: 16px;
-    //     }
-
-    //     .input-email .input-submit {
-    //         margin-left: 2px;
-    //         align-items: center;
-    //     }
-
-    // }
-
-    // /* 
-    //     ##Device = Tablets, Ipads (portrait)
-    //     ##Screen = B/w 768px to 1024px
-    //   */
-
-    // @media (min-width: 768px) and (max-width: 1024px) {
-
-    //     .ncontact {
-    //         font-size: 28px;
-    //     }
-
-    //     .provide h3 {
-    //         font-size: 24px;
-    //         margin-left: 16px;
-    //     }
-
-    //     .provide {
-    //         margin-left: 0%;
-    //         margin-right: 0%;
-    //     }
-
-    //     .icon {
-    //         font-size: 18px;
-    //     }
-
-    //     .col {
-    //         font-size: 18px;
-    //     }
-
-    //     .map {
-    //         width: 420px;
-    //         margin: 0;
-    //         margin-left: 10%;
-    //         padding: 0;
-
-    //         iframe {
-    //             width: 400px;
-    //         }
-    //     }
-    //     .letter {
-    //         font-size: 18px;
-    //         margin-left: 18px;
-    //         margin-right: -69px;
-    //         margin-top: 10%;
-    //     }
-
-    //     .letter h3 {
-    //         font-size: 16px;
-    //         margin-left: 9px;
-
-    //     }
-
-    //     .letter p {
-    //         margin-left: 12px;
-    //         font-size: 16px;
-    //     }
-
-    //     .input-email .input-submit {
-    //         margin-left: 2px;
-    //         align-items: center;
-    //     }
-
-    // }
-
-    // /* 
-    //     ##Device = Tablets, Ipads (landscape)
-    //     ##Screen = B/w 768px to 1024px
-    //   */
-
-    // @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
-    //     .ncontact {
-    //         font-size: 28px;
-    //     }
-
-    //     .provide h3 {
-    //         font-size: 24px;
-    //         margin-left: 16px;
-    //     }
-
-    //     .provide {
-
-    //         margin-left: 0%;
-    //         margin-right: 0%;
-    //     }
-
-    //     .icon {
-    //         font-size: 18px;
-    //     }
-
-    //     .col {
-    //         font-size: 18px;
-    //     }
-
-    //     .map {
-    //         width: 420px;
-    //         margin: 0;
-    //         margin-left: 10%;
-    //         padding: 0;
-
-    //         iframe {
-    //             width: 400px;
-    //         }
-    //     }
-
-    //     .letter {
-    //         font-size: 18px;
-    //         margin-left: 9px;
-    //         margin-right: 9px;
-    //         margin-top: 10%;
-    //     }
-
-    //     .letter h3 {
-    //         font-size: 16px;
-    //         margin-left: 9px;
-
-    //     }
-
-    //     .letter p {
-    //         margin-left: 12px;
-    //         font-size: 16px;
-    //     }
-
-    //     .input-email .input-submit {
-    //         margin-left: 2px;
-    //         align-items: center;
-    //     }
-
-    // }
-
-    // /* 
-    //     ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    //     ##Screen = B/w 481px to 767px
-    //   */
-
-    // @media (min-width: 481px) and (max-width: 767px) {
-
-    //     .ncontact {
-    //         font-size: 28px;
-    //     }
-
-    //     .provide h3 {
-    //         font-size: 24px;
-    //         margin-left: 16px;
-    //     }
-
-    //     .provide {
-
-    //         margin-left: 0%;
-    //         margin-right: 0%;
-    //     }
-
-    //     .icon {
-    //         font-size: 18px;
-    //     }
-
-    //     .col {
-    //         font-size: 18px;
-    //     }
-
-    //     .map {
-    //         width: 420px;
-    //         margin: 0;
-    //         margin-left: 3%;
-    //         padding: 0;
-
-    //         iframe {
-    //             width: 400px;
-    //         }
-    //     }
-
-    //     .letter {
-    //         font-size: 18px;
-    //         margin-left: 21px;
-    //         margin-right: 20px;
-    //         margin-top: 10%;
-    //     }
-
-    //     .letter h3 {
-    //         text-align: left;
-    //         font-size: 16px;
-
-    //     }
-
-    //     .letter p {
-    //         font-size: 16px;
-    //         margin-right: 10px;
-    //     }
-
-    //     .input-email .input-submit {
-    //         align-items: center;
-    //     }
-
-    // }
-
-    // /* 
-    //     ##Device = Most of the Smartphones Mobiles (Portrait)
-    //     ##Screen = B/w 320px to 479px
-    //   */
-
-    // @media (min-width: 320px) and (max-width: 480px) {
-
-    //     .ncontact {
-    //         font-size: 28px;
-    //     }
-
-    //     .provide h3 {
-    //         font-size: 24px;
-    //         margin-left: 16px;
-    //     }
-
-    //     .provide {
-
-    //         margin-left: 0%;
-    //         margin-right: 0%;
-    //     }
-
-    //     .icon {
-    //         font-size: 18px;
-    //     }
-
-    //     .col {
-    //         font-size: 18px;
-    //     }
-
-    //     .map {
-    //         width: 420px;
-    //         margin: 0;
-    //         margin-right: 2%;
-    //         padding: 0;
-
-    //         iframe {
-    //             width: 400px;
-    //         }
-    //     }
-
-    //     .letter {
-    //         font-size: 18px;
-    //         margin-left: 18px;
-    //         margin-right: -105px;
-    //         margin-top: 10%;
-    //     }
-
-    //     .letter h3 {
-    //         font-size: 16px;
-    //        margin-right: 10%;
-
-    //     }
-
-    //     .letter p {
-    //         margin-left: 12px;
-    //         font-size: 16px;
-    //     }
-
-    //     .input-email .input-submit {
-    //         margin-left: 2px;
-    //         align-items: center;
-    //     }
-
+    /* 
+        ##Device = Laptops, Desktops
+        ##Screen = B/w 1025px to 1280px
+      */
+    @media (min-width: 1281px) and (max-width: 140px) {
+        .ncontact {
+            font-size: 28px;
+        }
+
+        .provide h3 {
+            font-size: 24px;
+            margin-left: 16px;
+        }
+
+        .provide {
+
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+
+        .icon {
+            font-size: 18px;
+        }
+
+        .col {
+            font-size: 18px;
+        }
+
+        .map {
+            margin-left: -9.5%;
+            margin-right: 4.5%;
+
+            iframe {
+           //
+            }
+        }
+
+        .letter {
+            font-size: 18px;
+            margin-left: 9px;
+            margin-right: 9px;
+            margin-top: 10%;
+        }
+
+        .letter h3 {
+            font-size: 16px;
+            margin-left: 9px;
+
+        }
+
+        .letter p {
+            margin-left: 12px;
+            font-size: 16px;
+        }
+
+        .input-email .input-submit {
+            margin-left: 2px;
+            align-items: center;
+        }
+
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+
+        .ncontact {
+            font-size: 28px;
+        }
+
+        .provide h3 {
+            font-size: 24px;
+            margin-left: 16px;
+        }
+
+        .provide {
+
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+
+        .icon {
+            font-size: 18px;
+        }
+
+        .col {
+            font-size: 18px;
+        }
+
+        .map {
+            width: 420px;
+            margin: 0;
+            margin-left: 20%;
+            padding: 0;
+
+            iframe {
+                width: 400px;
+            }
+        }
+
+        .letter {
+            font-size: 18px;
+            margin-left: 9px;
+            margin-right: 9px;
+            margin-top: 10%;
+        }
+
+        .letter h3 {
+            font-size: 16px;
+            margin-left: 9px;
+
+        }
+
+        .letter p {
+            margin-left: 12px;
+            font-size: 16px;
+        }
+
+        .input-email .input-submit {
+            margin-left: 2px;
+            align-items: center;
+        }
+
+    }
+
+    /* 
+        ##Device = Tablets, Ipads (portrait)
+        ##Screen = B/w 768px to 1024px
+      */
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+        .ncontact {
+            font-size: 28px;
+        }
+
+        .provide h3 {
+            font-size: 24px;
+            margin-left: 16px;
+        }
+
+        .provide {
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+
+        .icon {
+            font-size: 18px;
+        }
+
+        .col {
+            font-size: 18px;
+        }
+
+        .map {
+            width: 420px;
+            margin: 0;
+            margin-left: 10%;
+            padding: 0;
+
+            iframe {
+                width: 400px;
+            }
+        }
+
+        .letter {
+            font-size: 18px;
+            margin-left: 18px;
+            margin-right: -69px;
+            margin-top: 10%;
+        }
+
+        .letter h3 {
+            font-size: 16px;
+            margin-left: 9px;
+
+        }
+
+        .letter p {
+            margin-left: 12px;
+            font-size: 16px;
+        }
+
+        .input-email .input-submit {
+            margin-left: 2px;
+            align-items: center;
+        }
+
+    }
+
+    /* 
+        ##Device = Tablets, Ipads (landscape)
+        ##Screen = B/w 768px to 1024px
+      */
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+        .ncontact {
+            font-size: 28px;
+        }
+
+        .provide h3 {
+            font-size: 24px;
+            margin-left: 16px;
+        }
+
+        .provide {
+
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+
+        .icon {
+            font-size: 18px;
+        }
+
+        .col {
+            font-size: 18px;
+        }
+
+        .map {
+            width: 420px;
+            margin: 0;
+            margin-left: 10%;
+            padding: 0;
+
+            iframe {
+                width: 400px;
+            }
+        }
+
+        .letter {
+            font-size: 18px;
+            margin-left: 9px;
+            margin-right: 9px;
+            margin-top: 10%;
+        }
+
+        .letter h3 {
+            font-size: 16px;
+            margin-left: 9px;
+
+        }
+
+        .letter p {
+            margin-left: 12px;
+            font-size: 16px;
+        }
+
+        .input-email .input-submit {
+            margin-left: 2px;
+            align-items: center;
+        }
+
+    }
+
+    /* 
+        ##Device = Low Resolution Tablets, Mobiles (Landscape)
+        ##Screen = B/w 481px to 767px
+      */
+
+    @media (min-width: 481px) and (max-width: 767px) {
+
+        .ncontact {
+            font-size: 28px;
+        }
+
+        .provide h3 {
+            font-size: 24px;
+            margin-left: 16px;
+        }
+
+        .provide {
+
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+
+        .icon {
+            font-size: 18px;
+        }
+
+        .col {
+            font-size: 18px;
+        }
+
+        .map {
+            width: 420px;
+            margin: 0;
+            margin-left: 3%;
+            padding: 0;
+
+            iframe {
+                width: 400px;
+            }
+        }
+
+        .letter {
+            font-size: 18px;
+            margin-left: 21px;
+            margin-right: 20px;
+            margin-top: 10%;
+        }
+
+        .letter h3 {
+            text-align: left;
+            font-size: 16px;
+
+        }
+
+        .letter p {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .input-email .input-submit {
+            align-items: center;
+        }
+
+    }
+
+    /* 
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+      */
+
+    @media (min-width: 320px) and (max-width: 480px) {
+
+        .ncontact {
+            font-size: 28px;
+        }
+
+        .provide h3 {
+            font-size: 24px;
+            margin-left: 16px;
+        }
+
+        .provide {
+
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+
+        .icon {
+            font-size: 18px;
+        }
+
+        .col {
+            font-size: 18px;
+        }
+
+        .map {
+            width: 420px;
+            margin: 0;
+            margin-right: 2%;
+            padding: 0;
+
+            iframe {
+                width: 400px;
+            }
+        }
+
+        .letter {
+            font-size: 18px;
+            margin-left: 18px;
+            margin-right: -105px;
+            margin-top: 10%;
+        }
+
+        .letter h3 {
+            font-size: 16px;
+            margin-right: 10%;
+
+        }
+
+        .letter p {
+            margin-left: 12px;
+            font-size: 16px;
+        }
+
+        .input-email .input-submit {
+            margin-left: 2px;
+            align-items: center;
+        }
+
+    }
 }
