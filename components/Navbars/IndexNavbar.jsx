@@ -3,10 +3,11 @@ import Link from "next/link";
 
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
-import { FaBars, FaShoppingCart } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 
 export default function IndexNavbar() {
+
   const [navSize, setNavSize] = useState("6rem")
   const [navColor, setNavColor] = useState("#e936f4")
   const [navLogo, setNavLogo] = useState("140px")
@@ -25,17 +26,6 @@ export default function IndexNavbar() {
 
   return (
     <>
-      <section className="topNavbar d-flex">
-        <div className="topNavbar-red flex-fill">
-        </div>
-        <div className="topNavbar-yellow flex-fill">
-        </div>
-        <div className="topNavbar-green flex-fill">
-          <div className="d-flex justify-content-end">
-            <Button variant="light"><span>5</span> <FaShoppingCart/></Button>
-          </div>
-        </div>
-      </section>
       <Navbar className={navLogo == "160px" ? "header-area " : "header-area scroll " + " header-sticky"} sticky="top" expand="lg">
         <Container>
           <Navbar.Brand href="/" className="d-xl-none d-lg-none">
