@@ -11,7 +11,7 @@ export default function Contactshow() {
     return (
         <div className='contact-show'>
 
-            {/* -------title----------- */}
+            {/* -------title header----------- */}
             <div className='title-header mx-auto'>
                 <div className="active">ช่องทางติดต่อ</div>
                 <div className="n-active">ช่องทางติดต่อ</div>
