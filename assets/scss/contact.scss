@@ -255,7 +255,7 @@
             font-size: 16px;
         }
 
-        .letter {
+        .map .letter {
             font-size: 12px;
             margin-left: 9px;
             margin-right: 9px;
@@ -276,6 +276,254 @@
         .input-email .input-submit {
             margin-left: 2px;
         }
-
     }
+
+    /* Extra small devices (phones, 600px and down) */
+    // @media only screen and (max-width: 600px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map {
+    //             width: 350px;
+    //             height: 200px;
+    //         }
+    //         .letter {
+    //             font-size: 12px;
+    //             // margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             // margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             // margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
+
+    // /* Small devices (portrait tablets and large phones, 600px and up) */
+    // @media only screen and (min-width: 600px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map .letter {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
+
+    // /* Medium devices (landscape tablets, 768px and up) */
+    // @media only screen and (min-width: 768px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map .letter {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
+
+    // /* Large devices (laptops/desktops, 992px and up) */
+    // @media only screen and (min-width: 992px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map .letter {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
+
+    // /* Extra large devices (large laptops and desktops, 1200px and up) */
+    // @media only screen and (min-width: 1200px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map .letter {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
 }
