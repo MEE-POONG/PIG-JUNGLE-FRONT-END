@@ -69,7 +69,7 @@ export default function Contactshow() {
                                             </Col>
                                             <Col>
                                                 <p>
-                                                    Pig Jungle@gmail.com
+                                                    Pig_jungle@gmail.com
                                                 </p>
                                             </Col>
                                         </Row>
@@ -126,7 +126,6 @@ export default function Contactshow() {
                         <div className='d-flex'> 
                                 <input className="input-email" type="email" name="E-mail" placeholder="Enter Your Email" id="#" />
                                 <input type="submit" value="Sing up" className="input-submit" />
-                            
                                 </div>
                         </div>
                     </div>
