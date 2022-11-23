@@ -1,6 +1,9 @@
-import React from "react";
+import React from 'react';
 import { Image } from "react-bootstrap";
 import { FaBehance, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+
+
+
 
 export default function Footer() {
   return (
