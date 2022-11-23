@@ -52,28 +52,6 @@
         background-color: #ccc;
     }
 
-    // .subtitle {
-    //     font-size: 28px;
-    //     width: max-content;
-    //     margin-left: 6%;
-    //     margin-top: 2%;
-
-    //     .s-active {
-    //         color: #FFFFFF;
-    //         text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
-
-    //     }
-
-    //     .sactive {
-    //         position: absolute;
-    //         background: linear-gradient(#ee5441, #ee5441, #fed406, #009b4e, #009b4e);
-    //         -webkit-background-clip: text;
-    //         -webkit-text-fill-color: transparent;
-    //         -moz-background-clip: text;
-    //         -moz-text-fill-color: transparent;
-    //     }
-    // }
-
     /* ------------ icon brand------------------- */
 
     .text-icon {
@@ -85,7 +63,7 @@
             .row {
                 font-size: 23px;
 
-                &:hover > * {
+                &:hover>* {
                     color: #8defbe;
 
                 }
@@ -119,9 +97,10 @@
 
     .map {
         border: 10px double transparent;
-        background-image: linear-gradient(rgb(36, 36, 36), rgb(36, 36, 36)), radial-gradient(circle at left top, #C33764, #1D2671, #8e54e9);
+        background-image: linear-gradient(rgb(251, 251, 251), rgb(254, 255, 255)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
+        animation: gradient 15s ease infinite;
         animation: gradient 15s ease infinite;
         background-size: 400%;
     }
@@ -129,8 +108,7 @@
     /* ------------ letter ------------------- */
     .letter {
         border: 10px double transparent;
-        background-image: linear-gradient(rgb(255, 255, 255), rgb(249, 249, 249)), radial-gradient(circle at left top,  #C33764, #1D2671, #8e54e9);
-        background-origin: border-box;
+        background-image: linear-gradient(rgb(251, 251, 251), rgb(254, 255, 255)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
         animation: gradient 15s ease infinite;
@@ -208,7 +186,6 @@
     .input-email {
         width: 70%;
         padding: 10px 30px 10px;
-        border: 2px solid #ccc;
         border: 5px solid #000000;
         border-radius: 15px;
         box-sizing: border-box;
@@ -222,7 +199,7 @@
     .input-submit {
         display: flex;
         border: 10px double transparent;
-        background-image: linear-gradient(rgb(255, 255, 255), rgb(249, 249, 249)), radial-gradient(circle at left top, #C33764, #1D2671, #8e54e9);
+        background-image: linear-gradient(rgb(254, 254, 255), rgb(255, 255, 255)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
         animation: gradient 15s ease infinite;
@@ -255,7 +232,7 @@
     }
 
     //-------responsive---------//
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1200px) and (min-width: 480px) {
         .ncontact {
             font-size: 28px;
         }
@@ -271,14 +248,14 @@
         }
 
         .icon {
-            margin-left: -8rem;
+            // margin-left: -8rem;
         }
 
         .col {
             font-size: 16px;
         }
 
-        .letter {
+        .map .letter {
             font-size: 12px;
             margin-left: 9px;
             margin-right: 9px;
@@ -299,6 +276,254 @@
         .input-email .input-submit {
             margin-left: 2px;
         }
-
     }
+
+    /* Extra small devices (phones, 600px and down) */
+    // @media only screen and (max-width: 600px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map {
+    //             width: 350px;
+    //             height: 200px;
+    //         }
+    //         .letter {
+    //             font-size: 12px;
+    //             // margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             // margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             // margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
+
+    // /* Small devices (portrait tablets and large phones, 600px and up) */
+    // @media only screen and (min-width: 600px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map .letter {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
+
+    // /* Medium devices (landscape tablets, 768px and up) */
+    // @media only screen and (min-width: 768px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map .letter {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
+
+    // /* Large devices (laptops/desktops, 992px and up) */
+    // @media only screen and (min-width: 992px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map .letter {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
+
+    // /* Extra large devices (large laptops and desktops, 1200px and up) */
+    // @media only screen and (min-width: 1200px) {
+    //     .example {
+    //         .ncontact {
+    //             font-size: 28px;
+    //         }
+    
+    //         .provide h3 {
+    //             font-size: 24px;
+    //             margin-left: 16px;
+    //         }
+    
+    //         .provide {
+    //             margin-left: 0%;
+    //             margin-right: 0%;
+    //         }
+    
+    //         .icon {
+    //             // margin-left: -8rem;
+    //         }
+    
+    //         .col {
+    //             font-size: 16px;
+    //         }
+    
+    //         .map .letter {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    //             margin-right: 9px;
+    //             margin-top: 10%;
+    //         }
+    
+    //         .letter h3 {
+    //             font-size: 12px;
+    //             margin-left: 9px;
+    
+    //         }
+    
+    //         .letter p {
+    //             margin-left: 9px;
+    //             font-size: 12px;
+    //         }
+    
+    //         .input-email .input-submit {
+    //             margin-left: 2px;
+    //         }
+    //     }
+    // }
 }
