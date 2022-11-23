@@ -142,10 +142,31 @@
         color: darkgreen !important;
     }
 
+    ul {
+        list-style-type: none;
+        text-align: center;
+        li {
+          display: inline-block;
+          margin-right: 25px;
+          margin-top: 20px;
+          font-weight: 500;
+          font-size: 11px;
+        }
+        .bg {
+            text-align: center;
+            padding: 4px;
+            margin-right: 20px;
+            transition: 0.3s all ease;
+            border-radius: 50%;
+        
+            &:hover {
+              background-color: #00d7a1;
+              border-radius: 50%;
+              cursor: pointer;
+            }
+          }
+    }
+    
 
-
-
-
-    /* minlength="19" maxlength="19" */
-    /* for="typeText" */
+    
 }
