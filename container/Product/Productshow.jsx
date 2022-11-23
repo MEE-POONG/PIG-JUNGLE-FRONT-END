@@ -34,7 +34,7 @@ export default function ProductShow() {
                             <li> <a href="#">เสื้อยืด <i>(3)</i></a></li>
                       </Card>
                     </Col>
-                    <Col xs={12} md={9}>
+                    <Col xs={12} md={9} className='right-row'>
                      <ProductList/>
                     </Col>
                 </Row>
