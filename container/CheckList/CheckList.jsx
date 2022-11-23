@@ -41,22 +41,27 @@ export default function CheckList() {
                                 <div className="row">
                                     <div className="col-lg-6 px-5 py-4">
                                         <h3 className="mb-5 pt-2 text-center fw-bold text-uppercase" style={{ textShadow: "-2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef" }}>Your products</h3>
-
+                                        <h5 className="text-primary">ชื่อสินค้า</h5>
                                         <div className="d-flex align-items-center mb-5">
                                             <div className="flex-shrink-0">
-                                                <h2>ชื่อสินค้า</h2>
-                                                <img src="../../public/images/product/marijuana_06.png"/>
-                                                <h4><p>ราคา {price.toLocaleString("en-US")} บาท</p></h4>
-                                                
+                                               
+                                                <Image className="logo" style={{ width: "5%" }} src={"images/product/product4.jpg"} />
+                                            
+                                            
+                                            <div className="flex-grow-1 ms-3">
+                                            <h4><p className="fw-bold mb-0 me-5 pe-3">ราคา {price.toLocaleString("en-US")} บาท</p></h4>
+                                            
+                                                <ul>
 
+                                                    <li type="button" className="bg" onClick={() => setCount((count) => count + 1)}>+ </li>
+                                                    <h4>{count}</h4>
+                                                    <li type="button" className="bg" onClick={() => setCount((count) => count - 1)}>- </li>
+                                                </ul>
+
+                                            </div>
 
                                             </div>
                                         </div>
-                                        <ul>
-                                                    <h4>{count}</h4>
-                                                    <li type="button" className="bg" onClick={() => setCount((count) => count + 1)}><FaPlus /> </li>
-                                                    <li type="button" className="bg" onClick={() => setCount((count) => count - 1)}><FaMinus /> </li>
-                                                </ul>
 
 
                                         <hr className="mb-4" style={{ height: "2px", backgroundColor: "#1266f1", opacity: "1" }}></hr>

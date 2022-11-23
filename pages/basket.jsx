@@ -1,8 +1,9 @@
 
-import ProductList from '@/components/ฺฺBasket/basket'
+
 import React from 'react'
 import Head from 'next/head';
 import IndexLayout from "@/components/layouts/IndexLayout";
+import Basket from 'container/ฺฺBasket/basket';
 export default function BasketPage() {
   return (
     <>
@@ -15,7 +16,7 @@ export default function BasketPage() {
         <link rel="icon" href="/images/logo.png" />
       </Head>
       <div id='basket-page' name="basket-page" className='basket-page'>
-        <ProductList />
+        <Basket/>
       </div>
     </>
   )
