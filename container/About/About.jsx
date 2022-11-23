@@ -33,18 +33,27 @@ export default function About() {
                     </Col>
                 </Row>
             </Container>
-            <section className="call-to-action text-white text-center">
-                <dvi className="container">
+
+
+            <div className='letter'>
+                <div className="container-fluid">
                     <div className="row">
-                        <div className="col-xl-9 mx-auto">
-                            <h2 className="shop">สินค้าพร้อมให้บริการ</h2>
-                            <a href="/product" className="button-shop">SHOP NOW</a>
+                        <div className="col-md-6">
+                            <p> ทางเรามีสินค้ามากมายให้คุณเลือก </p>
+                            <h3 className='text-letter '> คลิกที่ shop now... </h3>
+                        </div>
+                        <br />
+                        <br />
+                        {/*--------------- map -----------------*/}
+                        <div className="col-md-6">
+                            <div className='d-flex'>
+                                <input href="/product" type="submit" value="SHOP NOW" className="input-submit" />
+
+                            </div>
                         </div>
                     </div>
-
-                </dvi>
-            </section>
-
+                </div>
+            </div>
         </>
 
     )
