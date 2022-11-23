@@ -5,12 +5,10 @@ export default function About() {
     return (
         <>
 
-            <header>
-                <div className="sc_layouts_title_caption">
-                    <h1 >About 1</h1>
-                    <p>HOME / ABOUT</p>
-                </div>
-            </header>
+            <div className='title-header mx-auto'>
+                <div className="active">เกี่ยวกับเรา</div>
+                <div className="n-active">เกี่ยวกับเรา</div>
+            </div>
             <Container>
                 <Row>
                     <Col md={12} lg={6} sm={6}>

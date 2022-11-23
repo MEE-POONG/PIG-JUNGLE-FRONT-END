@@ -5,7 +5,23 @@ import { Card } from 'react-bootstrap'
 import { FaMinus, FaPlus, FaShoppingBag, FaShoppingCart } from 'react-icons/fa'
 
 export default function CheckList() {
+    let priceDefult = 150
     const [count, setCount] = useState(1)
+    const [price, setPrice] = useState(priceDefult)
+
+    const countIncreat = () => {
+        if (count >= 1) {
+            setCount((count) => count + 1)
+            setPrice((price) => price + priceDefult)
+        }
+    }
+
+    const countDecreat = () => {
+        if (count > 1) {
+            setCount((count) => count - 1)
+            setPrice((price) => price - priceDefult)
+        }
+    }
     return (
         <section className="h-100 h-custom" >
             <div className="container h-100 py-5">
@@ -28,17 +44,19 @@ export default function CheckList() {
 
                                         <div className="d-flex align-items-center mb-5">
                                             <div className="flex-shrink-0">
-
+                                                <h2>ชื่อสินค้า</h2>
+                                                <img src="../../public/images/product/marijuana_06.png"/>
+                                                <h4><p>ราคา {price.toLocaleString("en-US")} บาท</p></h4>
+                                                
 
 
                                             </div>
                                         </div>
                                         <ul>
-                                            <h3>count</h3>
-                                            <li type="button" className="bg" onClick={() => setCount((count) => count + 1)}><FaPlus /> </li>
-                                            <li>{count}</li>
-                                            <li type="button" className="bg" onClick={() => setCount((count) => count - 1)}><FaMinus /> </li>
-                                        </ul>
+                                                    <h4>{count}</h4>
+                                                    <li type="button" className="bg" onClick={() => setCount((count) => count + 1)}><FaPlus /> </li>
+                                                    <li type="button" className="bg" onClick={() => setCount((count) => count - 1)}><FaMinus /> </li>
+                                                </ul>
 
 
                                         <hr className="mb-4" style={{ height: "2px", backgroundColor: "#1266f1", opacity: "1" }}></hr>
