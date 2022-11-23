@@ -268,8 +268,8 @@
         width: .125rem;
         background-color: black;
         animation:
-            typewriter 1.5s steps(10) alternate infinite,
-            blink 500ms steps(10) infinite;
+            typewriter 1.5s steps(15) alternate infinite,
+            blink 500ms steps(15) infinite;
     }
 
     @keyframes typewriter {
