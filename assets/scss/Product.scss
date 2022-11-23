@@ -1,14 +1,17 @@
 @import "productshow";
+@import "ProductShowDetails";
 
 .product-page {
   .product-list {
     .card {
       display: flex;
       width: 100%;
-      margin-top: 15px;
-      margin-bottom: 25px;
+      padding: 1rem;
       color: #ffffff;
-      background-image: linear-gradient(25deg, #045524, #0f7014);
+      border: 3px double transparent;
+      background-image: linear-gradient(rgb(10, 7, 49), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255));
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
 
       .card-header {
         background-color: rgba(0, 0, 0, 0.29);
@@ -21,10 +24,9 @@
       }
 
       .card-img {
-        padding: 2rem;
-        border: #ae17ff;
-        width: 100%;
-        height: 250px;
+        padding: 0.5rem;
+        width: 180px;
+        height: 180px;
         overflow: hidden;
 
       }
@@ -36,8 +38,8 @@
             font-size: 15px;
           }
           h4 {
-            font-size: 18px;
-            color: rgb(3, 28, 13);
+            font-size: 16px;
+            color: rgb(255, 255, 255);
             margin-top: 5px;
           }
         }

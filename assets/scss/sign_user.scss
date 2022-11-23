@@ -25,16 +25,17 @@
         border-bottom: 5px solid rgba(0, 0, 0, 1);
 
         border: 2px double transparent;
-        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, #fff42b, rgb(117, 255, 142), rgb(151, 104, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
 
         animation: gradient 15s ease infinite;
         background-size: 400%;
+        transition: 0.2s all ease;
 
         &:hover {
             color: #6cef60;
-            box-shadow: 0px 0px 15px 0px rgb(78, 23, 142);  
+            box-shadow: 0px 0px 15px 0px rgb(151, 104, 255);  
         }
 
     }
@@ -72,7 +73,7 @@
         background: #ffffff;
 
         border: 10px double transparent;
-        background-image: linear-gradient(rgb(36, 36, 36), rgb(36, 36, 36)), radial-gradient(circle at left top, #C33764, #1D2671, #8e54e9);
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, #fff42b, rgb(117, 255, 142), rgb(151, 104, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
 
@@ -108,7 +109,7 @@
         background: #ffffff;
 
         border: 10px double transparent;
-        background-image: linear-gradient(rgb(39, 39, 39), rgb(39, 39, 39)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, #fff42b, rgb(117, 255, 142), rgb(151, 104, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
 
@@ -143,7 +144,7 @@
 
 
         border: 10px double transparent;
-        background-image: linear-gradient(rgb(39, 39, 39), rgb(39, 39, 39)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, #fff42b, rgb(117, 255, 142), rgb(151, 104, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
 
@@ -249,16 +250,17 @@
         border-bottom: 5px solid rgba(0, 0, 0, 1);
 
         border: 2px double transparent;
-        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(1, 110, 218), rgb(217, 0, 192));
+        background-image: linear-gradient(rgb(13, 14, 33), rgb(13, 14, 33)), radial-gradient(circle at left top, #fff42b, rgb(117, 255, 142), rgb(151, 104, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
 
         animation: gradient 15s ease infinite;
         background-size: 400%;
+        transition: 0.2s all ease;
 
         &:hover {
             color: #6cef60;
-            box-shadow: 0px 0px 15px 0px rgb(78, 23, 142);  
+            box-shadow: 0px 0px 15px 0px rgb(151, 104, 255);  
         }
 
 

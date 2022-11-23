@@ -28,10 +28,13 @@ export default function ProductShow() {
                      {/* -----left row----- */}
                     <Col xs={6} md={3}>
                       <Card className='typelist'>
-                        <h4>ประเภทสินค้า</h4> <hr />
-                            <li> <a href="#"> อุปกรณ์ <i>(10)</i></a></li>
-                            <li> <a href="#">เมล็ดกัญชา<i>(15)</i></a> </li>
-                            <li> <a href="#">เสื้อยืด <i>(3)</i></a></li>
+                        <h4>หมวดหมู่สินค้า</h4> <hr />
+                            <li> <a href="#">อุปกรณ์ 
+                                <i>(10)</i></a></li>
+                            <li> <a href="#">เมล็ดกัญชา
+                                <i>(15)</i></a> </li>
+                            <li> <a href="#">เสื้อยืด 
+                                <i>(3)</i></a></li>
                       </Card>
                     </Col>
                     <Col xs={12} md={9} className='right-row'>
