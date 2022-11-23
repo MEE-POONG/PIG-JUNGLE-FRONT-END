@@ -2,51 +2,23 @@ import React, { useState } from 'react'
 import { Image, Container, Row, Col, Card } from 'react-bootstrap'
 import { FaMinus, FaPlus, FaShoppingBag, FaShoppingCart } from 'react-icons/fa'
 
-const data = [
-    {
-        id: 1,
-        name: "product 1",
-        price: "100",
-    },
-    {
-        id: 2,
-        name: "product 2",
-        price: "300",
-    },
-    {
-        id: 3,
-        name: "product 3",
-        price: "1000",
-    },
-    {
-        id: 4,
-        name: "product 4",
-        price: "2000",
-    },
-    {
-        id: 5,
-        name: "product 5",
-        price: "3000",
-    },
-]
-
 export default function ProductList() {
 
-
+    let priceDefult = 150
     const [count, setCount] = useState(1)
-    const [price, setPrice] = useState(data.price)
+    const [price, setPrice] = useState(priceDefult)
 
-    const countIncreat = (id) => {
+    const countIncreat = () => {
         if (count >= 1) {
             setCount((count) => count + 1)
-            setPrice((price) => price + data.price)
+            setPrice((price) => price + priceDefult)
         }
     }
 
-    const countDecreat = (id) => {
+    const countDecreat = () => {
         if (count > 1) {
             setCount((count) => count - 1)
-            setPrice((price) => price - data.price)
+            setPrice((price) => price - priceDefult)
         }
     }
 
@@ -54,45 +26,76 @@ export default function ProductList() {
         <>
             <Container className='product-list'>
                 <Row>
-                    {data.map((item) => {
-                        const { id, name, price } = item
-                        return (
-                            <Col lg={3}>
-                                <Card key={id}>
-                                    <Card.Header bsPrefix='card-header'>
-                                        <h2>{name}</h2>
-                                    </Card.Header>
-                                    <Card.Img src={'images/product/marijuana_01.png'} className='img-product' alt="imgProduct" />
-                                    <Card.Body>
+                    {/* <Col xs={12} md={12} lg={6}>
+                            <div className="product-card">
+                                <div className="left">
+                                    <Image src={'images/product/marijuana_01.png'} className='img-product' alt="imgProduct" />
+                                </div>
+                                <div className="right">
+                                    <div className="product-info">
+                                        <div className="product-name">
+                                            <h1>PigJungle</h1>
+                                        </div>
                                         <div className="details">
+                                            <h3>ประเภท</h3>
+                                            <h2>ชื่อสินค้า</h2>
                                             <h5>รายละเอียดสินค้า</h5>
                                             <h4><p>ราคา {price.toLocaleString("en-US")} บาท</p></h4>
                                         </div>
-                                        <ul className='p-0'>
+                                        <ul>
                                             <li>จำนวน</li>
 
                                             <li className="bg"
-                                                onClick={() => countIncreat(id)}>
+                                                onClick={() => countIncreat()}>
                                                 <FaPlus /></li>
 
                                             <li>{count}</li>
 
                                             <li className="bg"
-                                                onClick={() => countDecreat(id)}>
+                                                onClick={() => countDecreat()}>
                                                 <FaMinus /></li>
 
                                             <li>กรัม</li>
                                         </ul>
-                                    </Card.Body>
-                                    <Card.Footer>
-                                        <span className="foot"><FaShoppingBag className='icon me-1' />Buy Now</span>
-                                        <span className="foot"><FaShoppingCart className='icon me-1' />Add TO Cart</span>
-                                    </Card.Footer>
-                                </Card>
-                            </Col>
-                        )
-                    })}
+                                        <span className="foot"><FaShoppingBag className='icon' />Buy Now</span>
+                                        <span className="foot"><FaShoppingCart className='icon' />Add TO Cart</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </Col> */}
+                    <Col lg={3}>
+                        <Card>
+                            <Card.Header bsPrefix='card-header'>
+                                <h2>ชื่อสินค้า</h2>
+                            </Card.Header>
+                            <Card.Img src={'images/product/marijuana_01.png'} className='img-product' alt="imgProduct" />
+                            <Card.Body>
+                                <div className="details">
+                                    <h5>รายละเอียดสินค้า</h5>
+                                    <h4><p>ราคา {price.toLocaleString("en-US")} บาท</p></h4>
+                                </div>
+                                <ul className='p-0'>
+                                    <li>จำนวน</li>
 
+                                    <li className="bg"
+                                        onClick={() => countIncreat()}>
+                                        <FaPlus /></li>
+
+                                    {count}
+
+                                    <li className="bg"
+                                        onClick={() => countDecreat()}>
+                                        <FaMinus /></li>
+
+                                    <li>กรัม</li>
+                                </ul>
+                            </Card.Body>
+                            <Card.Footer>
+                                <span className="foot"><FaShoppingBag className='icon' />Buy Now</span>
+                                <span className="foot"><FaShoppingCart className='icon' />Add TO Cart</span>
+                            </Card.Footer>
+                        </Card>
+                    </Col>
                 </Row>
             </Container>
         </>
