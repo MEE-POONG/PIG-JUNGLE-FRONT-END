@@ -52,28 +52,6 @@
         background-color: #ccc;
     }
 
-    // .subtitle {
-    //     font-size: 28px;
-    //     width: max-content;
-    //     margin-left: 6%;
-    //     margin-top: 2%;
-
-    //     .s-active {
-    //         color: #FFFFFF;
-    //         text-shadow: 2px 2px 0 #000000, 2px -2px 0 #000000, -2px 2px 0 #000000, -2px -2px 0 #000000, 2px 0px 0 #000000, 0px 2px 0 #000000, -2px 0px 0 #000000, 0px -2px 0 #000000;
-
-    //     }
-
-    //     .sactive {
-    //         position: absolute;
-    //         background: linear-gradient(#ee5441, #ee5441, #fed406, #009b4e, #009b4e);
-    //         -webkit-background-clip: text;
-    //         -webkit-text-fill-color: transparent;
-    //         -moz-background-clip: text;
-    //         -moz-text-fill-color: transparent;
-    //     }
-    // }
-
     /* ------------ icon brand------------------- */
 
     .text-icon {
@@ -85,7 +63,7 @@
             .row {
                 font-size: 23px;
 
-                &:hover > * {
+                &:hover>* {
                     color: #8defbe;
 
                 }
@@ -208,7 +186,6 @@
     .input-email {
         width: 70%;
         padding: 10px 30px 10px;
-        border: 2px solid #ccc;
         border: 5px solid #000000;
         border-radius: 15px;
         box-sizing: border-box;
@@ -222,7 +199,7 @@
     .input-submit {
         display: flex;
         border: 10px double transparent;
-        background-image: linear-gradient(rgb(10, 7, 49), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255));
+        background-image: linear-gradient(rgb(254, 254, 255), rgb(255, 255, 255)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255));
         background-origin: border-box;
         background-clip: padding-box, border-box;
         animation: gradient 15s ease infinite;
@@ -255,7 +232,7 @@
     }
 
     //-------responsive---------//
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1200px) and (min-width: 480px) {
         .ncontact {
             font-size: 28px;
         }
@@ -271,7 +248,7 @@
         }
 
         .icon {
-            margin-left: -8rem;
+            // margin-left: -8rem;
         }
 
         .col {
