@@ -44,12 +44,12 @@ export default function SignUpUserPages() {
 
                             <input className='input-Si-Su' type="text" id="Email" name="Email" placeholder="Email" />
 
-                            <input className='input-Si-Su' type="text" id="Password" name="Password" placeholder="Password" />
+                            <input className='input-Si-Su' type="password" id="Password" name="Password" placeholder="Password" />
 
-                            <input className='input-Si-Su' type="text" id="ConfirmPassword" name="ConfirmPassword" placeholder="ConfirmPassword" />
+                            <input className='input-Si-Su' type="password" id="ConfirmPassword" name="ConfirmPassword" placeholder="ConfirmPassword" />
                         </form>
                         <div className="box-btu-Si-Su">
-                            <a className="btu-Si-Su-Ad" type='sign-up' href="/address_user">ลงชื่อเข้าใช้</a>
+                            <a className="btu-Si-Su-Ad" type='sign-up' href="/address_user">สมัครสมาชิก</a>
                         </div>
                     </div>
 

@@ -26,10 +26,8 @@ export default function AdderssUserPage() {
 
                     <a className='btunav' type='SignIn' href="/">กลับ</a>
 
-                    <a className='btunav' type='SignIn' href="/sign_up">ลงชื่อเข้าใช้</a>
+                    <a className='btunav' type='SignIn' href="/sign_up">สมัครสมาชิก</a>
 
-                    <a className='btunav' type='SignIn' href="">ลืมรหัสผ่าน?</a>
-                    
                 </div>
                 <div className='box-Container-Si'>
 
@@ -49,13 +47,18 @@ export default function AdderssUserPage() {
 
                             <input className='input-Si-Su' type="text" id="Email" name="Email" placeholder="Email" />
 
-                            <input className='input-Si-Su' type="text" id="Password" name="Password" placeholder="Password" />
+                            <input className='input-Si-Su' type="password" id="Password" name="Password" placeholder="Password" />
 
 
                         </form>
                         <div className='box-btu-Si-Su'>
                             <a className='btu-Si-Su-Ad' type='SignIn'>เข้าสู่ระบบ</a>
                         </div>
+                        <div className="box-text">
+                            <a className='text-Si-Su' type='SignIn' href="">ลืมรหัสผ่าน?</a>
+                        </div>
+
+
                     </div>
 
                     {/* <div className="box-img">
