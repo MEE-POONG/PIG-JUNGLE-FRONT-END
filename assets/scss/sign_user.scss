@@ -98,6 +98,8 @@
         background-size: cover;
         position: relative;
         z-index: 1;
+
+
     }
 
 
@@ -122,8 +124,8 @@
     /* -----address------ */
     .box-Container-address {
         width: 100%;
-        min-height: 100vh;
         display: flex;
+        min-height: 100vh;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
@@ -136,10 +138,10 @@
     }
 
     .Container-address {
-        width: 70%;
+        width: 800px;
         border-radius: 10px;
         overflow: hidden;
-        padding: 55px 55px 37px;
+        padding: 30px 30px 30px;
         background: #ffffff;
 
 
@@ -152,17 +154,11 @@
         background-size: 400%;
     }
 
-    .box-address-left {
-        width: 49%;
-        float: left;
+    .box-address {
+        width: 100%;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        padding-right: 30px;
-    }
-
-    .box-address-right {
-        width: 50%;
-        float: right;
+        
     }
 
     .input-address {
@@ -170,7 +166,7 @@
         width: 100%;
         padding: 0 35px 0 10px;
         border: 1px solid #ddd;
-        font-size: 18px;
+        font-size: 16px;
         height: 50px;
     }
 
@@ -178,9 +174,8 @@
     .box-btu-address {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        justify-content: right;
         margin-right: 20px;
+        justify-content: center;
     }
 
     /* -----End address------ */
@@ -204,7 +199,7 @@
     }
 
     .title-Si-Su-Ad {
-        font-size: 60px;
+        font-size: 55px;
         color: #ffffff;
         display: flex;
         justify-content: center;
@@ -215,7 +210,7 @@
     }
 
     .input-Si-Su {
-        font-size: 20px;
+        font-size: 16px;
         color: rgb(255, 255, 255);
         line-height: 1.2;
         display: block;
