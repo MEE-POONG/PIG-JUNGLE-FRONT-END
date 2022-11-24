@@ -28,64 +28,66 @@ export default function CheckList() {
                 <div className="row d-flex justify-content-center align-items-center h-100">
                     <div className="col">
                         <div className="card shopping-cart" style={{
-
-                            border: "10px double transparent",
-                            backgroundImage: "linear-gradient(#ffffff, #ffffff), radial-gradient(circle at left top, #C33764, #1D2671,#8e54e9)",
+                            border: "3px double transparent",
+                            backgroundImage: "linear-gradient(rgb(10, 7, 49), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255))",
                             backgroundOrigin: "border-box",
                             backgroundClip: "padding-box, border-box",
-
-                            animation: "gradient 15s ease infinite",
-                            backgroundSize: "400%"
+                            color: "#ffff"
                         }}>
-                            <div className="card-body text-black" style={{ backgroundColor: "#ffd9d982" }}>
+                            <div className="card-body text-black" >
                                 <div className="row">
                                     <div className="col-lg-6 px-5 py-4">
-                                        <h3 className="mb-5 pt-2 text-center fw-bold text-uppercase" style={{ textShadow: "-2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef" }}>Your products</h3>
-                                        <h5 className="text-primary">ชื่อสินค้า</h5>
+                                        
+                                        <div className='title-header mx-auto mb-5 pt-2 text-center fw-bold text-uppercase'>
+                                            <div className="active" style={{fontSize: "xx-large"}}>Your products</div>
+                                            <div className="n-active" style={{fontSize: "xx-large"}}>Your products</div>
+                                        </div>
+                                        <h4 className="" style={{ color: "#ffff" }}>ชื่อสินค้า</h4>
                                         <div className="d-flex align-items-center mb-5">
-                                            <div className="flex-shrink-0">
-                                               
-                                                <Image className="logo" style={{ width: "5%" }} src={"images/product/product4.jpg"} />
-                                            
-                                            
-                                            <div className="flex-grow-1 ms-3">
-                                            <h4><p className="fw-bold mb-0 me-5 pe-3">ราคา {price.toLocaleString("en-US")} บาท</p></h4>
-                                            
-                                                <ul>
+                                            <div className="flex-shrink-0 w-100 d-flex justify-content-end" >
 
-                                                    <li type="button" className="bg" onClick={() => setCount((count) => count + 1)}>+ </li>
-                                                    <h4>{count}</h4>
-                                                    <li type="button" className="bg" onClick={() => setCount((count) => count - 1)}>- </li>
-                                                </ul>
+                                                <Image className="logo" style={{ width: "30%" }} src={"images/product/product4.jpg"} />
 
-                                            </div>
+
+                                                <div className="flex-grow-1 ms-3 " style={{ color: "#ffff" }}>
+                                                    <h4><p className="fw-bold mb-0 me-5 pe-3 d-flex flex-row-reverse" > {price.toLocaleString("en-US")} บาท</p></h4>
+
+                                                    <ul className="d-flex justify-content-around" >
+
+                                                        <li type="button" className="bg" onClick={() => setCount((count) => count + 1)}>+ </li>
+                                                        <h4>{count}</h4>
+                                                        <li type="button" className="bg" onClick={() => setCount((count) => count - 1)}>- </li>
+                                                    </ul>
+
+                                                </div>
 
                                             </div>
                                         </div>
 
 
-                                        <hr className="mb-4" style={{ height: "2px", backgroundColor: "#1266f1", opacity: "1" }}></hr>
+                                        <hr className="mb-4" style={{ color: "#ffff" }}></hr>
 
-                                        <div className="d-flex justify-content-between p-2 mb-2" style={{ backgroundColor: "#e1f5fe" }}>
-                                            <h5 className="fw-bold mb-0">Total:</h5>
-                                            <h5 className="fw-bold mb-0">2261$</h5>
+                                        <div className="d-flex justify-content-between p-2 mb-2" style={{ color: "#ffff" }}>
+                                            <h5 className="fw-bold mb-0">ราคารวมทั้งหมด :</h5>
+                                            <h5 className="fw-bold mb-0">2261 บาท</h5>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 px-5 py-4">
+                                    <div className="col-lg-6 px-5 py-4" style={{ color: "#ffff" }}>
 
-                                        <h3 className="mb-5 pt-2 text-center fw-bold text-uppercase " style={{
-                                            textShadow: "-2px -2px 2px rgb(0 255 162), 2px 2px 1px #b224ef"
-                                        }}>Payment</h3>
-
+                                        
+                                        <div className='title-header mx-auto mb-5 pt-2 text-center fw-bold text-uppercase'>
+                                            <div className="active" style={{fontSize: "xx-large"}}>Payment</div>
+                                            <div className="n-active" style={{fontSize: "xx-large"}}>Payment</div>
+                                        </div>
                                         <form className="mb-5">
                                             <div className="form-outline mb-5">
-                                                <label className="form-label" style={{ color: "#c021dd" }} > Card Number</label>
+                                                <label className="form-label" > Card Number</label>
 
                                                 <input type="text" id="typeText" className="form-control form-control-lg" placeholder="Card Number" />
                                             </div>
 
                                             <div className="form-outline mb-5">
-                                                <label className="form-label" style={{ color: "#c021dd" }}>Name on card</label>
+                                                <label className="form-label" >Name on card</label>
 
                                                 <input type="text" id="typeName" className="form-control form-control-lg"
                                                     placeholder="Name on card" />
@@ -93,7 +95,7 @@ export default function CheckList() {
                                             <div className="row">
                                                 <div className="col-md-6 mb-5">
                                                     <div className="form-outline">
-                                                        <label className="form-label" style={{ color: "#c021dd" }}>Expiration</label>
+                                                        <label className="form-label" >Expiration</label>
 
                                                         <input type="text" id="typeExp" className="form-control form-control-lg" placeholder="Expiration"
                                                         />
@@ -101,7 +103,7 @@ export default function CheckList() {
                                                 </div>
                                                 <div className="col-md-6 mb-5">
                                                     <div className="form-outline">
-                                                        <label className="form-label" style={{ color: "#c021dd" }}>Cvv</label>
+                                                        <label className="form-label" >Cvv</label>
 
                                                         <input type="password" id="typeText" maxLength={3} className="form-control form-control-lg"
                                                             size="1" placeholder="Cvv" />
@@ -109,8 +111,8 @@ export default function CheckList() {
                                                 </div>
                                             </div>
 
-
-                                            <button type="button" className="btn btn-primary btn-block btn-lg">Buy now</button>
+                                            <a className='btunav'  type='SignIn' href="/product">กลับ</a>
+                                            <a className='btunav' >ตกลง</a>
 
 
 
