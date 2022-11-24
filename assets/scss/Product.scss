@@ -1,7 +1,8 @@
-@import "productlist";
-@import "ProductShowDetails";
 
 .product-page {
+    @import "productlist";
+    @import "ProductShowDetails";
+
   .product-show{
   
 /*main*/
