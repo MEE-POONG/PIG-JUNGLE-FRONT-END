@@ -1,7 +1,7 @@
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import BackGroundMain from "../Bg/BackGroundMain";
 import Footer from "../Footers/Footer";
-import Topbar from "../Navbars/topbar";
+import Topbar from "../Navbars/Topbar";
 
 export default function IndexLayout({ children }) {
   

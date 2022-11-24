@@ -1,25 +1,22 @@
 import React from 'react'
-import { FaShoppingCart } from "react-icons/fa";
-import { Button } from 'react-bootstrap';
+import { FaPhone } from 'react-icons/fa'
 
-export default function Topbar(props) {
-
-    const { countCartItems } = props
+export default function Topbar() {
 
   return (
     <>
-     <section className="topNavbar d-flex">
+      <section className="topNavbar d-flex position-relative">
         <div className="topNavbar-red flex-fill">
         </div>
         <div className="topNavbar-yellow flex-fill">
         </div>
         <div className="topNavbar-green flex-fill">
-          <div className="d-flex justify-content-end">
-
-          {countCartItems ? (<Button variant="light"><span>{countCartItems}</span> <FaShoppingCart/></Button>)
-                          : (<Button variant="light"><span></span> <FaShoppingCart/></Button>)}
-            
-          </div>
+        </div>
+        <div className="d-flex justify-content-end">
+          <span className="position-absolute text-justify text-white me-4">
+            <FaPhone className='me-1'/>
+            420-420-4200
+          </span>
         </div>
       </section>
     </>
