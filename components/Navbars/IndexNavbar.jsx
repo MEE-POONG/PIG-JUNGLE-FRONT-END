@@ -26,7 +26,7 @@ export default function IndexNavbar() {
     if (items) {
       setItems(items)
     }
-  }, [])
+  }, [items])
 
 
   return (
