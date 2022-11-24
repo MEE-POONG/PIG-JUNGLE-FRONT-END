@@ -24,26 +24,26 @@ export default function Basket() {
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>
-                                            <p className="small  mb-4 pb-2" style={{color:"#25cb22"}}>ชื่อสินค้า</p>
+                                            <p className="small  mb-4 pb-2" style={{ color: "#25cb22" }}>ชื่อสินค้า</p>
                                             <p className="lead fw-normal mb-0">กัญชาอันก้อน</p>
 
                                         </div>
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>
-                                            <p className="small  mb-4 pb-2" style={{color:"#25cb22"}}>จำนวนสินค้า</p>
+                                            <p className="small  mb-4 pb-2" style={{ color: "#25cb22" }}>จำนวนสินค้า</p>
                                             <p className="lead fw-normal mb-0"> - 1 +</p>
                                         </div>
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>
-                                            <p className="small  mb-4 pb-2" style={{color:"#25cb22"}}>ราคาสินค้า</p>
+                                            <p className="small  mb-4 pb-2" style={{ color: "#25cb22" }}>ราคาสินค้า</p>
                                             <p className="lead fw-normal mb-0">799 บาท</p>
                                         </div>
                                     </div>
                                     <div className="col-md-2 d-flex justify-content-center">
                                         <div>
-                                            <p className="small  mb-4 pb-2" style={{color:"#25cb22"}}>ราคารวมทั้งหมด</p>
+                                            <p className="small  mb-4 pb-2" style={{ color: "#25cb22" }}>ราคารวมทั้งหมด</p>
                                             <p className="lead fw-normal mb-0">799 บาท</p>
                                         </div>
                                     </div>
@@ -51,7 +51,7 @@ export default function Basket() {
                             </div>
                         </div>
                         <div className="card mb-5">
-                            <div className="card-body p-4"style={{
+                            <div className="card-body p-4" style={{
                                 border: "3px double transparent",
                                 backgroundImage: "linear-gradient(rgb(10, 7, 49), rgb(13, 14, 33)), radial-gradient(circle at left top, rgb(117, 255, 142), rgb(162, 119, 255))",
                                 backgroundOrigin: "border-box",
@@ -61,7 +61,7 @@ export default function Basket() {
 
                                 <div className="float-end">
                                     <p className="mb-0 me-5 d-flex align-items-center">
-                                        <span className="small  me-5" style={{color:"#25cb22"}}>ยอดสั้งซื้อทั้งหมด:</span> <span
+                                        <span className="small  me-5" style={{ color: "#25cb22" }}>ยอดสั้งซื้อทั้งหมด:</span> <span
                                             className="lead fw-normal">799 บาท</span>
                                     </p>
                                 </div>
@@ -70,8 +70,8 @@ export default function Basket() {
 
                         </div>
                         <div className="d-flex justify-content-end" >
-                            <button type="button" className="btn btn-light btn-lg me-2">ย้อนกลับ</button>
-                            <button type="button" className="btn btn-primary btn-lg">ยืนยัน</button>
+                            <a className='btunav' type='SignIn' href="/product">กลับ</a>
+                            <a className='btunav' >ตกลง</a>
                         </div>
                     </div>
 
