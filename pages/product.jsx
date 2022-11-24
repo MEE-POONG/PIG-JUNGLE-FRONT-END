@@ -90,6 +90,7 @@ export default function ProductPage() {
       localStorage.setItem('cartItems', JSON.stringify(newCartItems))
     }
   }
+
   const onRemove = (product) => {
     const exist = cartItems.find((x) => x.id === product.id)
     if (exist.qty === 1) {
@@ -117,7 +118,7 @@ export default function ProductPage() {
 
   return (
     <>
-    <Head>
+      <Head>
         <title>PigJungle</title>
         <meta
           name="description"

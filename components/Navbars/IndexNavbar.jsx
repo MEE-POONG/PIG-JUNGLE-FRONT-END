@@ -3,18 +3,15 @@ import Link from "next/link";
 
 // components
 import { Container, Navbar, Nav, NavDropdown, Offcanvas, Form, FormControl, Button, Image, Row, Col, NavbarBrand } from 'react-bootstrap';
-import { FaBars } from "react-icons/fa";
+import { FaBars, FaSearch, FaShoppingCart, FaUser, FaUserAlt } from "react-icons/fa";
 
 
 export default function IndexNavbar() {
 
-  const [navSize, setNavSize] = useState("6rem")
-  const [navColor, setNavColor] = useState("#e936f4")
   const [navLogo, setNavLogo] = useState("140px")
+  const [items, setItems] = useState([])
 
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setNavColor("#e936f4") : setNavColor("#e936f4")
-    window.scrollY > 10 ? setNavSize("5rem") : setNavSize("6rem")
     window.scrollY > 10 ? setNavLogo('80px') : setNavLogo('140px')
   };
   useEffect(() => {
@@ -23,6 +20,14 @@ export default function IndexNavbar() {
       window.removeEventListener("scroll", listenScrollEvent)
     }
   }, [])
+
+  useEffect(() => {
+    const items = JSON.parse(localStorage.getItem('cartItems'))
+    if (items) {
+      setItems(items)
+    }
+  }, [])
+
 
   return (
     <>
@@ -62,10 +67,18 @@ export default function IndexNavbar() {
                   <div className="active">เข้าสู่ระบบ</div>
                   <div className="n-active">เข้าสู่ระบบ</div>
                 </Nav.Link>
-                <Nav.Link href="/sign_up" className="font-menu font-bold mx-auto">
-                  <div className="active">สมัครสมาชิก</div>
-                  <div className="n-active">สมัครสมาชิก</div>
-                </Nav.Link>
+                <div className="d-inline-flex mx-auto">
+                  <Nav.Link href="#" className="font-menu font-bold mx-auto">
+                    <FaSearch/>
+                  </Nav.Link>
+                  <Nav.Link href="/#" className="font-menu font-bold mx-auto">
+                    <FaUser/>
+                  </Nav.Link>
+                  <Nav.Link href="/basket" className="font-menu font-bold mx-auto">
+                    <span className="me-1">{items.length ===0 ? ('') : (items.length)}</span>
+                    <FaShoppingCart/>
+                  </Nav.Link>
+                </div>
               </div>
             </Nav>
           </Navbar.Collapse>

@@ -22,9 +22,9 @@ export default function AdderssUserPage() {
 
             <div id='sign-user' name="sign-user" className='sign-user'>
 
-                <div className="topnav">
+                <div className="topnav  justify-content-around">
 
-                    <a className='btunav' type='SignIn' href="/">กลับ</a>
+                    <a className='btunav ' type='SignIn' href="/">กลับ</a>
 
                     <a className='btunav' type='SignIn' href="/sign_up">สมัครสมาชิก</a>
 
