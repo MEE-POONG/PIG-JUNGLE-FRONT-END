@@ -25,17 +25,24 @@ export default function ProductList(props) {
                             <li className="bg" onClick={() => onAdd(item)}>
                                 <FaPlus /></li>
 
-                            <span className='p-1'>{item.qty}</span>
+                            <li>{item.qty}</li>
 
                             <li className="bg" onClick={() => onRemove(item)}>
                                 <FaMinus /></li>
 
                             <li>กรัม</li>
                         </ul>
-                        ) : ( <button className="foot" onClick={() => onAdd(product)}><FaShoppingCart className='icon' />เพิ่มเข้าตระกร้า</button>)}
+                        ) : (
+                            <ul className='p-0'>
+                                <li>
+                                    <button className='btn btn-success' onClick={() => onAdd(product)}>
+                                        <FaShoppingCart className='icon' /> เพิ่มเข้าตระกร้า
+                                    </button>
+                                </li>
+                            </ul>)}
                     </Card.Body>
                     <Card.Footer>
-                        <span className="foot"><FaShoppingBag className='icon' />ซื้อเลย</span>
+                        <span className="foot"><FaShoppingBag className='icon' /> ซื้อเลย</span>
                     </Card.Footer>
                 </Card>
             </Col>
