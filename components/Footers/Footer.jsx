@@ -10,9 +10,9 @@ export default function Footer() {
       <footer className="footer-dec">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-3">
               <div className="about footer-item">
-                <div className="logo">
+                <div className="logo" style={{textAlign: "center"}}>
                   <a href="#">
                     <Image
                       src={"images/logo.png"}
