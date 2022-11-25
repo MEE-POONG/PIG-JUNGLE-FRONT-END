@@ -14,7 +14,7 @@ export default function IndexLayout({ children }) {
       <div className="mt-5">
       {children}
       </div>
-      {/* <Footer/> */}
+      <Footer/>
     </>
 
 
