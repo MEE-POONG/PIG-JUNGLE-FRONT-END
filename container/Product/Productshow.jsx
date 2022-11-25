@@ -47,9 +47,7 @@ export default function ProductShow(props) {
                                     <ProductList
                                         key={product.id}
                                         product={product}
-                                        item={cartItems.find((x) => x.id === product.id)}
                                         onAdd={onAdd}
-                                        onRemove={onRemove}
                                     />
                                 ))}
                             </Row>
