@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 import { Image } from "react-bootstrap";
 import { FaBehance, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-
-
-
+import { BsLine } from "react-icons/bs";
+import { SiGooglemaps } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -11,82 +10,59 @@ export default function Footer() {
       <footer className="footer-dec">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="about footer-item">
                 <div className="logo">
                   <a href="#">
-                    <Image src={"images/iodesign.png"} alt="logo-nav" />
+                    <Image
+                      src={"images/logo.png"}
+                      alt="Pig Jungle"
+                      width={"60px"}
+                    />
                   </a>
                 </div>
-                <a href="#">
-                  © 2022 I.O.Design & Home Co., Ltd. บริษัท ไอ.โอ.ดีไซน์ แอนด์
-                  โฮม จำกัด All Rights Reserved
-                </a>
 
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="https://www.facebook.com/profile.php?id=100084921099285">
                       <i className="fa">
                         <FaFacebookF />
                       </i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://line.me/R/ti/p/@454ywxhx">
                       <i className="fa">
-                        <FaTwitter />
+                        <BsLine />
                       </i>
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="https://www.google.com/maps/place/14%C2%B037'12.1%22N+101%C2%B024'25.9%22E/@14.6199651,101.4063951,19.5z/data=!4m5!3m4!1s0x0:0x8d6c90804ab39f00!8m2!3d14.62003!4d101.407198?hl=th-TH">
                       <i className="fa">
-                        <FaBehance />
-                      </i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa">
-                        <FaInstagram />
+                        <SiGooglemaps />
                       </i>
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="services footer-item">
-                <h4></h4>
-                <ul>
-                  <p></p>
-                  <p></p>
-                  <p> </p>
-                </ul>
+              <h4>Pig Jungle</h4>
+                <p>มิตรภาพ, Pak Chong, Thailand, Nakhon Ratchasima</p>
+                <p>TEL : 065 065 8538</p>
+                <p> EMAIL:Pig_jungle@gmail.com</p>
+
               </div>
             </div>
-            <div className="col-lg-3">
+            <div className="col-lg-4">
               <div className="community footer-item">
-                <h4></h4>
-                <ul>
-                  <p> </p>
+                <h4>ร้านเราเปิดทุกวัน</h4>
+              
+                  <p>เปิดเวลา 11:00 - 00:00 น. </p>
                   <p></p>
-                </ul>
-              </div>
-            </div>
-            <div className="col-lg-3">
-              <div className="subscribe-newsletters footer-item">
-                <h4>บริษัท ไอ.โอ.ดีไซน์ แอนด์ โฮม จำกัด</h4>
-                <p>
-                  21/1 ซอยอนามัยงามเจริญ 25 แยก 2-7 แขวงท่าข้าม เขตบางขุนเทียน
-                  กรุงเทพฯ 10150
-                </p>
-                <p>TEL : 02-409-2152-9</p>
-                <p>FAX : 02-409-2150-1</p>
-                <p> Hot Line : 091-739-3027</p>
-                <p> EMAIL:oiio2005@yahoo.co.th</p>
-                <p>EMAIL:oiio2005@hotmail.co.th</p>
-                <form action="#" method="get">
+                  <form action="#" method="get">
                   <input
                     type="text"
                     name="email"
@@ -105,6 +81,7 @@ export default function Footer() {
                 </form>
               </div>
             </div>
+
             <div className="col-lg-12">
               <div className="copyright">
                 <p>
