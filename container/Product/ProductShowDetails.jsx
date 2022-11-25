@@ -42,7 +42,7 @@ export default function ProductShowDetails() {
                 <div className="add-on">
                     <h2>สินค้าแนะนำ</h2>
                 <Row>
-                        <Col xs={12} sm={6} md={6} lg={4}>
+                        <Col xs={12} sm={6} md={4} lg={3}>
                             <Card>
                                 <Card.Header bsPrefix='card-header'>
                                     <h3>ชื่อ</h3>
