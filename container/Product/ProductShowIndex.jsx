@@ -50,6 +50,7 @@ export default function Product_ShowIndex() {
                             </div>
                         </div>
                     </Col>
+                    
                 </Row>
             </Container>
         </div>

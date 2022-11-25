@@ -13,7 +13,7 @@ export default function IndexNavbar() {
 
 
   const [navLogo, setNavLogo] = useState("140px")
-  const [items, setItems] = useState([])
+  const [cartItems, setCartItems] = useState([])
 
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setNavLogo('80px') : setNavLogo('140px')
@@ -26,11 +26,11 @@ export default function IndexNavbar() {
   }, [])
 
   useEffect(() => {
-    const items = JSON.parse(localStorage.getItem('cartItems'))
-    if (items) {
-      setItems(items)
-    }
-  }, [items])
+      const items = JSON.parse(localStorage.getItem('cartItems'))
+      if (items) {
+        setCartItems(items)
+      }
+  }, [cartItems])
 
 
   return (
@@ -79,7 +79,7 @@ export default function IndexNavbar() {
                     <FaUser/>
                   </Nav.Link>
                   <Nav.Link href="/basket" className="font-menu font-bold mx-auto">
-                    <span className="me-1">{items.length ===0 ? ('') : (items.length)}</span>
+                    <span className="me-1">{cartItems.length ===0 ? ('') : (cartItems.length)}</span>
                     <FaShoppingCart/>
                   </Nav.Link>
                 </div>
