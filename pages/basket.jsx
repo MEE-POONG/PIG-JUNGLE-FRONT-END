@@ -4,9 +4,7 @@ import IndexLayout from "@/components/layouts/IndexLayout";
 import Basket from "container/ฺฺBasket/basket";
 
 export default function BasketPage() {
-
-
-  const [cartItems, setCartItems] = useState([])
+  const [cartItems, setCartItems] = useState([]);
 
   const onAdd = (product) => {
     const exist = cartItems.find((x) => x.id === product.id);
@@ -25,14 +23,19 @@ export default function BasketPage() {
 
   const onRemove = (product) => {
     const exist = cartItems.find((x) => x.id === product.id);
-    if (exist.qty === 1) {
-      const newCartItems = cartItems.filter((x) => x.id !== product.id);
-      setCartItems(newCartItems);
-      localStorage.setItem("cartItems", JSON.stringify(newCartItems));
-    } else {
+    if (exist.qty > 1) {
       const newCartItems = cartItems.map((x) =>
         x.id === product.id ? { ...exist, qty: exist.qty - 1 } : x
       );
+      setCartItems(newCartItems);
+      localStorage.setItem("cartItems", JSON.stringify(newCartItems));
+    }
+  };
+
+  const onDelete = (product) => {
+    const exist = cartItems.find((x) => x.id === product.id);
+    if (exist) {
+      const newCartItems = cartItems.filter((x) => x.id !== product.id);
       setCartItems(newCartItems);
       localStorage.setItem("cartItems", JSON.stringify(newCartItems));
     }
@@ -53,7 +56,12 @@ export default function BasketPage() {
         <link rel="icon" href="/images/logo.png" />
       </Head>
       <div id="basket-page" name="basket-page" className="basket-page">
-        <Basket cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} />
+        <Basket
+          cartItems={cartItems}
+          onAdd={onAdd}
+          onRemove={onRemove}
+          onDelete={onDelete}
+        />
       </div>
     </>
   );

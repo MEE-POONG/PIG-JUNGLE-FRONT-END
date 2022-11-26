@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import styles from 'assets/css/ImageSlider.module.css'
+import ProductList from 'container/Product/ProductList';
 
 export default function ImageSider({ show, image, handleClose }) {
     const [index, setIndex] = useState(0);
@@ -14,7 +15,7 @@ export default function ImageSider({ show, image, handleClose }) {
         <Carousel.Item style={{ height:'30rem'}}>
           <img
             className="d-block img-fluid w-100"
-            src="https://media.cnn.com/api/v1/images/stellar/prod/220827155916-marijuana-polling-tobacco-cigarettes-trump-search.jpg?c=original"
+            src="https://c.wallhere.com/photos/92/af/nature_cannabis_plants-1372247.jpg!d"
             alt="First slide"
           />
           <Carousel.Caption>
@@ -53,5 +54,6 @@ export default function ImageSider({ show, image, handleClose }) {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      
     );
 }
