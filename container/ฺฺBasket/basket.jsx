@@ -14,11 +14,14 @@ import {
   NavbarBrand,
   Table,
 } from "react-bootstrap";
-import { FaMinus, FaPlus } from "react-icons/fa";
+import { FaMinus, FaPlus, FaTrash } from "react-icons/fa";
 
 export default function Basket(props) {
-  const { cartItems, onAdd, onRemove } = props;
-  const totalPrice = cartItems.reduce((sum, item) => sum +item.qty * item.price, 0);
+  const { cartItems, onAdd, onRemove, onDelete } = props;
+  const totalPrice = cartItems.reduce(
+    (sum, item) => sum + item.qty * item.price,
+    0
+  );
 
   return (
     // style={{backgroundColor: "#fdccbc"}}
@@ -53,6 +56,7 @@ export default function Basket(props) {
                       <th>ชื่อสินค้า</th>
                       <th>จำนวนสินค้า</th>
                       <th>ราคาสินค้า</th>
+                      <th></th>
                     </tr>
                   </thead>
                   <tbody>
@@ -67,16 +71,28 @@ export default function Basket(props) {
                             <td>
                               <Image
                                 src={item.image}
-                                style={{ width: "60px" }}
+                                style={{ width: "60px" , height: "80px", objectFit: 'fill'}}
                               />
                             </td>
                             <td className="text-white">{item.name}</td>
                             <td className="text-white">
-                              <FaPlus className="m-4" onClick={() => onAdd(item)}/>
-                              {item.qty}
-                              <FaMinus className="m-4" onClick={() => onRemove(item)}/>
+                              <FaPlus
+                                className="m-4"
+                                onClick={() => onAdd(item)}
+                              />
+                             {item.qty}
+                              <FaMinus
+                                className="m-4"
+                                onClick={() => onRemove(item)}
+                              />
                             </td>
                             <td className="text-white">{item.price} บาท</td>
+                            <td>
+                              <FaTrash
+                                className="text-white"
+                                onClick={() => onDelete(item)}
+                              />
+                            </td>
                           </tr>
                         ))}
                   </tbody>
@@ -100,7 +116,7 @@ export default function Basket(props) {
                     <span className="small  me-5" style={{ color: "#25cb22" }}>
                       ยอดสั้งซื้อทั้งหมด:
                     </span>{" "}
-                    <span className="lead fw-normal">{totalPrice.toFixed(2)}</span>
+                    <span className="lead fw-normal">{totalPrice} บาท</span>
                   </p>
                 </div>
               </div>
