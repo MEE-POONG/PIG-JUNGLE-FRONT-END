@@ -10,16 +10,7 @@ export default function Product_ShowIndex() {
                 </h1>
             <Container>
                 <Row>
-                    <Col xs={12} sm={6} md={4} lg={3}>
-                        <div className="card">
-                            <Image className="img" src={'images/product/product.jpg'} alt="product1" width={'100px'}/>
-                            <div className="card-body">
-                                <h5 className="card-title">สินค้า1</h5>
-                                <p className="card-text">อธิบายสินค้า.</p>
-                                <a href="#" className="btn btn">ใส่ตะกร้า</a>
-                            </div>
-                        </div>
-                    </Col>
+                    
                     <Col xs={12} sm={6} md={4} lg={3}>
                         <div className="card">
                             <Image className="img" src={'images/product/product2.jpg'} alt="product2" width={'100px'}/>
