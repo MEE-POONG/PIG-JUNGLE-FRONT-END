@@ -3,9 +3,10 @@ import { Image, Container, Row, Col, Card } from "react-bootstrap";
 import { FaMinus, FaPlus, FaShoppingBag, FaShoppingCart } from "react-icons/fa";
 
 export default function ProductList(props) {
-  const { product, onAdd } = props;
+  const { item, product, onAdd } = props;
 
   return (
+
     <>
       <Col xs={12} sm={6} md={6} lg={4}>
         <Card>
@@ -24,20 +25,32 @@ export default function ProductList(props) {
                 <p> {product.price} บาท</p>
               </h4>
             </div>
-            <ul className="p-0">
-              <li>
-                <button
-                  className="btn btn-success"
-                  onClick={() => onAdd(product)}
-                >
-                  <FaShoppingCart className="icon" /> เพิ่มเข้าตระกร้า
-                </button>
-              </li>
-            </ul>
+            {item ? (
+              <ul className="p-0">
+                <li>
+                  <button
+                    className="btn btn-secondary"
+                  >
+                    <FaShoppingCart className="icon" /> เพิ่มเข้าตระกร้าแล้ว
+                  </button>
+                </li>
+              </ul>
+            ) : (
+              <ul className="p-0">
+                <li>
+                  <button
+                    className="btn btn-success"
+                    onClick={() => onAdd(product)}
+                  >
+                    <FaShoppingCart className="icon" /> เพิ่มเข้าตระกร้า
+                  </button>
+                </li>
+              </ul>
+            )}
           </Card.Body>
           <Card.Footer>
             <span className="foot">
-              {/* <FaShoppingBag className="icon" /> ซื้อเลย */}
+              <FaShoppingBag className="icon" /> ซื้อเลย
             </span>
           </Card.Footer>
         </Card>
