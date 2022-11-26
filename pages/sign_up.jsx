@@ -2,7 +2,6 @@
 import React from "react";
 import Head from 'next/head';
 import BackGroundMain from "@/components/Bg/BackGroundMain";
-
 import { Image } from 'react-bootstrap';
 
 export default function SignUpUserPages() {
@@ -31,13 +30,13 @@ export default function SignUpUserPages() {
                 </div>
 
                 <div className="box-Container-Su">
-                    {/* 
-                    <div className="box-img">
-                        <Image src={'images/B01.png'} width={'300px'} />
-                    </div> */}
 
-                    <div className='Container-Su'>
-                        <Image src={'images/logo.png'} className='img-Si-Su' />
+                <div className="box-img">
+                            <Image src={'images/moke02.png'} width={'50%'} />
+                        </div>
+
+                        <div className='Container-Su'>
+                            <Image src={'images/logo.png'} className='img-Si-Su' />
                         <form>
 
                             <input className='input-Si-Su' type="text" id="UserName" name="UserName" placeholder="UserName" />
@@ -53,9 +52,9 @@ export default function SignUpUserPages() {
                         </div>
                     </div>
 
-                    {/* <div className="box-img">
-                        <Image src={'images/B01.png'} width={'300px'} />
-                    </div> */}
+                    <div className="box-img">
+                        <Image src={'images/moke03.png'} width={'50%'} />
+                    </div>
 
                 </div>
             </div>

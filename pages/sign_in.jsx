@@ -2,7 +2,6 @@
 import React from "react";
 import Head from 'next/head';
 import BackGroundMain from "@/components/Bg/BackGroundMain";
-
 import { Image } from 'react-bootstrap';
 
 export default function AdderssUserPage() {
@@ -32,10 +31,10 @@ export default function AdderssUserPage() {
                 <div className='box-Container-Si'>
 
 
-
-                    {/* <div className="box-img">
-                        <Image src={'images/B02.png'} width={'300px'} />
-                    </div> */}
+                
+                        <div className="box-img">
+                            <Image src={'images/moke02.png'} width={'50%'} />
+                        </div>
 
 
 
@@ -61,9 +60,9 @@ export default function AdderssUserPage() {
 
                     </div>
 
-                    {/* <div className="box-img">
-                        <Image src={'images/B02.png'} width={'300px'} />
-                    </div> */}
+                    <div className="box-img">
+                        <Image  src={'images/moke03.png'} width={'50%'} />
+                    </div>
 
                 </div>
             </div>
