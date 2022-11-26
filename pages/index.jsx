@@ -2,7 +2,7 @@ import Head from 'next/head';
 import IndexLayout from "components/layouts/IndexLayout";
 import { useRouter } from 'next/router';
 import ImageSider from 'container/home/ImageSlider';
-import Product_ShowIndex from 'container/Product/ProductShowIndex';
+import ProductList from 'container/Product/ProductList';
 
 export default function HomePage() {
   const router = useRouter();
@@ -18,7 +18,7 @@ export default function HomePage() {
       </Head>
       <div id='home-page' name="home-page" className='home-page'>
         <ImageSider />
-        <Product_ShowIndex />
+        {/* <ProductList/> */}
       </div>
     </>
   );
